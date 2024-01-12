@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "chief_administrative_officer",
+    "name": "Chief Administrative Officer",
+    "names": {
+      "vi": "Giám đốc hành chính",
+      "en": "Chief Administrative Officer",
+      "fr": "Directeur administratif"
+    },
+    "synonyms": {
+      "en": [
+        "CAO"
+      ],
+      "vi": [
+        "Giám đốc hành chính"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_administrative_officer"
+  },
+  {
+    "id": "chief_analytics_officer",
+    "name": "Chief Analytics Officer",
+    "names": {
+      "vi": "Giám đốc phân tích",
+      "en": "Chief Analytics Officer",
+      "fr": "Directeur des analyses en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CAO"
+      ],
+      "vi": [
+        "Giám đốc phân tích"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_analytics_officer"
+  },
+  {
+    "id": "chief_brand_officer",
+    "name": "Chief Brand Officer",
+    "names": {
+      "vi": "Giám đốc thương hiệu",
+      "en": "Chief Brand Officer",
+      "fr": "Officier de la marque en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CBO"
+      ],
+      "vi": [
+        "Giám đốc thương hiệu"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_brand_officer"
+  },
+  {
+    "id": "chief_business_development_officer",
+    "name": "Chief Business Development Officer",
+    "names": {
+      "vi": "Giám đốc phát triển kinh doanh",
+      "en": "Chief Business Development Officer",
+      "fr": "Agent de développement des affaires en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CBDO"
+      ],
+      "vi": [
+        "Giám đốc phát triển kinh doanh"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_business_development_officer"
+  },
+  {
+    "id": "chief_business_officer",
+    "name": "Chief Business Officer",
+    "names": {
+      "vi": "Giám đốc kinh doanh",
+      "en": "Chief Business Officer",
+      "fr": "Chef de l'entreprise"
+    },
+    "synonyms": {
+      "en": [
+        "CBO"
+      ],
+      "vi": [
+        "Giám đốc kinh doanh"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_business_officer"
+  },
+  {
+    "id": "chief_cloud_officer",
+    "name": "Chief Cloud Officer",
+    "names": {
+      "vi": "Giám đốc đám mây",
+      "en": "Chief Cloud Officer",
+      "fr": "Directeur du cloud"
+    },
+    "synonyms": {
+      "en": [
+        "CCO"
+      ],
+      "vi": [
+        "Giám đốc đám mây"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_cloud_officer"
+  },
+  {
+    "id": "chief_commercial_officer",
+    "name": "Chief Commercial Officer",
+    "names": {
+      "vi": "Giám đốc thương mại",
+      "en": "Chief Commercial Officer",
+      "fr": "Chef de commerce"
+    },
+    "synonyms": {
+      "en": [
+        "CCO"
+      ],
+      "vi": [
+        "Giám đốc thương mại"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_commercial_officer"
+  },
+  {
+    "id": "chief_communications_officer",
+    "name": "Chief Communications Officer",
+    "names": {
+      "vi": "Giám đốc truyền thông",
+      "en": "Chief Communications Officer",
+      "fr": "Directeur des communications"
+    },
+    "synonyms": {
+      "en": [
+        "CCO"
+      ],
+      "vi": [
+        "Giám đốc truyền thông"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_communications_officer"
+  },
+  {
+    "id": "chief_compliance_officer",
+    "name": "Chief Compliance Officer",
+    "names": {
+      "vi": "Giám đốc Tuân thủ",
+      "en": "Chief Compliance Officer",
+      "fr": "Directeur de la conformité"
+    },
+    "synonyms": {
+      "en": [
+        "CCO"
+      ],
+      "vi": [
+        "Giám đốc Tuân thủ"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_compliance_officer"
+  },
+  {
+    "id": "chief_creative_officer",
+    "name": "Chief Creative Officer",
+    "names": {
+      "vi": "Giám đốc sáng tạo",
+      "en": "Chief Creative Officer",
+      "fr": "Chef de création"
+    },
+    "synonyms": {
+      "en": [
+        "CCO"
+      ],
+      "vi": [
+        "Giám đốc sáng tạo"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_creative_officer"
+  },
+  {
+    "id": "chief_content_officer",
+    "name": "Chief Content Officer",
+    "names": {
+      "vi": "Giám đốc nội dung",
+      "en": "Chief Content Officer",
+      "fr": "Directeur de contenu"
+    },
+    "synonyms": {
+      "en": [
+        "CCO"
+      ],
+      "vi": [
+        "Giám đốc nội dung"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_content_officer"
+  },
+  {
+    "id": "chief_customer_officer",
+    "name": "Chief Customer Officer",
+    "names": {
+      "vi": "Giám đốc khách hàng",
+      "en": "Chief Customer Officer",
+      "fr": "Chef de la clientèle"
+    },
+    "synonyms": {
+      "en": [
+        "CCO"
+      ],
+      "vi": [
+        "Giám đốc khách hàng"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_customer_officer"
+  },
+  {
+    "id": "chief_data_officer",
+    "name": "Chief Data Officer",
+    "names": {
+      "vi": "Giám đốc dữ liệu",
+      "en": "Chief Data Officer",
+      "fr": "Responsable des données"
+    },
+    "synonyms": {
+      "en": [
+        "CDO"
+      ],
+      "vi": [
+        "Giám đốc dữ liệu"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_data_officer"
+  },
+  {
+    "id": "chief_design_officer",
+    "name": "Chief Design Officer",
+    "names": {
+      "vi": "Giám đốc thiết kế",
+      "en": "Chief Design Officer",
+      "fr": "Officier de conception en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CDO"
+      ],
+      "vi": [
+        "Giám đốc thiết kế"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_design_officer"
+  },
+  {
+    "id": "chief_digital_officer",
+    "name": "Chief Digital Officer",
+    "names": {
+      "vi": "Giám đốc kỹ thuật số",
+      "en": "Chief Digital Officer",
+      "fr": "Officier numérique en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CDO"
+      ],
+      "vi": [
+        "Giám đốc kỹ thuật số"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_digital_officer"
+  },
+  {
+    "id": "chief_diversity_officer",
+    "name": "Chief Diversity Officer",
+    "names": {
+      "vi": "Giám đốc đa dạng",
+      "en": "Chief Diversity Officer",
+      "fr": "Directeur de la diversité"
+    },
+    "synonyms": {
+      "en": [
+        "CDO"
+      ],
+      "vi": [
+        "Giám đốc đa dạng"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_diversity_officer"
+  },
+  {
+    "id": "chief_diversity_officer",
+    "name": "Chief Diversity Officer",
+    "names": {
+      "vi": "Giám đốc đa dạng",
+      "en": "Chief Diversity Officer",
+      "fr": "Directeur de la diversité"
+    },
+    "synonyms": {
+      "en": [
+        "CDO"
+      ],
+      "vi": [
+        "Giám đốc đa dạng"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_diversity_officer"
+  },
+  {
+    "id": "chief_executive_officer",
+    "name": "Chief Executive Officer",
+    "names": {
+      "vi": "Giám đốc điều hành",
+      "en": "Chief Executive Officer",
+      "fr": "Chef de la direction"
+    },
+    "synonyms": {
+      "en": [
+        "CEO"
+      ],
+      "vi": [
+        "Giám đốc điều hành"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_executive_officer"
+  },
+  {
+    "id": "chief_experience_officer",
+    "name": "Chief Experience Officer",
+    "names": {
+      "vi": "Giám đốc kinh nghiệm",
+      "en": "Chief Experience Officer",
+      "fr": "Directeur de l'expérience en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CXO"
+      ],
+      "vi": [
+        "Giám đốc kinh nghiệm"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_experience_officer"
+  },
+  {
+    "id": "chief_financial_officer",
+    "name": "Chief Financial Officer",
+    "names": {
+      "vi": "Giám đốc tài chính",
+      "en": "Chief Financial Officer",
+      "fr": "Directeur financier"
+    },
+    "synonyms": {
+      "en": [
+        "CFO"
+      ],
+      "vi": [
+        "Giám đốc tài chính"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_financial_officer"
+  },
+  {
+    "id": "chief_gaming_officer",
+    "name": "Chief Gaming Officer",
+    "names": {
+      "vi": "Giám đốc trò chơi",
+      "en": "Chief Gaming Officer",
+      "fr": "Officier de jeu en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CGO"
+      ],
+      "vi": [
+        "Giám đốc trò chơi"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_gaming_officer"
+  },
+  {
+    "id": "chief_genealogical_officer",
+    "name": "Chief Genealogical Officer",
+    "names": {
+      "vi": "Giám đốc khoa học",
+      "en": "Chief Genealogical Officer",
+      "fr": "Officier généalogique en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CGO"
+      ],
+      "vi": [
+        "Giám đốc khoa học"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_genealogical_officer"
+  },
+  {
+    "id": "chief_growth_officer",
+    "name": "Chief Growth Officer",
+    "names": {
+      "vi": "Giám đốc tăng trưởng",
+      "en": "Chief Growth Officer",
+      "fr": "Responsable de la croissance"
+    },
+    "synonyms": {
+      "en": [
+        "CGO"
+      ],
+      "vi": [
+        "Giám đốc tăng trưởng"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_growth_officer"
+  },
+  {
+    "id": "chief_human_resources_officer",
+    "name": "Chief Human Resources Officer",
+    "names": {
+      "vi": "người giám đốc sĩ quan tài nguyên",
+      "en": "Chief Human Resources Officer",
+      "fr": "Directeur des ressources humaines"
+    },
+    "synonyms": {
+      "en": [
+        "CHRO"
+      ],
+      "vi": [
+        "người giám đốc sĩ quan tài nguyên"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_human_resources_officer"
+  },
+  {
+    "id": "chief_information_officer",
+    "name": "Chief Information Officer",
+    "names": {
+      "vi": "Giám đốc Thông tin",
+      "en": "Chief Information Officer",
+      "fr": "Directeur de l'information"
+    },
+    "synonyms": {
+      "en": [
+        "CIO"
+      ],
+      "vi": [
+        "Giám đốc Thông tin"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_information_officer"
+  },
+  {
+    "id": "chief_information_officer_higher_education",
+    "name": "Chief Information Officer (higher education)",
+    "names": {
+      "vi": "Giám đốc thông tin (giáo dục đại học)",
+      "en": "Chief Information Officer (higher education)",
+      "fr": "Directeur de l'information en chef (enseignement supérieur)"
+    },
+    "synonyms": {
+      "en": [
+        "CIO"
+      ],
+      "vi": [
+        "Giám đốc thông tin (giáo dục đại học)"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_information_officer_higher_education"
+  },
+  {
+    "id": "chief_information_security_officer",
+    "name": "Chief Information Security Officer",
+    "names": {
+      "vi": "Trưởng phòng an ninh thông tin",
+      "en": "Chief Information Security Officer",
+      "fr": "Chef de la sécurité de l'information"
+    },
+    "synonyms": {
+      "en": [
+        "CISO"
+      ],
+      "vi": [
+        "Trưởng phòng an ninh thông tin"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_information_security_officer"
+  },
+  {
+    "id": "chief_innovation_officer",
+    "name": "Chief Innovation Officer",
+    "names": {
+      "vi": "Giám đốc đổi mới",
+      "en": "Chief Innovation Officer",
+      "fr": "Directeur de l'innovation"
+    },
+    "synonyms": {
+      "en": [
+        "CINO"
+      ],
+      "vi": [
+        "Giám đốc đổi mới"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_innovation_officer"
+  },
+  {
+    "id": "chief_investment_officer",
+    "name": "Chief Investment Officer",
+    "names": {
+      "vi": "Giám đốc đầu tư",
+      "en": "Chief Investment Officer",
+      "fr": "Directeur des investissements"
+    },
+    "synonyms": {
+      "en": [
+        "CIO"
+      ],
+      "vi": [
+        "Giám đốc đầu tư"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_investment_officer"
+  },
+  {
+    "id": "chief_knowledge_officer",
+    "name": "Chief Knowledge Officer",
+    "names": {
+      "vi": "Giám đốc tri thức",
+      "en": "Chief Knowledge Officer",
+      "fr": "Directeur des connaissances"
+    },
+    "synonyms": {
+      "en": [
+        "CKO"
+      ],
+      "vi": [
+        "Giám đốc tri thức"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_knowledge_officer"
+  },
+  {
+    "id": "chief_learning_officer",
+    "name": "Chief Learning Officer",
+    "names": {
+      "vi": "Giám đốc học tập",
+      "en": "Chief Learning Officer",
+      "fr": "Officier en chef d'apprentissage"
+    },
+    "synonyms": {
+      "en": [
+        "CLO"
+      ],
+      "vi": [
+        "Giám đốc học tập"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_learning_officer"
+  },
+  {
+    "id": "chief_legal_officer",
+    "name": "Chief Legal Officer",
+    "names": {
+      "vi": "Giám đốc pháp lý.",
+      "en": "Chief Legal Officer",
+      "fr": "Directeur juridique"
+    },
+    "synonyms": {
+      "en": [
+        "CLO"
+      ],
+      "vi": [
+        "Giám đốc pháp lý."
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_legal_officer"
+  },
+  {
+    "id": "chief_marketing_officer",
+    "name": "Chief Marketing Officer",
+    "names": {
+      "vi": "Trưởng phòng Marketing",
+      "en": "Chief Marketing Officer",
+      "fr": "Directeur du marketing"
+    },
+    "synonyms": {
+      "en": [
+        "CMO"
+      ],
+      "vi": [
+        "Trưởng phòng Marketing"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_marketing_officer"
+  },
+  {
+    "id": "chief_marketing_officer",
+    "name": "Chief Marketing Officer",
+    "names": {
+      "vi": "Trưởng phòng Marketing",
+      "en": "Chief Marketing Officer",
+      "fr": "Directeur du marketing"
+    },
+    "synonyms": {
+      "en": [
+        "CMO"
+      ],
+      "vi": [
+        "Trưởng phòng Marketing"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_marketing_officer"
+  },
+  {
+    "id": "chief_medical_officer",
+    "name": "Chief Medical Officer",
+    "names": {
+      "vi": "Giám đốc y tế",
+      "en": "Chief Medical Officer",
+      "fr": "Médecin en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CMO"
+      ],
+      "vi": [
+        "Giám đốc y tế"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_medical_officer"
+  },
+  {
+    "id": "chief_operating_officer",
+    "name": "Chief Operating Officer",
+    "names": {
+      "vi": "Giám đốc điều hành",
+      "en": "Chief Operating Officer",
+      "fr": "Président directeur général"
+    },
+    "synonyms": {
+      "en": [
+        "COO"
+      ],
+      "vi": [
+        "Giám đốc điều hành"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_operating_officer"
+  },
+  {
+    "id": "chief_people_officer",
+    "name": "Chief People Officer",
+    "names": {
+      "vi": "Giám đốc nhân viên",
+      "en": "Chief People Officer",
+      "fr": "Chef des gens officier"
+    },
+    "synonyms": {
+      "en": [
+        "CPO"
+      ],
+      "vi": [
+        "Giám đốc nhân viên"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_people_officer"
+  },
+  {
+    "id": "chief_privacy_officer",
+    "name": "Chief Privacy Officer",
+    "names": {
+      "vi": "Giám đốc bảo mật",
+      "en": "Chief Privacy Officer",
+      "fr": "Directeur de la protection de la vie privée"
+    },
+    "synonyms": {
+      "en": [
+        "CPO"
+      ],
+      "vi": [
+        "Giám đốc bảo mật"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_privacy_officer"
+  },
+  {
+    "id": "chief_process_officer",
+    "name": "Chief Process Officer",
+    "names": {
+      "vi": "Giám đốc xử lý",
+      "en": "Chief Process Officer",
+      "fr": "Responsable du processus"
+    },
+    "synonyms": {
+      "en": [
+        "CPO"
+      ],
+      "vi": [
+        "Giám đốc xử lý"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_process_officer"
+  },
+  {
+    "id": "chief_process_officer",
+    "name": "Chief Process Officer",
+    "names": {
+      "vi": "Giám đốc xử lý",
+      "en": "Chief Process Officer",
+      "fr": "Responsable du processus"
+    },
+    "synonyms": {
+      "en": [
+        "CPO"
+      ],
+      "vi": [
+        "Giám đốc xử lý"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_process_officer"
+  },
+  {
+    "id": "chief_product_officer",
+    "name": "Chief Product Officer",
+    "names": {
+      "vi": "Giám đốc sản phẩm",
+      "en": "Chief Product Officer",
+      "fr": "Directeur du produit"
+    },
+    "synonyms": {
+      "en": [
+        "CPO"
+      ],
+      "vi": [
+        "Giám đốc sản phẩm"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_product_officer"
+  },
+  {
+    "id": "chief_reputation_officer",
+    "name": "Chief Reputation Officer",
+    "names": {
+      "vi": "Giám đốc danh tiếng",
+      "en": "Chief Reputation Officer",
+      "fr": "Officier de réputation en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CRO"
+      ],
+      "vi": [
+        "Giám đốc danh tiếng"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_reputation_officer"
+  },
+  {
+    "id": "chief_research_officer",
+    "name": "Chief Research Officer",
+    "names": {
+      "vi": "Giám đốc nghiên cứu",
+      "en": "Chief Research Officer",
+      "fr": "Agent de recherche en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CRO"
+      ],
+      "vi": [
+        "Giám đốc nghiên cứu"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_research_officer"
+  },
+  {
+    "id": "chief_restructuring_officer",
+    "name": "Chief Restructuring Officer",
+    "names": {
+      "vi": "Cán bộ tái cấu trúc trưởng",
+      "en": "Chief Restructuring Officer",
+      "fr": "Officier de restructuration en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CRO"
+      ],
+      "vi": [
+        "Cán bộ tái cấu trúc trưởng"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_restructuring_officer"
+  },
+  {
+    "id": "chief_revenue_officer",
+    "name": "Chief Revenue Officer",
+    "names": {
+      "vi": "Giám đốc doanh thu",
+      "en": "Chief Revenue Officer",
+      "fr": "Directeur des revenus"
+    },
+    "synonyms": {
+      "en": [
+        "CRO"
+      ],
+      "vi": [
+        "Giám đốc doanh thu"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_revenue_officer"
+  },
+  {
+    "id": "chief_risk_officer",
+    "name": "Chief Risk Officer",
+    "names": {
+      "vi": "Giám đốc nguy cơ",
+      "en": "Chief Risk Officer",
+      "fr": "Responsable des risques"
+    },
+    "synonyms": {
+      "en": [
+        "CRO"
+      ],
+      "vi": [
+        "Giám đốc nguy cơ"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_risk_officer"
+  },
+  {
+    "id": "chief_scientific_officer",
+    "name": "Chief Scientific Officer",
+    "names": {
+      "vi": "Trưởng Công Chức Khoa Học",
+      "en": "Chief Scientific Officer",
+      "fr": "Directeur scientifique"
+    },
+    "synonyms": {
+      "en": [
+        "CSO"
+      ],
+      "vi": [
+        "Trưởng Công Chức Khoa Học"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_scientific_officer"
+  },
+  {
+    "id": "chief_security_officer",
+    "name": "Chief Security Officer",
+    "names": {
+      "vi": "Trưởng phòng an ninh",
+      "en": "Chief Security Officer",
+      "fr": "Chef de sécurité"
+    },
+    "synonyms": {
+      "en": [
+        "CSO"
+      ],
+      "vi": [
+        "Trưởng phòng an ninh"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_security_officer"
+  },
+  {
+    "id": "chief_services_officer",
+    "name": "Chief Services Officer",
+    "names": {
+      "vi": "Giám đốc dịch vụ",
+      "en": "Chief Services Officer",
+      "fr": "Officier des services en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CSO"
+      ],
+      "vi": [
+        "Giám đốc dịch vụ"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_services_officer"
+  },
+  {
+    "id": "chief_solutions_officer",
+    "name": "Chief Solutions Officer",
+    "names": {
+      "vi": "Giám đốc giải pháp",
+      "en": "Chief Solutions Officer",
+      "fr": "Directeur des solutions"
+    },
+    "synonyms": {
+      "en": [
+        "CSO"
+      ],
+      "vi": [
+        "Giám đốc giải pháp"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_solutions_officer"
+  },
+  {
+    "id": "chief_strategy_officer",
+    "name": "Chief Strategy Officer",
+    "names": {
+      "vi": "Cán bộ chiến lược",
+      "en": "Chief Strategy Officer",
+      "fr": "Directeur de la stratégie"
+    },
+    "synonyms": {
+      "en": [
+        "CSO"
+      ],
+      "vi": [
+        "Cán bộ chiến lược"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_strategy_officer"
+  },
+  {
+    "id": "chief_supply_chain_officer",
+    "name": "Chief Supply Chain Officer",
+    "names": {
+      "vi": "Giám đốc chuỗi cung ứng",
+      "en": "Chief Supply Chain Officer",
+      "fr": "Directeur de la chaîne d'approvisionnement"
+    },
+    "synonyms": {
+      "en": [
+        "CSCO"
+      ],
+      "vi": [
+        "Giám đốc chuỗi cung ứng"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_supply_chain_officer"
+  },
+  {
+    "id": "chief_sustainability_officer",
+    "name": "Chief Sustainability Officer",
+    "names": {
+      "vi": "Giám đốc bền vững",
+      "en": "Chief Sustainability Officer",
+      "fr": "Agent de développement durable"
+    },
+    "synonyms": {
+      "en": [
+        "CSO"
+      ],
+      "vi": [
+        "Giám đốc bền vững"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_sustainability_officer"
+  },
+  {
+    "id": "chief_technological_product_designer",
+    "name": "Chief Technological Product Designer",
+    "names": {
+      "vi": "Nhà thiết kế sản phẩm công nghệ",
+      "en": "Chief Technological Product Designer",
+      "fr": "Créateur de produits technologiques en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CTPO"
+      ],
+      "vi": [
+        "Nhà thiết kế sản phẩm công nghệ"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_technological_product_designer"
+  },
+  {
+    "id": "chief_technology_officer",
+    "name": "Chief Technology Officer",
+    "names": {
+      "vi": "Giám đốc Công nghệ",
+      "en": "Chief Technology Officer",
+      "fr": "directeur de la technologie"
+    },
+    "synonyms": {
+      "en": [
+        "CTO"
+      ],
+      "vi": [
+        "Giám đốc Công nghệ"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_technology_officer"
+  },
+  {
+    "id": "chief_technology_security_officer",
+    "name": "Chief Technology Security Officer",
+    "names": {
+      "vi": "Giám đốc công nghệ an ninh",
+      "en": "Chief Technology Security Officer",
+      "fr": "Directeur de la sécurité technologique"
+    },
+    "synonyms": {
+      "en": [
+        "CTSO"
+      ],
+      "vi": [
+        "Giám đốc công nghệ an ninh"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_technology_security_officer"
+  },
+  {
+    "id": "chief_technical_officer",
+    "name": "Chief Technical Officer",
+    "names": {
+      "vi": "giám đốc kỹ thuật",
+      "en": "Chief Technical Officer",
+      "fr": "Directeur technique"
+    },
+    "synonyms": {
+      "en": [
+        "CTO"
+      ],
+      "vi": [
+        "giám đốc kỹ thuật"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_technical_officer"
+  },
+  {
+    "id": "chief_visibility_officer",
+    "name": "Chief Visibility Officer",
+    "names": {
+      "vi": "Giám đốc tầm nhìn",
+      "en": "Chief Visibility Officer",
+      "fr": "Directeur de la visibilité en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CVO"
+      ],
+      "vi": [
+        "Giám đốc tầm nhìn"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_visibility_officer"
+  },
+  {
+    "id": "chief_visionary_officer",
+    "name": "Chief Visionary Officer",
+    "names": {
+      "vi": "Giám đốc Visionary.",
+      "en": "Chief Visionary Officer",
+      "fr": "Officier visionnaire"
+    },
+    "synonyms": {
+      "en": [
+        "CVO"
+      ],
+      "vi": [
+        "Giám đốc Visionary."
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_visionary_officer"
+  },
+  {
+    "id": "chief_web_officer",
+    "name": "Chief Web Officer",
+    "names": {
+      "vi": "Giám đốc web",
+      "en": "Chief Web Officer",
+      "fr": "Officier Web en chef"
+    },
+    "synonyms": {
+      "en": [
+        "CWO"
+      ],
+      "vi": [
+        "Giám đốc web"
+      ]
+    },
+    "types": [
+      "corporate_title"
+    ],
+    "weight": 10,
+    "source": "https://en.wikipedia.org/wiki/chief_web_officer"
+  }
+]

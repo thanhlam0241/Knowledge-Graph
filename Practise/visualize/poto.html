@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popoto example</title>
+    <!-- Add default CSS reference -->
+    <link rel="stylesheet" href="https://unpkg.com/popoto/dist/popoto.min.css">
+    <!-- Add Popoto script reference, will default to popoto.min.js -->
+    <script src="https://unpkg.com/popoto"></script>
+    <!-- Add Popoto script reference -->
+    <script src="https://unpkg.com/popoto/dist/popoto.js"></script>
+    <script src="https://unpkg.com/popoto/dist/popoto.min.js"></script>
+    <script src="https://unpkg.com/d3@5.15.0" charset="utf-8"></script>
+    <script src="https://unpkg.com/neo4j-driver-lite" charset="utf-8"></script>
+</head>
+
+<body class="ppt-body">
+    <section class="ppt-section-main">
+
+        <div class="ppt-container-graph">
+            <nav id="popoto-taxonomy" class="ppt-taxo-nav">
+                <!-- Label/taxonomy filter will be generated here -->
+            </nav>
+            <div id="popoto-graph" class="ppt-div-graph">
+                <!-- Graph will be generated here-->
+            </div>
+        </div>
+
+        <div id="popoto-query" class="ppt-container-query">
+            <!-- Query viewer will be generated here -->
+        </div>
+
+        <div id="popoto-cypher" class="ppt-container-cypher">
+            <!-- Cypher query viewer will be generated here -->
+        </div>
+
+        <div class="ppt-section-header">
+            <!-- The total results count is updated with a listener defined below -->
+            RESULTS <span id="result-total-count" class="ppt-count"></span>
+        </div>
+
+        <div id="popoto-results" class="ppt-container-results">
+            <!-- Results will be generated here -->
+        </div>
+
+    </section>
+
+    <!-- Required scripts -->
+    <script src="./js/poto.js"></script>
+</body>
+
+</html>

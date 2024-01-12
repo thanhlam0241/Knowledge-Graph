@@ -1,0 +1,5766 @@
+[
+    {
+        "level": 1,
+        "name": "Energy(Sector)",
+        "id": "energy_sector",
+        "names": {
+            "en": "Energy(Sector)",
+            "vi": "Năng lượng"
+        },
+        "source_id": "10",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Energy",
+        "id": "energy",
+        "names": {
+            "en": "Energy",
+            "vi": "Năng lượng"
+        },
+        "source_id": "1010",
+        "source_parent_id": "10",
+        "parent_id": "energy_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Energy Equipment & Services",
+        "id": "energy_equipment_services",
+        "names": {
+            "en": "Energy Equipment & Services",
+            "vi": "Thiết bị & Dịch vụ năng lượng"
+        },
+        "source_id": "101010",
+        "source_parent_id": "1010",
+        "parent_id": "Energy",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Oil & Gas Drilling",
+        "id": "oil_gas_drilling",
+        "names": {
+            "en": "Oil & Gas Drilling",
+            "vi": "Dầu khí khoan"
+        },
+        "source_id": "10101010",
+        "source_parent_id": "101010",
+        "parent_id": "Energy Equipment & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Oil & Gas Equipment & Services",
+        "id": "oil_gas_equipment_services",
+        "names": {
+            "en": "Oil & Gas Equipment & Services",
+            "vi": "Thiết bị & Dịch vụ dầu khí"
+        },
+        "source_id": "10101020",
+        "source_parent_id": "101010",
+        "parent_id": "Energy Equipment & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Oil, Gas & Consumable Fuels",
+        "id": "oil_gas_consumable_fuels",
+        "names": {
+            "en": "Oil, Gas & Consumable Fuels",
+            "vi": "Dầu khí & Tiêu thụ nhiên liệu"
+        },
+        "source_id": "101020",
+        "source_parent_id": "1010",
+        "parent_id": "Energy",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Integrated Oil & Gas",
+        "id": "integrated_oil_gas",
+        "names": {
+            "en": "Integrated Oil & Gas",
+            "vi": "Tích hợp dầu khí"
+        },
+        "source_id": "10102010",
+        "source_parent_id": "101020",
+        "parent_id": "Oil, Gas & Consumable Fuels",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Oil & Gas Exploration & Production",
+        "id": "oil_gas_exploration_production",
+        "names": {
+            "en": "Oil & Gas Exploration & Production",
+            "vi": "Thăm dò & Sản xuất dầu khí"
+        },
+        "source_id": "10102020",
+        "source_parent_id": "101020",
+        "parent_id": "Oil, Gas & Consumable Fuels",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Oil & Gas Refining & Marketing",
+        "id": "oil_gas_refining_marketing",
+        "names": {
+            "en": "Oil & Gas Refining & Marketing",
+            "vi": "Lọc & Tiếp thị dầu khí"
+        },
+        "source_id": "10102030",
+        "source_parent_id": "101020",
+        "parent_id": "Oil, Gas & Consumable Fuels",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Oil & Gas Storage & Transportation",
+        "id": "oil_gas_storage_transportation",
+        "names": {
+            "en": "Oil & Gas Storage & Transportation",
+            "vi": "Lưu trữ & Vận chuyển dầu khí"
+        },
+        "source_id": "10102040",
+        "source_parent_id": "101020",
+        "parent_id": "Oil, Gas & Consumable Fuels",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Coal & Consumable Fuels",
+        "id": "coal_consumable_fuels",
+        "names": {
+            "en": "Coal & Consumable Fuels",
+            "vi": "Than & Nhiên liệu tiêu hao"
+        },
+        "source_id": "10102050",
+        "source_parent_id": "101020",
+        "parent_id": "Oil, Gas & Consumable Fuels",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Materials(Sector)",
+        "id": "materials_sector",
+        "names": {
+            "en": "Materials(Sector)",
+            "vi": "Nguyên vật liệu"
+        },
+        "source_id": "15",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Materials",
+        "id": "materials",
+        "names": {
+            "en": "Materials",
+            "vi": "Nguyên vật liệu"
+        },
+        "source_id": "1510",
+        "source_parent_id": "15",
+        "parent_id": "materials_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Chemicals",
+        "id": "chemicals",
+        "names": {
+            "en": "Chemicals",
+            "vi": "Hóa học"
+        },
+        "source_id": "151010",
+        "source_parent_id": "1510",
+        "parent_id": "Materials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Commodity Chemicals",
+        "id": "commodity_chemicals",
+        "names": {
+            "en": "Commodity Chemicals",
+            "vi": "Thực phẩm hóa học"
+        },
+        "source_id": "15101010",
+        "source_parent_id": "151010",
+        "parent_id": "Chemicals",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Diversified Chemicals",
+        "id": "diversified_chemicals",
+        "names": {
+            "en": "Diversified Chemicals",
+            "vi": "Đa dạng hóa chất"
+        },
+        "source_id": "15101020",
+        "source_parent_id": "151010",
+        "parent_id": "Chemicals",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Fertilizers & Agricultural Chemicals",
+        "id": "fertilizers_agricultural_chemicals",
+        "names": {
+            "en": "Fertilizers & Agricultural Chemicals",
+            "vi": "Phân bón & Hóa chất nông nghiệp"
+        },
+        "source_id": "15101030",
+        "source_parent_id": "151010",
+        "parent_id": "Chemicals",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Industrial Gases",
+        "id": "industrial_gases",
+        "names": {
+            "en": "Industrial Gases",
+            "vi": "Khí công nghiệp"
+        },
+        "source_id": "15101040",
+        "source_parent_id": "151010",
+        "parent_id": "Chemicals",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Specialty Chemicals",
+        "id": "specialty_chemicals",
+        "names": {
+            "en": "Specialty Chemicals",
+            "vi": "Hóa chất đặc biệt"
+        },
+        "source_id": "15101050",
+        "source_parent_id": "151010",
+        "parent_id": "Chemicals",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Construction Materials",
+        "id": "construction_materials",
+        "names": {
+            "en": "Construction Materials",
+            "vi": "Vật liệu xây dựng"
+        },
+        "source_id": "151020",
+        "source_parent_id": "1510",
+        "parent_id": "Materials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Construction Materials",
+        "id": "construction_materials",
+        "names": {
+            "en": "Construction Materials",
+            "vi": "Vật liệu xây dựng"
+        },
+        "source_id": "15102010",
+        "source_parent_id": "151020",
+        "parent_id": "Construction Materials",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Containers & Packaging",
+        "id": "containers_packaging",
+        "names": {
+            "en": "Containers & Packaging",
+            "vi": "Bao bì & Đóng gói"
+        },
+        "source_id": "151030",
+        "source_parent_id": "1510",
+        "parent_id": "Materials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Metal & Glass Containers",
+        "id": "metal_glass_containers",
+        "names": {
+            "en": "Metal & Glass Containers",
+            "vi": "Bao bị kim loại & thủy tinh"
+        },
+        "source_id": "15103010",
+        "source_parent_id": "151030",
+        "parent_id": "Containers & Packaging",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Paper Packaging",
+        "id": "paper_packaging",
+        "names": {
+            "en": "Paper Packaging",
+            "vi": "Bao bì giấy"
+        },
+        "source_id": "15103020",
+        "source_parent_id": "151030",
+        "parent_id": "Containers & Packaging",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Metals & Mining",
+        "id": "metals_mining",
+        "names": {
+            "en": "Metals & Mining",
+            "vi": "Kim loại & Khoáng sản"
+        },
+        "source_id": "151040",
+        "source_parent_id": "1510",
+        "parent_id": "Materials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Aluminum",
+        "id": "aluminum",
+        "names": {
+            "en": "Aluminum",
+            "vi": "Nhôm"
+        },
+        "source_id": "15104010",
+        "source_parent_id": "151040",
+        "parent_id": "Metals & Mining",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Diversified Metals & Mining",
+        "id": "diversified_metals_mining",
+        "names": {
+            "en": "Diversified Metals & Mining",
+            "vi": "Đa dạng kim loại & Khoáng sản"
+        },
+        "source_id": "15104020",
+        "source_parent_id": "151040",
+        "parent_id": "Metals & Mining",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Copper",
+        "id": "copper",
+        "names": {
+            "en": "Copper",
+            "vi": "Đồng"
+        },
+        "source_id": "15104025",
+        "source_parent_id": "151040",
+        "parent_id": "Metals & Mining",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Gold",
+        "id": "gold",
+        "names": {
+            "en": "Gold",
+            "vi": "Vàng"
+        },
+        "source_id": "15104030",
+        "source_parent_id": "151040",
+        "parent_id": "Metals & Mining",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Precious Metals & Minerals",
+        "id": "precious_metals_minerals",
+        "names": {
+            "en": "Precious Metals & Minerals",
+            "vi": "Kim loại & Khoáng sản quý hiếm"
+        },
+        "source_id": "15104040",
+        "source_parent_id": "151040",
+        "parent_id": "Metals & Mining",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Silver",
+        "id": "silver",
+        "names": {
+            "en": "Silver",
+            "vi": "Bạc"
+        },
+        "source_id": "15104045",
+        "source_parent_id": "151040",
+        "parent_id": "Metals & Mining",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Steel",
+        "id": "steel",
+        "names": {
+            "en": "Steel",
+            "vi": "Thép"
+        },
+        "source_id": "15104050",
+        "source_parent_id": "151040",
+        "parent_id": "Metals & Mining",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Paper & Forest Products",
+        "id": "paper_forest_products",
+        "names": {
+            "en": "Paper & Forest Products",
+            "vi": "Giấy & Lâm sản"
+        },
+        "source_id": "151050",
+        "source_parent_id": "1510",
+        "parent_id": "Materials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Forest Products",
+        "id": "forest_products",
+        "names": {
+            "en": "Forest Products",
+            "vi": "Sản phẩm lâm nghiệp"
+        },
+        "source_id": "15105010",
+        "source_parent_id": "151050",
+        "parent_id": "Paper & Forest Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Paper Products",
+        "id": "paper_products",
+        "names": {
+            "en": "Paper Products",
+            "vi": "Sản phẩm làm từ giấy"
+        },
+        "source_id": "15105020",
+        "source_parent_id": "151050",
+        "parent_id": "Paper & Forest Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Industrials(Sector)",
+        "id": "industrials_sector",
+        "names": {
+            "en": "Industrials(Sector)",
+            "vi": "Công nghiệp"
+        },
+        "source_id": "20",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Capital Goods",
+        "id": "capital_goods",
+        "names": {
+            "en": "Capital Goods",
+            "vi": "Capital Hàng"
+        },
+        "source_id": "2010",
+        "source_parent_id": "20",
+        "parent_id": "industrials_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Aerospace & Defense",
+        "id": "aerospace_defense",
+        "names": {
+            "en": "Aerospace & Defense",
+            "vi": "Hàng không & Quốc phòng"
+        },
+        "source_id": "201010",
+        "source_parent_id": "2010",
+        "parent_id": "Capital Goods",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Aerospace & Defense",
+        "id": "aerospace_defense",
+        "names": {
+            "en": "Aerospace & Defense",
+            "vi": "Hàng không & Quốc phòng"
+        },
+        "source_id": "20101010",
+        "source_parent_id": "201010",
+        "parent_id": "Aerospace & Defense",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Building Products",
+        "id": "building_products",
+        "names": {
+            "en": "Building Products",
+            "vi": "Các sản phẩm xây dựng"
+        },
+        "source_id": "201020",
+        "source_parent_id": "2010",
+        "parent_id": "Capital Goods",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Building Products",
+        "id": "building_products",
+        "names": {
+            "en": "Building Products",
+            "vi": "Các sản phẩm xây dựng"
+        },
+        "source_id": "20102010",
+        "source_parent_id": "201020",
+        "parent_id": "Building Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Construction & Engineering",
+        "id": "construction_engineering",
+        "names": {
+            "en": "Construction & Engineering",
+            "vi": "Kỹ thuật xây dựng"
+        },
+        "source_id": "201030",
+        "source_parent_id": "2010",
+        "parent_id": "Capital Goods",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Construction & Engineering",
+        "id": "construction_engineering",
+        "names": {
+            "en": "Construction & Engineering",
+            "vi": "Kỹ thuật xây dựng"
+        },
+        "source_id": "20103010",
+        "source_parent_id": "201030",
+        "parent_id": "Construction & Engineering",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Electrical Equipment",
+        "id": "electrical_equipment",
+        "names": {
+            "en": "Electrical Equipment",
+            "vi": "Thiết bị điện"
+        },
+        "source_id": "201040",
+        "source_parent_id": "2010",
+        "parent_id": "Capital Goods",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Electrical Components & Equipment",
+        "id": "electrical_components_equipment",
+        "names": {
+            "en": "Electrical Components & Equipment",
+            "vi": "Linh kiện & Thiết bị điện"
+        },
+        "source_id": "20104010",
+        "source_parent_id": "201040",
+        "parent_id": "Electrical Equipment",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Heavy Electrical Equipment",
+        "id": "heavy_electrical_equipment",
+        "names": {
+            "en": "Heavy Electrical Equipment",
+            "vi": "Kỹ thuật điện nặng"
+        },
+        "source_id": "20104020",
+        "source_parent_id": "201040",
+        "parent_id": "Electrical Equipment",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Industrial Conglomerates",
+        "id": "industrial_conglomerates",
+        "names": {
+            "en": "Industrial Conglomerates",
+            "vi": "Các tập đoàn công nghiệp"
+        },
+        "source_id": "201050",
+        "source_parent_id": "2010",
+        "parent_id": "Capital Goods",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Industrial Conglomerates",
+        "id": "industrial_conglomerates",
+        "names": {
+            "en": "Industrial Conglomerates",
+            "vi": "Các tập đoàn công nghiệp"
+        },
+        "source_id": "20105010",
+        "source_parent_id": "201050",
+        "parent_id": "Industrial Conglomerates",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Machinery",
+        "id": "machinery",
+        "names": {
+            "en": "Machinery",
+            "vi": "Máy móc thiết bị"
+        },
+        "source_id": "201060",
+        "source_parent_id": "2010",
+        "parent_id": "Capital Goods",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Construction Machinery & Heavy Trucks",
+        "id": "construction_machinery_heavy_trucks",
+        "names": {
+            "en": "Construction Machinery & Heavy Trucks",
+            "vi": "Máy xây dựng & Xe tải hạng nặng"
+        },
+        "source_id": "20106010",
+        "source_parent_id": "201060",
+        "parent_id": "Machinery",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Agricultural & Farm Machinery",
+        "id": "agricultural_farm_machinery",
+        "names": {
+            "en": "Agricultural & Farm Machinery",
+            "vi": "Nông nghiệp & Máy Nông Nghiệp"
+        },
+        "source_id": "20106015",
+        "source_parent_id": "201060",
+        "parent_id": "Machinery",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Industrial Machinery",
+        "id": "industrial_machinery",
+        "names": {
+            "en": "Industrial Machinery",
+            "vi": "Máy móc công nghiệp"
+        },
+        "source_id": "20106020",
+        "source_parent_id": "201060",
+        "parent_id": "Machinery",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Trading Companies & Distributors",
+        "id": "trading_companies_distributors",
+        "names": {
+            "en": "Trading Companies & Distributors",
+            "vi": "Công ty Thương mại & Nhà phân phối"
+        },
+        "source_id": "201070",
+        "source_parent_id": "2010",
+        "parent_id": "Capital Goods",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Trading Companies & Distributors",
+        "id": "trading_companies_distributors",
+        "names": {
+            "en": "Trading Companies & Distributors",
+            "vi": "Công ty Thương mại & Nhà phân phối"
+        },
+        "source_id": "20107010",
+        "source_parent_id": "201070",
+        "parent_id": "Trading Companies & Distributors",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Commercial & Professional Services",
+        "id": "commercial_professional_services",
+        "names": {
+            "en": "Commercial & Professional Services",
+            "vi": "Dịch vụ Thương mại & chuyên nghiệp"
+        },
+        "source_id": "2020",
+        "source_parent_id": "20",
+        "parent_id": "industrials_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Commercial Services & Supplies",
+        "id": "commercial_services_supplies",
+        "names": {
+            "en": "Commercial Services & Supplies",
+            "vi": "Dịch vụ thương mại & Vật tư"
+        },
+        "source_id": "202010",
+        "source_parent_id": "2020",
+        "parent_id": "Commercial & Professional Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Commercial Printing",
+        "id": "commercial_printing",
+        "names": {
+            "en": "Commercial Printing",
+            "vi": "In ấn thương mại"
+        },
+        "source_id": "20201010",
+        "source_parent_id": "202010",
+        "parent_id": "Commercial Services & Supplies",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Environmental & Facilities Services",
+        "id": "environmental_facilities_services",
+        "names": {
+            "en": "Environmental & Facilities Services",
+            "vi": "Môi trường & Dịch vụ thiết bị"
+        },
+        "source_id": "20201050",
+        "source_parent_id": "202010",
+        "parent_id": "Commercial Services & Supplies",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Office Services & Supplies",
+        "id": "office_services_supplies",
+        "names": {
+            "en": "Office Services & Supplies",
+            "vi": "Văn phòng Dịch vụ & Thiết bị"
+        },
+        "source_id": "20201060",
+        "source_parent_id": "202010",
+        "parent_id": "Commercial Services & Supplies",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Diversified Support Services",
+        "id": "diversified_support_services",
+        "names": {
+            "en": "Diversified Support Services",
+            "vi": "Dịch vụ hỗ trợ đa dạng"
+        },
+        "source_id": "20201070",
+        "source_parent_id": "202010",
+        "parent_id": "Commercial Services & Supplies",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Security & Alarm Services",
+        "id": "security_alarm_services",
+        "names": {
+            "en": "Security & Alarm Services",
+            "vi": "Dịch vụ An ninh & Báo động"
+        },
+        "source_id": "20201080",
+        "source_parent_id": "202010",
+        "parent_id": "Commercial Services & Supplies",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Professional Services",
+        "id": "professional_services",
+        "names": {
+            "en": "Professional Services",
+            "vi": "Những dịch vụ chuyên nghiệp"
+        },
+        "source_id": "202020",
+        "source_parent_id": "2020",
+        "parent_id": "Commercial & Professional Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Human Resource & Employment Services",
+        "id": "human_resource_employment_services",
+        "names": {
+            "en": "Human Resource & Employment Services",
+            "vi": "Dịch vụ Nhân sự & Việc làm"
+        },
+        "source_id": "20202010",
+        "source_parent_id": "202020",
+        "parent_id": "Professional Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Research & Consulting Services",
+        "id": "research_consulting_services",
+        "names": {
+            "en": "Research & Consulting Services",
+            "vi": "Dịch vụ Nghiên cưu & Tư vấn"
+        },
+        "source_id": "20202020",
+        "source_parent_id": "202020",
+        "parent_id": "Professional Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Transportation",
+        "id": "transportation",
+        "names": {
+            "en": "Transportation",
+            "vi": "Vận chuyển"
+        },
+        "source_id": "2030",
+        "source_parent_id": "20",
+        "parent_id": "industrials_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Air Freight & Logistics",
+        "id": "air_freight_logistics",
+        "names": {
+            "en": "Air Freight & Logistics",
+            "vi": "Vận tải hàng không & Logistics"
+        },
+        "source_id": "203010",
+        "source_parent_id": "2030",
+        "parent_id": "Transportation",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Air Freight & Logistics",
+        "id": "air_freight_logistics",
+        "names": {
+            "en": "Air Freight & Logistics",
+            "vi": "Vận tải hàng không & Logistics"
+        },
+        "source_id": "20301010",
+        "source_parent_id": "203010",
+        "parent_id": "Air Freight & Logistics",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Airlines",
+        "id": "airlines",
+        "names": {
+            "en": "Airlines",
+            "vi": "Hàng không"
+        },
+        "source_id": "203020",
+        "source_parent_id": "2030",
+        "parent_id": "Transportation",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Airlines",
+        "id": "airlines",
+        "names": {
+            "en": "Airlines",
+            "vi": "Hàng không"
+        },
+        "source_id": "20302010",
+        "source_parent_id": "203020",
+        "parent_id": "Airlines",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Marine",
+        "id": "marine",
+        "names": {
+            "en": "Marine",
+            "vi": "Hàng sắt"
+        },
+        "source_id": "203030",
+        "source_parent_id": "2030",
+        "parent_id": "Transportation",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Marine",
+        "id": "marine",
+        "names": {
+            "en": "Marine",
+            "vi": "Hàng sắt"
+        },
+        "source_id": "20303010",
+        "source_parent_id": "203030",
+        "parent_id": "Marine",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Road & Rail",
+        "id": "road_rail",
+        "names": {
+            "en": "Road & Rail",
+            "vi": "Đường bộ & Đường sắt"
+        },
+        "source_id": "203040",
+        "source_parent_id": "2030",
+        "parent_id": "Transportation",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Railroads",
+        "id": "railroads",
+        "names": {
+            "en": "Railroads",
+            "vi": "Đường sắt"
+        },
+        "source_id": "20304010",
+        "source_parent_id": "203040",
+        "parent_id": "Road & Rail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Trucking",
+        "id": "trucking",
+        "names": {
+            "en": "Trucking",
+            "vi": "Vận tải"
+        },
+        "source_id": "20304020",
+        "source_parent_id": "203040",
+        "parent_id": "Road & Rail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Transportation Infrastructure",
+        "id": "transportation_infrastructure",
+        "names": {
+            "en": "Transportation Infrastructure",
+            "vi": "Cơ sở hạ tầng giao thông vận tải"
+        },
+        "source_id": "203050",
+        "source_parent_id": "2030",
+        "parent_id": "Transportation",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Airport Services",
+        "id": "airport_services",
+        "names": {
+            "en": "Airport Services",
+            "vi": "Dịch vụ Sân bay"
+        },
+        "source_id": "20305010",
+        "source_parent_id": "203050",
+        "parent_id": "Transportation Infrastructure",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Highways & Railtracks",
+        "id": "highways_railtracks",
+        "names": {
+            "en": "Highways & Railtracks",
+            "vi": "Đường cao tốc & theo dõi đường sắt"
+        },
+        "source_id": "20305020",
+        "source_parent_id": "203050",
+        "parent_id": "Transportation Infrastructure",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Marine Ports & Services",
+        "id": "marine_ports_services",
+        "names": {
+            "en": "Marine Ports & Services",
+            "vi": "Cảng & Dịch vụ Hàng hải"
+        },
+        "source_id": "20305030",
+        "source_parent_id": "203050",
+        "parent_id": "Transportation Infrastructure",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Consumer Discretionary(Sector)",
+        "id": "consumer_discretionary_sector",
+        "names": {
+            "en": "Consumer Discretionary(Sector)",
+            "vi": "Hàng tiêu dùng"
+        },
+        "source_id": "25",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Automobiles & Components",
+        "id": "automobiles_components",
+        "names": {
+            "en": "Automobiles & Components",
+            "vi": "Linh kiện & Lắp ráp"
+        },
+        "source_id": "2510",
+        "source_parent_id": "25",
+        "parent_id": "consumer_discretionary_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Auto Components",
+        "id": "auto_components",
+        "names": {
+            "en": "Auto Components",
+            "vi": "Linh kiện ô tô"
+        },
+        "source_id": "251010",
+        "source_parent_id": "2510",
+        "parent_id": "Automobiles & Components",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Auto Parts & Equipment",
+        "id": "auto_parts_equipment",
+        "names": {
+            "en": "Auto Parts & Equipment",
+            "vi": "Phụ tùng & thiết bị ô tô"
+        },
+        "source_id": "25101010",
+        "source_parent_id": "251010",
+        "parent_id": "Auto Components",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Tires & Rubber",
+        "id": "tires_rubber",
+        "names": {
+            "en": "Tires & Rubber",
+            "vi": "Lốp & Cao su"
+        },
+        "source_id": "25101020",
+        "source_parent_id": "251010",
+        "parent_id": "Auto Components",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Automobiles",
+        "id": "automobiles",
+        "names": {
+            "en": "Automobiles",
+            "vi": "Ô tô"
+        },
+        "source_id": "251020",
+        "source_parent_id": "2510",
+        "parent_id": "Automobiles & Components",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Automobile Manufacturers",
+        "id": "automobile_manufacturers",
+        "names": {
+            "en": "Automobile Manufacturers",
+            "vi": "Các nhà sản xuất ô tô"
+        },
+        "source_id": "25102010",
+        "source_parent_id": "251020",
+        "parent_id": "Automobiles",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Motorcycle Manufacturers",
+        "id": "motorcycle_manufacturers",
+        "names": {
+            "en": "Motorcycle Manufacturers",
+            "vi": "Các nhà sản xuất xe máy"
+        },
+        "source_id": "25102020",
+        "source_parent_id": "251020",
+        "parent_id": "Automobiles",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Consumer Durables & Apparel",
+        "id": "consumer_durables_apparel",
+        "names": {
+            "en": "Consumer Durables & Apparel",
+            "vi": "Người tiêu dùng lâu bền & Trang phục"
+        },
+        "source_id": "2520",
+        "source_parent_id": "25",
+        "parent_id": "consumer_discretionary_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Household Durables",
+        "id": "household_durables",
+        "names": {
+            "en": "Household Durables",
+            "vi": "Đồ gia dụng"
+        },
+        "source_id": "252010",
+        "source_parent_id": "2520",
+        "parent_id": "Consumer Durables & Apparel",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Consumer Electronics",
+        "id": "consumer_electronics",
+        "names": {
+            "en": "Consumer Electronics",
+            "vi": "Điện tử dân dụng"
+        },
+        "source_id": "25201010",
+        "source_parent_id": "252010",
+        "parent_id": "Household Durables",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Home Furnishings",
+        "id": "home_furnishings",
+        "names": {
+            "en": "Home Furnishings",
+            "vi": "Nội thất"
+        },
+        "source_id": "25201020",
+        "source_parent_id": "252010",
+        "parent_id": "Household Durables",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Homebuilding",
+        "id": "homebuilding",
+        "names": {
+            "en": "Homebuilding",
+            "vi": "Nhà xây dựng"
+        },
+        "source_id": "25201030",
+        "source_parent_id": "252010",
+        "parent_id": "Household Durables",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Household Appliances",
+        "id": "household_appliances",
+        "names": {
+            "en": "Household Appliances",
+            "vi": "Thiết bị gia dụng"
+        },
+        "source_id": "25201040",
+        "source_parent_id": "252010",
+        "parent_id": "Household Durables",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Housewares & Specialties",
+        "id": "housewares_specialties",
+        "names": {
+            "en": "Housewares & Specialties",
+            "vi": "Đồ gia dụng & Đặc sản"
+        },
+        "source_id": "25201050",
+        "source_parent_id": "252010",
+        "parent_id": "Household Durables",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Leisure Products",
+        "id": "leisure_products",
+        "names": {
+            "en": "Leisure Products",
+            "vi": "Sản phẩm giải trí"
+        },
+        "source_id": "252020",
+        "source_parent_id": "2520",
+        "parent_id": "Consumer Durables & Apparel",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Leisure Products",
+        "id": "leisure_products",
+        "names": {
+            "en": "Leisure Products",
+            "vi": "Sản phẩm giải trí"
+        },
+        "source_id": "25202010",
+        "source_parent_id": "252020",
+        "parent_id": "Leisure Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Textiles, Apparel & Luxury Goods",
+        "id": "textiles_apparel_luxury_goods",
+        "names": {
+            "en": "Textiles, Apparel & Luxury Goods",
+            "vi": "Dệt May mặc & xa xỉ phẩm"
+        },
+        "source_id": "252030",
+        "source_parent_id": "2520",
+        "parent_id": "Consumer Durables & Apparel",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Apparel, Accessories & Luxury Goods",
+        "id": "apparel_accessories_luxury_goods",
+        "names": {
+            "en": "Apparel, Accessories & Luxury Goods",
+            "vi": "Trang phục phụ kiện & xa xỉ phẩm"
+        },
+        "source_id": "25203010",
+        "source_parent_id": "252030",
+        "parent_id": "Textiles, Apparel & Luxury Goods",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Footwear",
+        "id": "footwear",
+        "names": {
+            "en": "Footwear",
+            "vi": "giày dép"
+        },
+        "source_id": "25203020",
+        "source_parent_id": "252030",
+        "parent_id": "Textiles, Apparel & Luxury Goods",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Textiles",
+        "id": "textiles",
+        "names": {
+            "en": "Textiles",
+            "vi": "Tài liệu"
+        },
+        "source_id": "25203030",
+        "source_parent_id": "252030",
+        "parent_id": "Textiles, Apparel & Luxury Goods",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Consumer Services",
+        "id": "consumer_services",
+        "names": {
+            "en": "Consumer Services",
+            "vi": "Dịch vụ tiêu dùng"
+        },
+        "source_id": "2530",
+        "source_parent_id": "25",
+        "parent_id": "consumer_discretionary_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Hotels, Restaurants & Leisure",
+        "id": "hotels_restaurants_leisure",
+        "names": {
+            "en": "Hotels, Restaurants & Leisure",
+            "vi": "Khách sạn Nhà hàng & Giải trí"
+        },
+        "source_id": "253010",
+        "source_parent_id": "2530",
+        "parent_id": "Consumer Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Casinos & Gaming",
+        "id": "casinos_gaming",
+        "names": {
+            "en": "Casinos & Gaming",
+            "vi": "Sòng bạc & Gaming"
+        },
+        "source_id": "25301010",
+        "source_parent_id": "253010",
+        "parent_id": "Hotels, Restaurants & Leisure",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Hotels, Resorts & Cruise Lines",
+        "id": "hotels_resorts_cruise_lines",
+        "names": {
+            "en": "Hotels, Resorts & Cruise Lines",
+            "vi": "Khách sạn Khu nghỉ dưỡng & Du thuyền"
+        },
+        "source_id": "25301020",
+        "source_parent_id": "253010",
+        "parent_id": "Hotels, Restaurants & Leisure",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Leisure Facilities",
+        "id": "leisure_facilities",
+        "names": {
+            "en": "Leisure Facilities",
+            "vi": "Thiết bị giải trí"
+        },
+        "source_id": "25301030",
+        "source_parent_id": "253010",
+        "parent_id": "Hotels, Restaurants & Leisure",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Restaurants",
+        "id": "restaurants",
+        "names": {
+            "en": "Restaurants",
+            "vi": "nhà hàng"
+        },
+        "source_id": "25301040",
+        "source_parent_id": "253010",
+        "parent_id": "Hotels, Restaurants & Leisure",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Diversified Consumer Services",
+        "id": "diversified_consumer_services",
+        "names": {
+            "en": "Diversified Consumer Services",
+            "vi": "Đa dạng Dịch vụ tiêu dùng"
+        },
+        "source_id": "253020",
+        "source_parent_id": "2530",
+        "parent_id": "Consumer Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Education Services",
+        "id": "education_services",
+        "names": {
+            "en": "Education Services",
+            "vi": "Dịch vụ Giáo dục"
+        },
+        "source_id": "25302010",
+        "source_parent_id": "253020",
+        "parent_id": "Diversified Consumer Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Specialized Consumer Services",
+        "id": "specialized_consumer_services",
+        "names": {
+            "en": "Specialized Consumer Services",
+            "vi": "Dịch vụ khách hàng chuyên ngành"
+        },
+        "source_id": "25302020",
+        "source_parent_id": "253020",
+        "parent_id": "Diversified Consumer Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Retailing",
+        "id": "retailing",
+        "names": {
+            "en": "Retailing",
+            "vi": "bán lẻ"
+        },
+        "source_id": "2550",
+        "source_parent_id": "25",
+        "parent_id": "consumer_discretionary_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Distributors",
+        "id": "distributors",
+        "names": {
+            "en": "Distributors",
+            "vi": "nhà phân phối"
+        },
+        "source_id": "255010",
+        "source_parent_id": "2550",
+        "parent_id": "Retailing",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Distributors",
+        "id": "distributors",
+        "names": {
+            "en": "Distributors",
+            "vi": "nhà phân phối"
+        },
+        "source_id": "25501010",
+        "source_parent_id": "255010",
+        "parent_id": "Distributors",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Internet & Direct Marketing Retail",
+        "id": "internet_direct_marketing_retail",
+        "names": {
+            "en": "Internet & Direct Marketing Retail",
+            "vi": "Internet & Tiếp thị trực tiếp bán lẻ"
+        },
+        "source_id": "255020",
+        "source_parent_id": "2550",
+        "parent_id": "Retailing",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Internet & Direct Marketing Retail",
+        "id": "internet_direct_marketing_retail",
+        "names": {
+            "en": "Internet & Direct Marketing Retail",
+            "vi": "Internet & Tiếp thị trực tiếp bán lẻ"
+        },
+        "source_id": "25502020",
+        "source_parent_id": "255020",
+        "parent_id": "Internet & Direct Marketing Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Multiline Retail",
+        "id": "multiline_retail",
+        "names": {
+            "en": "Multiline Retail",
+            "vi": "Bán lẻ đa tuyến"
+        },
+        "source_id": "255030",
+        "source_parent_id": "2550",
+        "parent_id": "Retailing",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Department Stores",
+        "id": "department_stores",
+        "names": {
+            "en": "Department Stores",
+            "vi": "Bách hóa"
+        },
+        "source_id": "25503010",
+        "source_parent_id": "255030",
+        "parent_id": "Multiline Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "General Merchandise Stores",
+        "id": "general_merchandise_stores",
+        "names": {
+            "en": "General Merchandise Stores",
+            "vi": "Cửa hàng hóa chung"
+        },
+        "source_id": "25503020",
+        "source_parent_id": "255030",
+        "parent_id": "Multiline Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Specialty Retail",
+        "id": "specialty_retail",
+        "names": {
+            "en": "Specialty Retail",
+            "vi": "đặc sản bán lẻ"
+        },
+        "source_id": "255040",
+        "source_parent_id": "2550",
+        "parent_id": "Retailing",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Apparel Retail",
+        "id": "apparel_retail",
+        "names": {
+            "en": "Apparel Retail",
+            "vi": "Trang phục bán lẻ"
+        },
+        "source_id": "25504010",
+        "source_parent_id": "255040",
+        "parent_id": "Specialty Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Computer & Electronics Retail",
+        "id": "computer_electronics_retail",
+        "names": {
+            "en": "Computer & Electronics Retail",
+            "vi": "Máy tính & Điện tử bán lẻ"
+        },
+        "source_id": "25504020",
+        "source_parent_id": "255040",
+        "parent_id": "Specialty Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Home Improvement Retail",
+        "id": "home_improvement_retail",
+        "names": {
+            "en": "Home Improvement Retail",
+            "vi": "Cải tiến Trang chủ Bán lẻ"
+        },
+        "source_id": "25504030",
+        "source_parent_id": "255040",
+        "parent_id": "Specialty Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Specialty Stores",
+        "id": "specialty_stores",
+        "names": {
+            "en": "Specialty Stores",
+            "vi": "Cửa hàng đặc sản"
+        },
+        "source_id": "25504040",
+        "source_parent_id": "255040",
+        "parent_id": "Specialty Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Automotive Retail",
+        "id": "automotive_retail",
+        "names": {
+            "en": "Automotive Retail",
+            "vi": "ô tô bán lẻ"
+        },
+        "source_id": "25504050",
+        "source_parent_id": "255040",
+        "parent_id": "Specialty Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Homefurnishing Retail",
+        "id": "homefurnishing_retail",
+        "names": {
+            "en": "Homefurnishing Retail",
+            "vi": "Bán lẻ nội thất"
+        },
+        "source_id": "25504060",
+        "source_parent_id": "255040",
+        "parent_id": "Specialty Retail",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Consumer Staples(Sector)",
+        "id": "consumer_staples_sector",
+        "names": {
+            "en": "Consumer Staples(Sector)",
+            "vi": "Mặt hàng chủ lực của người tiêu dùng"
+        },
+        "source_id": "30",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Food & Staples Retailing",
+        "id": "food_staples_retailing",
+        "names": {
+            "en": "Food & Staples Retailing",
+            "vi": "Thực phẩm bán lẻ"
+        },
+        "source_id": "3010",
+        "source_parent_id": "30",
+        "parent_id": "consumer_staples_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Food & Staples Retailing",
+        "id": "food_staples_retailing",
+        "names": {
+            "en": "Food & Staples Retailing",
+            "vi": "Thực phẩm bán lẻ"
+        },
+        "source_id": "301010",
+        "source_parent_id": "3010",
+        "parent_id": "Food & Staples Retailing",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Drug Retail",
+        "id": "drug_retail",
+        "names": {
+            "en": "Drug Retail",
+            "vi": "Bán lẻ thuốc"
+        },
+        "source_id": "30101010",
+        "source_parent_id": "301010",
+        "parent_id": "Food & Staples Retailing",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Food Distributors",
+        "id": "food_distributors",
+        "names": {
+            "en": "Food Distributors",
+            "vi": "Nhà phân phối thực phẩm"
+        },
+        "source_id": "30101020",
+        "source_parent_id": "301010",
+        "parent_id": "Food & Staples Retailing",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Food Retail",
+        "id": "food_retail",
+        "names": {
+            "en": "Food Retail",
+            "vi": "Bán lẻ thực phẩm"
+        },
+        "source_id": "30101030",
+        "source_parent_id": "301010",
+        "parent_id": "Food & Staples Retailing",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Hypermarkets & Super Centers",
+        "id": "hypermarkets_super_centers",
+        "names": {
+            "en": "Hypermarkets & Super Centers",
+            "vi": "Đại siêu thị & Siêu trung tâm"
+        },
+        "source_id": "30101040",
+        "source_parent_id": "301010",
+        "parent_id": "Food & Staples Retailing",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Food, Beverage & Tobacco",
+        "id": "food_beverage_tobacco",
+        "names": {
+            "en": "Food, Beverage & Tobacco",
+            "vi": "Thực phẩm đồ uống & thuốc lá"
+        },
+        "source_id": "3020",
+        "source_parent_id": "30",
+        "parent_id": "consumer_staples_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Beverages",
+        "id": "beverages",
+        "names": {
+            "en": "Beverages",
+            "vi": "đồ uống"
+        },
+        "source_id": "302010",
+        "source_parent_id": "3020",
+        "parent_id": "Food, Beverage & Tobacco",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Brewers",
+        "id": "brewers",
+        "names": {
+            "en": "Brewers",
+            "vi": "Brewers"
+        },
+        "source_id": "30201010",
+        "source_parent_id": "302010",
+        "parent_id": "Beverages",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Distillers & Vintners",
+        "id": "distillers_vintners",
+        "names": {
+            "en": "Distillers & Vintners",
+            "vi": "Chưng cất & pha chế"
+        },
+        "source_id": "30201020",
+        "source_parent_id": "302010",
+        "parent_id": "Beverages",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Soft Drinks",
+        "id": "soft_drinks",
+        "names": {
+            "en": "Soft Drinks",
+            "vi": "Nước ngọt"
+        },
+        "source_id": "30201030",
+        "source_parent_id": "302010",
+        "parent_id": "Beverages",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Food Products",
+        "id": "food_products",
+        "names": {
+            "en": "Food Products",
+            "vi": "Sản phẩm thực phẩm"
+        },
+        "source_id": "302020",
+        "source_parent_id": "3020",
+        "parent_id": "Food, Beverage & Tobacco",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Agricultural Products",
+        "id": "agricultural_products",
+        "names": {
+            "en": "Agricultural Products",
+            "vi": "Những sản phẩm nông nghiệp"
+        },
+        "source_id": "30202010",
+        "source_parent_id": "302020",
+        "parent_id": "Food Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Packaged Foods & Meats",
+        "id": "packaged_foods_meats",
+        "names": {
+            "en": "Packaged Foods & Meats",
+            "vi": "Đóng gói Thực phẩm & Thịt"
+        },
+        "source_id": "30202030",
+        "source_parent_id": "302020",
+        "parent_id": "Food Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Tobacco",
+        "id": "tobacco",
+        "names": {
+            "en": "Tobacco",
+            "vi": "thuốc lá"
+        },
+        "source_id": "302030",
+        "source_parent_id": "3020",
+        "parent_id": "Food, Beverage & Tobacco",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Tobacco",
+        "id": "tobacco",
+        "names": {
+            "en": "Tobacco",
+            "vi": "thuốc lá"
+        },
+        "source_id": "30203010",
+        "source_parent_id": "302030",
+        "parent_id": "Tobacco",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Household & Personal Products",
+        "id": "household_personal_products",
+        "names": {
+            "en": "Household & Personal Products",
+            "vi": "Hộ gia đình & cá nhân Sản phẩm"
+        },
+        "source_id": "3030",
+        "source_parent_id": "30",
+        "parent_id": "consumer_staples_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Household Products",
+        "id": "household_products",
+        "names": {
+            "en": "Household Products",
+            "vi": "Sản phẩm gia dụng"
+        },
+        "source_id": "303010",
+        "source_parent_id": "3030",
+        "parent_id": "Household & Personal Products",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Household Products",
+        "id": "household_products",
+        "names": {
+            "en": "Household Products",
+            "vi": "Sản phẩm gia dụng"
+        },
+        "source_id": "30301010",
+        "source_parent_id": "303010",
+        "parent_id": "Household Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Personal Products",
+        "id": "personal_products",
+        "names": {
+            "en": "Personal Products",
+            "vi": "Sản phẩm cá nhân"
+        },
+        "source_id": "303020",
+        "source_parent_id": "3030",
+        "parent_id": "Household & Personal Products",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Personal Products",
+        "id": "personal_products",
+        "names": {
+            "en": "Personal Products",
+            "vi": "Sản phẩm cá nhân"
+        },
+        "source_id": "30302010",
+        "source_parent_id": "303020",
+        "parent_id": "Personal Products",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Health Care(Sector)",
+        "id": "health_care_sector",
+        "names": {
+            "en": "Health Care(Sector)",
+            "vi": "Chăm sóc sức khỏe"
+        },
+        "source_id": "35",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Health Care Equipment & Services",
+        "id": "health_care_equipment_services",
+        "names": {
+            "en": "Health Care Equipment & Services",
+            "vi": "Sức khỏe Thiết bị & Dịch vụ Chăm sóc"
+        },
+        "source_id": "3510",
+        "source_parent_id": "35",
+        "parent_id": "health_care_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Health Care Equipment & Supplies",
+        "id": "health_care_equipment_supplies",
+        "names": {
+            "en": "Health Care Equipment & Supplies",
+            "vi": "Sức khỏe Thiết bị chăm sóc & Vật tư"
+        },
+        "source_id": "351010",
+        "source_parent_id": "3510",
+        "parent_id": "Health Care Equipment & Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Health Care Equipment",
+        "id": "health_care_equipment",
+        "names": {
+            "en": "Health Care Equipment",
+            "vi": "Thiết bị chăm sóc sức khỏe"
+        },
+        "source_id": "35101010",
+        "source_parent_id": "351010",
+        "parent_id": "Health Care Equipment & Supplies",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Health Care Supplies",
+        "id": "health_care_supplies",
+        "names": {
+            "en": "Health Care Supplies",
+            "vi": "Đồ chăm sóc sức khỏe"
+        },
+        "source_id": "35101020",
+        "source_parent_id": "351010",
+        "parent_id": "Health Care Equipment & Supplies",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Health Care Providers & Services",
+        "id": "health_care_providers_services",
+        "names": {
+            "en": "Health Care Providers & Services",
+            "vi": "Nhà cung cấp & Dịch vụ Chăm sóc sức khỏe"
+        },
+        "source_id": "351020",
+        "source_parent_id": "3510",
+        "parent_id": "Health Care Equipment & Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Health Care Distributors",
+        "id": "health_care_distributors",
+        "names": {
+            "en": "Health Care Distributors",
+            "vi": "Chăm sóc sức khỏe Các nhà phân phối"
+        },
+        "source_id": "35102010",
+        "source_parent_id": "351020",
+        "parent_id": "Health Care Providers & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Health Care Services",
+        "id": "health_care_services",
+        "names": {
+            "en": "Health Care Services",
+            "vi": "Dịch vụ chăm sóc sức khỏe"
+        },
+        "source_id": "35102015",
+        "source_parent_id": "351020",
+        "parent_id": "Health Care Providers & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Health Care Facilities",
+        "id": "health_care_facilities",
+        "names": {
+            "en": "Health Care Facilities",
+            "vi": "Thiết bị Y tế Chăm sóc"
+        },
+        "source_id": "35102020",
+        "source_parent_id": "351020",
+        "parent_id": "Health Care Providers & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Managed Health Care",
+        "id": "managed_health_care",
+        "names": {
+            "en": "Managed Health Care",
+            "vi": "Quản lý chăm sóc sức khỏe"
+        },
+        "source_id": "35102030",
+        "source_parent_id": "351020",
+        "parent_id": "Health Care Providers & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Health Care Technology",
+        "id": "health_care_technology",
+        "names": {
+            "en": "Health Care Technology",
+            "vi": "Công nghệ chăm sóc sức khỏe"
+        },
+        "source_id": "351030",
+        "source_parent_id": "3510",
+        "parent_id": "Health Care Equipment & Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Health Care Technology",
+        "id": "health_care_technology",
+        "names": {
+            "en": "Health Care Technology",
+            "vi": "Công nghệ chăm sóc sức khỏe"
+        },
+        "source_id": "35103010",
+        "source_parent_id": "351030",
+        "parent_id": "Health Care Technology",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Pharmaceuticals, Biotechnology  & Life Sciences",
+        "id": "pharmaceuticals_biotechnology_life_sciences",
+        "names": {
+            "en": "Pharmaceuticals, Biotechnology  & Life Sciences",
+            "vi": "Khoa Dược Công nghệ sinh học & Cuộc sống"
+        },
+        "source_id": "3520",
+        "source_parent_id": "35",
+        "parent_id": "health_care_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Biotechnology",
+        "id": "biotechnology",
+        "names": {
+            "en": "Biotechnology",
+            "vi": "Công nghệ sinh học"
+        },
+        "source_id": "352010",
+        "source_parent_id": "3520",
+        "parent_id": "Pharmaceuticals, Biotechnology  & Life Sciences",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Biotechnology",
+        "id": "biotechnology",
+        "names": {
+            "en": "Biotechnology",
+            "vi": "Công nghệ sinh học"
+        },
+        "source_id": "35201010",
+        "source_parent_id": "352010",
+        "parent_id": "Biotechnology",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Pharmaceuticals",
+        "id": "pharmaceuticals",
+        "names": {
+            "en": "Pharmaceuticals",
+            "vi": "Dược phẩm"
+        },
+        "source_id": "352020",
+        "source_parent_id": "3520",
+        "parent_id": "Pharmaceuticals, Biotechnology  & Life Sciences",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Pharmaceuticals",
+        "id": "pharmaceuticals",
+        "names": {
+            "en": "Pharmaceuticals",
+            "vi": "Dược phẩm"
+        },
+        "source_id": "35202010",
+        "source_parent_id": "352020",
+        "parent_id": "Pharmaceuticals",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Life Sciences Tools & Services",
+        "id": "life_sciences_tools_services",
+        "names": {
+            "en": "Life Sciences Tools & Services",
+            "vi": "Life Sciences cụ & Dịch vụ"
+        },
+        "source_id": "352030",
+        "source_parent_id": "3520",
+        "parent_id": "Pharmaceuticals, Biotechnology  & Life Sciences",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Life Sciences Tools & Services",
+        "id": "life_sciences_tools_services",
+        "names": {
+            "en": "Life Sciences Tools & Services",
+            "vi": "Life Sciences cụ & Dịch vụ"
+        },
+        "source_id": "35203010",
+        "source_parent_id": "352030",
+        "parent_id": "Life Sciences Tools & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Financials(Sector)",
+        "id": "financials_sector",
+        "names": {
+            "en": "Financials(Sector)",
+            "vi": "Tài chính"
+        },
+        "source_id": "40",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Banks",
+        "id": "banks",
+        "names": {
+            "en": "Banks",
+            "vi": "ngân hàng"
+        },
+        "source_id": "4010",
+        "source_parent_id": "40",
+        "parent_id": "financials_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Banks",
+        "id": "banks",
+        "names": {
+            "en": "Banks",
+            "vi": "ngân hàng"
+        },
+        "source_id": "401010",
+        "source_parent_id": "4010",
+        "parent_id": "Banks",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Diversified Banks",
+        "id": "diversified_banks",
+        "names": {
+            "en": "Diversified Banks",
+            "vi": "đa dạng ngân hàng"
+        },
+        "source_id": "40101010",
+        "source_parent_id": "401010",
+        "parent_id": "Banks",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Regional Banks",
+        "id": "regional_banks",
+        "names": {
+            "en": "Regional Banks",
+            "vi": "Các ngân hàng trong khu vực"
+        },
+        "source_id": "40101015",
+        "source_parent_id": "401010",
+        "parent_id": "Banks",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Thrifts & Mortgage Finance",
+        "id": "thrifts_mortgage_finance",
+        "names": {
+            "en": "Thrifts & Mortgage Finance",
+            "vi": "Quỹ tiết kiệm & Mortgage Finance"
+        },
+        "source_id": "401020",
+        "source_parent_id": "4010",
+        "parent_id": "Banks",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Thrifts & Mortgage Finance",
+        "id": "thrifts_mortgage_finance",
+        "names": {
+            "en": "Thrifts & Mortgage Finance",
+            "vi": "Quỹ tiết kiệm & Mortgage Finance"
+        },
+        "source_id": "40102010",
+        "source_parent_id": "401020",
+        "parent_id": "Thrifts & Mortgage Finance",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Diversified Financials",
+        "id": "diversified_financials",
+        "names": {
+            "en": "Diversified Financials",
+            "vi": "đa dạng Tài chính"
+        },
+        "source_id": "4020",
+        "source_parent_id": "40",
+        "parent_id": "financials_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Diversified Financial Services",
+        "id": "diversified_financial_services",
+        "names": {
+            "en": "Diversified Financial Services",
+            "vi": "Dịch vụ tài chính đa dạng"
+        },
+        "source_id": "402010",
+        "source_parent_id": "4020",
+        "parent_id": "Diversified Financials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Other Diversified Financial Services",
+        "id": "other_diversified_financial_services",
+        "names": {
+            "en": "Other Diversified Financial Services",
+            "vi": "Đa dạng dịch vụ tài chính khác"
+        },
+        "source_id": "40201020",
+        "source_parent_id": "402010",
+        "parent_id": "Diversified Financial Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Multi-Sector Holdings",
+        "id": "multi_sector_holdings",
+        "names": {
+            "en": "Multi-Sector Holdings",
+            "vi": "Multi-Sector Holdings"
+        },
+        "source_id": "40201030",
+        "source_parent_id": "402010",
+        "parent_id": "Diversified Financial Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Specialized Finance",
+        "id": "specialized_finance",
+        "names": {
+            "en": "Specialized Finance",
+            "vi": "chuyên ngành Tài chính"
+        },
+        "source_id": "40201040",
+        "source_parent_id": "402010",
+        "parent_id": "Diversified Financial Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Consumer Finance",
+        "id": "consumer_finance",
+        "names": {
+            "en": "Consumer Finance",
+            "vi": "Tài chính tiêu dùng"
+        },
+        "source_id": "402020",
+        "source_parent_id": "4020",
+        "parent_id": "Diversified Financials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Consumer Finance",
+        "id": "consumer_finance",
+        "names": {
+            "en": "Consumer Finance",
+            "vi": "Tài chính tiêu dùng"
+        },
+        "source_id": "40202010",
+        "source_parent_id": "402020",
+        "parent_id": "Consumer Finance",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Capital Markets",
+        "id": "capital_markets",
+        "names": {
+            "en": "Capital Markets",
+            "vi": "thị trường vốn"
+        },
+        "source_id": "402030",
+        "source_parent_id": "4020",
+        "parent_id": "Diversified Financials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Asset Management & Custody Banks",
+        "id": "asset_management_custody_banks",
+        "names": {
+            "en": "Asset Management & Custody Banks",
+            "vi": "Quản lý tài sản & Ngân hàng lưu ký"
+        },
+        "source_id": "40203010",
+        "source_parent_id": "402030",
+        "parent_id": "Capital Markets",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Investment Banking & Brokerage",
+        "id": "investment_banking_brokerage",
+        "names": {
+            "en": "Investment Banking & Brokerage",
+            "vi": "Ngân hàng & môi giới đầu tư"
+        },
+        "source_id": "40203020",
+        "source_parent_id": "402030",
+        "parent_id": "Capital Markets",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Diversified Capital Markets",
+        "id": "diversified_capital_markets",
+        "names": {
+            "en": "Diversified Capital Markets",
+            "vi": "Đa dạng Capital Markets"
+        },
+        "source_id": "40203030",
+        "source_parent_id": "402030",
+        "parent_id": "Capital Markets",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Financial Exchanges & Data",
+        "id": "financial_exchanges_data",
+        "names": {
+            "en": "Financial Exchanges & Data",
+            "vi": "Trao đổi tài chính & dữ liệu"
+        },
+        "source_id": "40203040",
+        "source_parent_id": "402030",
+        "parent_id": "Capital Markets",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Mortgage Real Estate Investment Trusts (REITs)",
+        "id": "mortgage_real_estate_investment_trusts_reits",
+        "names": {
+            "en": "Mortgage Real Estate Investment Trusts (REITs)",
+            "vi": "Trusts thế chấp bất động sản đầu tư (REITs)"
+        },
+        "source_id": "402040",
+        "source_parent_id": "4020",
+        "parent_id": "Diversified Financials",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Mortgage REITs",
+        "id": "mortgage_reits",
+        "names": {
+            "en": "Mortgage REITs",
+            "vi": "REITs thế chấp"
+        },
+        "source_id": "40204010",
+        "source_parent_id": "402040",
+        "parent_id": "Mortgage Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Insurance",
+        "id": "insurance",
+        "names": {
+            "en": "Insurance",
+            "vi": "Bảo hiểm"
+        },
+        "source_id": "4030",
+        "source_parent_id": "40",
+        "parent_id": "financials_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Insurance",
+        "id": "insurance",
+        "names": {
+            "en": "Insurance",
+            "vi": "Bảo hiểm"
+        },
+        "source_id": "403010",
+        "source_parent_id": "4030",
+        "parent_id": "Insurance",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Insurance Brokers",
+        "id": "insurance_brokers",
+        "names": {
+            "en": "Insurance Brokers",
+            "vi": "môi giới bảo hiểm"
+        },
+        "source_id": "40301010",
+        "source_parent_id": "403010",
+        "parent_id": "Insurance",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Life & Health Insurance",
+        "id": "life_health_insurance",
+        "names": {
+            "en": "Life & Health Insurance",
+            "vi": "Bảo hiểm nhân thọ và sức khỏe"
+        },
+        "source_id": "40301020",
+        "source_parent_id": "403010",
+        "parent_id": "Insurance",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Multi-line Insurance",
+        "id": "multi_line_insurance",
+        "names": {
+            "en": "Multi-line Insurance",
+            "vi": "Bảo hiểm nhiều đường"
+        },
+        "source_id": "40301030",
+        "source_parent_id": "403010",
+        "parent_id": "Insurance",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Property & Casualty Insurance",
+        "id": "property_casualty_insurance",
+        "names": {
+            "en": "Property & Casualty Insurance",
+            "vi": "Bảo hiểm tài sản và tai nạn"
+        },
+        "source_id": "40301040",
+        "source_parent_id": "403010",
+        "parent_id": "Insurance",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Reinsurance",
+        "id": "reinsurance",
+        "names": {
+            "en": "Reinsurance",
+            "vi": "Tái bảo hiểm"
+        },
+        "source_id": "40301050",
+        "source_parent_id": "403010",
+        "parent_id": "Insurance",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Information Technology(Sector)",
+        "id": "information_technology_sector",
+        "names": {
+            "en": "Information Technology(Sector)",
+            "vi": "công nghệ thông tin"
+        },
+        "source_id": "45",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Software & Services",
+        "id": "software_services",
+        "names": {
+            "en": "Software & Services",
+            "vi": "Phần mềm & Dịch vụ"
+        },
+        "source_id": "4510",
+        "source_parent_id": "45",
+        "parent_id": "information_technology_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "IT Services",
+        "id": "it_services",
+        "names": {
+            "en": "IT Services",
+            "vi": "Dịch vụ IT"
+        },
+        "source_id": "451020",
+        "source_parent_id": "4510",
+        "parent_id": "Software & Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "IT Consulting & Other Services",
+        "id": "it_consulting_other_services",
+        "names": {
+            "en": "IT Consulting & Other Services",
+            "vi": "CNTT Tư vấn & dịch vụ khác"
+        },
+        "source_id": "45102010",
+        "source_parent_id": "451020",
+        "parent_id": "IT Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Data Processing & Outsourced Services",
+        "id": "data_processing_outsourced_services",
+        "names": {
+            "en": "Data Processing & Outsourced Services",
+            "vi": "Xử lý dữ liệu & gia công phần mềm dịch vụ"
+        },
+        "source_id": "45102020",
+        "source_parent_id": "451020",
+        "parent_id": "IT Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Internet Services & Infrastructure",
+        "id": "internet_services_infrastructure",
+        "names": {
+            "en": "Internet Services & Infrastructure",
+            "vi": "Dịch vụ Internet & cơ sở hạ tầng"
+        },
+        "source_id": "45102030",
+        "source_parent_id": "451020",
+        "parent_id": "IT Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Software",
+        "id": "software",
+        "names": {
+            "en": "Software",
+            "vi": "Phần mềm"
+        },
+        "source_id": "451030",
+        "source_parent_id": "4510",
+        "parent_id": "Software & Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Application Software",
+        "id": "application_software",
+        "names": {
+            "en": "Application Software",
+            "vi": "Phần mềm ứng dụng"
+        },
+        "source_id": "45103010",
+        "source_parent_id": "451030",
+        "parent_id": "Software",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Systems Software",
+        "id": "systems_software",
+        "names": {
+            "en": "Systems Software",
+            "vi": "hệ thống phần mềm"
+        },
+        "source_id": "45103020",
+        "source_parent_id": "451030",
+        "parent_id": "Software",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Technology Hardware & Equipment",
+        "id": "technology_hardware_equipment",
+        "names": {
+            "en": "Technology Hardware & Equipment",
+            "vi": "Công nghệ Phần cứng & Thiết bị"
+        },
+        "source_id": "4520",
+        "source_parent_id": "45",
+        "parent_id": "information_technology_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Communications Equipment",
+        "id": "communications_equipment",
+        "names": {
+            "en": "Communications Equipment",
+            "vi": "Trang thiết bị liên lạc"
+        },
+        "source_id": "452010",
+        "source_parent_id": "4520",
+        "parent_id": "Technology Hardware & Equipment",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Communications Equipment",
+        "id": "communications_equipment",
+        "names": {
+            "en": "Communications Equipment",
+            "vi": "Trang thiết bị liên lạc"
+        },
+        "source_id": "45201020",
+        "source_parent_id": "452010",
+        "parent_id": "Communications Equipment",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Technology Hardware, Storage & Peripherals",
+        "id": "technology_hardware_storage_peripherals",
+        "names": {
+            "en": "Technology Hardware, Storage & Peripherals",
+            "vi": "Công nghệ phần cứng lưu trữ & Thiết bị ngoại vi"
+        },
+        "source_id": "452020",
+        "source_parent_id": "4520",
+        "parent_id": "Technology Hardware & Equipment",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Technology Hardware, Storage & Peripherals",
+        "id": "technology_hardware_storage_peripherals",
+        "names": {
+            "en": "Technology Hardware, Storage & Peripherals",
+            "vi": "Công nghệ phần cứng lưu trữ & Thiết bị ngoại vi"
+        },
+        "source_id": "45202030",
+        "source_parent_id": "452020",
+        "parent_id": "Technology Hardware, Storage & Peripherals",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Electronic Equipment, Instruments & Components",
+        "id": "electronic_equipment_instruments_components",
+        "names": {
+            "en": "Electronic Equipment, Instruments & Components",
+            "vi": "Thiết bị điện dụng cụ & Linh kiện"
+        },
+        "source_id": "452030",
+        "source_parent_id": "4520",
+        "parent_id": "Technology Hardware & Equipment",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Electronic Equipment & Instruments",
+        "id": "electronic_equipment_instruments",
+        "names": {
+            "en": "Electronic Equipment & Instruments",
+            "vi": "Thiết bị điện & Dụng cụ"
+        },
+        "source_id": "45203010",
+        "source_parent_id": "452030",
+        "parent_id": "Electronic Equipment, Instruments & Components",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Electronic Components",
+        "id": "electronic_components",
+        "names": {
+            "en": "Electronic Components",
+            "vi": "Linh kiện điện tử"
+        },
+        "source_id": "45203015",
+        "source_parent_id": "452030",
+        "parent_id": "Electronic Equipment, Instruments & Components",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Electronic Manufacturing Services",
+        "id": "electronic_manufacturing_services",
+        "names": {
+            "en": "Electronic Manufacturing Services",
+            "vi": "Điện tử Sản xuất Dịch vụ"
+        },
+        "source_id": "45203020",
+        "source_parent_id": "452030",
+        "parent_id": "Electronic Equipment, Instruments & Components",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Technology Distributors",
+        "id": "technology_distributors",
+        "names": {
+            "en": "Technology Distributors",
+            "vi": "Nhà phân phối Công nghệ"
+        },
+        "source_id": "45203030",
+        "source_parent_id": "452030",
+        "parent_id": "Electronic Equipment, Instruments & Components",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Semiconductors & Semiconductor Equipment",
+        "id": "semiconductors_semiconductor_equipment",
+        "names": {
+            "en": "Semiconductors & Semiconductor Equipment",
+            "vi": "Semiconductors & Thiết bị bán dẫn"
+        },
+        "source_id": "4530",
+        "source_parent_id": "45",
+        "parent_id": "information_technology_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Semiconductors & Semiconductor Equipment",
+        "id": "semiconductors_semiconductor_equipment",
+        "names": {
+            "en": "Semiconductors & Semiconductor Equipment",
+            "vi": "Semiconductors & Thiết bị bán dẫn"
+        },
+        "source_id": "453010",
+        "source_parent_id": "4530",
+        "parent_id": "Semiconductors & Semiconductor Equipment",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Semiconductor Equipment",
+        "id": "semiconductor_equipment",
+        "names": {
+            "en": "Semiconductor Equipment",
+            "vi": "thiết bị bán dẫn"
+        },
+        "source_id": "45301010",
+        "source_parent_id": "453010",
+        "parent_id": "Semiconductors & Semiconductor Equipment",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Semiconductors",
+        "id": "semiconductors",
+        "names": {
+            "en": "Semiconductors",
+            "vi": "Chất bán dẫn"
+        },
+        "source_id": "45301020",
+        "source_parent_id": "453010",
+        "parent_id": "Semiconductors & Semiconductor Equipment",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Communication Services(Sector)",
+        "id": "communication_services_sector",
+        "names": {
+            "en": "Communication Services(Sector)",
+            "vi": "Dịch vụ giao tiếp"
+        },
+        "source_id": "50",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Communication Services",
+        "id": "communication_services",
+        "names": {
+            "en": "Communication Services",
+            "vi": "Dịch vụ giao tiếp"
+        },
+        "source_id": "5010",
+        "source_parent_id": "50",
+        "parent_id": "communication_services_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Diversified Telecommunication Services",
+        "id": "diversified_telecommunication_services",
+        "names": {
+            "en": "Diversified Telecommunication Services",
+            "vi": "Dịch vụ viễn thông đa dạng"
+        },
+        "source_id": "501010",
+        "source_parent_id": "5010",
+        "parent_id": "Communication Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Alternative Carriers",
+        "id": "alternative_carriers",
+        "names": {
+            "en": "Alternative Carriers",
+            "vi": "Người vận chuyển thay thế"
+        },
+        "source_id": "50101010",
+        "source_parent_id": "501010",
+        "parent_id": "Diversified Telecommunication Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Integrated Telecommunication Services",
+        "id": "integrated_telecommunication_services",
+        "names": {
+            "en": "Integrated Telecommunication Services",
+            "vi": "Dịch vụ viễn thông tích hợp"
+        },
+        "source_id": "50101020",
+        "source_parent_id": "501010",
+        "parent_id": "Diversified Telecommunication Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Wireless Telecommunication Services",
+        "id": "wireless_telecommunication_services",
+        "names": {
+            "en": "Wireless Telecommunication Services",
+            "vi": "Dịch vụ viễn thông không dây"
+        },
+        "source_id": "501020",
+        "source_parent_id": "5010",
+        "parent_id": "Communication Services",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Wireless Telecommunication Services",
+        "id": "wireless_telecommunication_services",
+        "names": {
+            "en": "Wireless Telecommunication Services",
+            "vi": "Dịch vụ viễn thông không dây"
+        },
+        "source_id": "50102010",
+        "source_parent_id": "501020",
+        "parent_id": "Wireless Telecommunication Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Media & Entertainment",
+        "id": "media_entertainment",
+        "names": {
+            "en": "Media & Entertainment",
+            "vi": "Truyền thông & Giải trí"
+        },
+        "source_id": "5020",
+        "source_parent_id": "50",
+        "parent_id": "communication_services_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Media",
+        "id": "media",
+        "names": {
+            "en": "Media",
+            "vi": "Phương tiện truyền thông"
+        },
+        "source_id": "502010",
+        "source_parent_id": "5020",
+        "parent_id": "Media & Entertainment",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Advertising",
+        "id": "advertising",
+        "names": {
+            "en": "Advertising",
+            "vi": "quảng cáo"
+        },
+        "source_id": "50201010",
+        "source_parent_id": "502010",
+        "parent_id": "Media",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Broadcasting",
+        "id": "broadcasting",
+        "names": {
+            "en": "Broadcasting",
+            "vi": "Phát thanh truyền hình"
+        },
+        "source_id": "50201020",
+        "source_parent_id": "502010",
+        "parent_id": "Media",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Cable & Satellite",
+        "id": "cable_satellite",
+        "names": {
+            "en": "Cable & Satellite",
+            "vi": "Cáp và vệ tinh"
+        },
+        "source_id": "50201030",
+        "source_parent_id": "502010",
+        "parent_id": "Media",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Publishing",
+        "id": "publishing",
+        "names": {
+            "en": "Publishing",
+            "vi": "xuất bản"
+        },
+        "source_id": "50201040",
+        "source_parent_id": "502010",
+        "parent_id": "Media",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Entertainment",
+        "id": "entertainment",
+        "names": {
+            "en": "Entertainment",
+            "vi": "Sự giải trí"
+        },
+        "source_id": "502020",
+        "source_parent_id": "5020",
+        "parent_id": "Media & Entertainment",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Movies & Entertainment",
+        "id": "movies_entertainment",
+        "names": {
+            "en": "Movies & Entertainment",
+            "vi": "Phim ảnh & Giải trí"
+        },
+        "source_id": "50202010",
+        "source_parent_id": "502020",
+        "parent_id": "Entertainment",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Interactive Home Entertainment",
+        "id": "interactive_home_entertainment",
+        "names": {
+            "en": "Interactive Home Entertainment",
+            "vi": "Interactive Home Entertainment"
+        },
+        "source_id": "50202020",
+        "source_parent_id": "502020",
+        "parent_id": "Entertainment",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Interactive Media & Services",
+        "id": "interactive_media_services",
+        "names": {
+            "en": "Interactive Media & Services",
+            "vi": "Interactive Media & Dịch vụ"
+        },
+        "source_id": "502030",
+        "source_parent_id": "5020",
+        "parent_id": "Media & Entertainment",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Interactive Media & Services",
+        "id": "interactive_media_services",
+        "names": {
+            "en": "Interactive Media & Services",
+            "vi": "Interactive Media & Dịch vụ"
+        },
+        "source_id": "50203010",
+        "source_parent_id": "502030",
+        "parent_id": "Interactive Media & Services",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Utilities(Sector)",
+        "id": "utilities_sector",
+        "names": {
+            "en": "Utilities(Sector)",
+            "vi": "Tiện ích"
+        },
+        "source_id": "55",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Utilities",
+        "id": "utilities",
+        "names": {
+            "en": "Utilities",
+            "vi": "Tiện ích"
+        },
+        "source_id": "5510",
+        "source_parent_id": "55",
+        "parent_id": "utilities_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Electric Utilities",
+        "id": "electric_utilities",
+        "names": {
+            "en": "Electric Utilities",
+            "vi": "Tiện ích điện năng"
+        },
+        "source_id": "551010",
+        "source_parent_id": "5510",
+        "parent_id": "Utilities",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Electric Utilities",
+        "id": "electric_utilities",
+        "names": {
+            "en": "Electric Utilities",
+            "vi": "Tiện ích điện năng"
+        },
+        "source_id": "55101010",
+        "source_parent_id": "551010",
+        "parent_id": "Electric Utilities",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Gas Utilities",
+        "id": "gas_utilities",
+        "names": {
+            "en": "Gas Utilities",
+            "vi": "Tiện ích gas"
+        },
+        "source_id": "551020",
+        "source_parent_id": "5510",
+        "parent_id": "Utilities",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Gas Utilities",
+        "id": "gas_utilities",
+        "names": {
+            "en": "Gas Utilities",
+            "vi": "Tiện ích gas"
+        },
+        "source_id": "55102010",
+        "source_parent_id": "551020",
+        "parent_id": "Gas Utilities",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Multi-Utilities",
+        "id": "multi_utilities",
+        "names": {
+            "en": "Multi-Utilities",
+            "vi": "Đa tiện ích"
+        },
+        "source_id": "551030",
+        "source_parent_id": "5510",
+        "parent_id": "Utilities",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Multi-Utilities",
+        "id": "multi_utilities",
+        "names": {
+            "en": "Multi-Utilities",
+            "vi": "Đa tiện ích"
+        },
+        "source_id": "55103010",
+        "source_parent_id": "551030",
+        "parent_id": "Multi-Utilities",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Water Utilities",
+        "id": "water_utilities",
+        "names": {
+            "en": "Water Utilities",
+            "vi": "Tiện ích nước"
+        },
+        "source_id": "551040",
+        "source_parent_id": "5510",
+        "parent_id": "Utilities",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Water Utilities",
+        "id": "water_utilities",
+        "names": {
+            "en": "Water Utilities",
+            "vi": "Tiện ích nước"
+        },
+        "source_id": "55104010",
+        "source_parent_id": "551040",
+        "parent_id": "Water Utilities",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Independent Power and Renewable Electricity Producers",
+        "id": "independent_power_and_renewable_electricity_producers",
+        "names": {
+            "en": "Independent Power and Renewable Electricity Producers",
+            "vi": "Điện độc lập và tái tạo Điện lực sản xuất"
+        },
+        "source_id": "551050",
+        "source_parent_id": "5510",
+        "parent_id": "Utilities",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Independent Power Producers & Energy Traders",
+        "id": "independent_power_producers_energy_traders",
+        "names": {
+            "en": "Independent Power Producers & Energy Traders",
+            "vi": "Điện độc lập sản xuất & Năng lượng Thương nhân"
+        },
+        "source_id": "55105010",
+        "source_parent_id": "551050",
+        "parent_id": "Independent Power and Renewable Electricity Producers",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Renewable Electricity",
+        "id": "renewable_electricity",
+        "names": {
+            "en": "Renewable Electricity",
+            "vi": "tái tạo Điện"
+        },
+        "source_id": "55105020",
+        "source_parent_id": "551050",
+        "parent_id": "Independent Power and Renewable Electricity Producers",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 1,
+        "name": "Real Estate(Sector)",
+        "id": "real_estate_sector",
+        "names": {
+            "en": "Real Estate(Sector)",
+            "vi": "Địa ốc"
+        },
+        "source_id": "60",
+        "source_parent_id": "",
+        "parent_id": "",
+        "types": [
+            "gics",
+            "sector"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 2,
+        "name": "Real Estate",
+        "id": "real_estate",
+        "names": {
+            "en": "Real Estate",
+            "vi": "Địa ốc"
+        },
+        "source_id": "6010",
+        "source_parent_id": "60",
+        "parent_id": "real_estate_sector",
+        "types": [
+            "gics",
+            "industry_group"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Equity Real Estate Investment Trusts (REITs)",
+        "id": "equity_real_estate_investment_trusts_reits",
+        "names": {
+            "en": "Equity Real Estate Investment Trusts (REITs)",
+            "vi": "Tín thác đầu tư bất động sản"
+        },
+        "source_id": "601010",
+        "source_parent_id": "6010",
+        "parent_id": "Real Estate",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Diversified REITs",
+        "id": "diversified_reits",
+        "names": {
+            "en": "Diversified REITs",
+            "vi": "REITs đa dạng"
+        },
+        "source_id": "60101010",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Industrial REITs",
+        "id": "industrial_reits",
+        "names": {
+            "en": "Industrial REITs",
+            "vi": "REITs công nghiệp"
+        },
+        "source_id": "60101020",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Hotel & Resort REITs",
+        "id": "hotel_resort_reits",
+        "names": {
+            "en": "Hotel & Resort REITs",
+            "vi": "REITs Hotel & Resort"
+        },
+        "source_id": "60101030",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Office REITs",
+        "id": "office_reits",
+        "names": {
+            "en": "Office REITs",
+            "vi": "REITs văn phòng"
+        },
+        "source_id": "60101040",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Health Care REITs",
+        "id": "health_care_reits",
+        "names": {
+            "en": "Health Care REITs",
+            "vi": "REITs Chăm sóc sức khỏe"
+        },
+        "source_id": "60101050",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Residential REITs",
+        "id": "residential_reits",
+        "names": {
+            "en": "Residential REITs",
+            "vi": "REITs cư"
+        },
+        "source_id": "60101060",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Retail REITs",
+        "id": "retail_reits",
+        "names": {
+            "en": "Retail REITs",
+            "vi": "REITs bán lẻ"
+        },
+        "source_id": "60101070",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Specialized REITs",
+        "id": "specialized_reits",
+        "names": {
+            "en": "Specialized REITs",
+            "vi": "REITs chuyên"
+        },
+        "source_id": "60101080",
+        "source_parent_id": "601010",
+        "parent_id": "Equity Real Estate Investment Trusts (REITs)",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 3,
+        "name": "Real Estate Management & Development",
+        "id": "real_estate_management_development",
+        "names": {
+            "en": "Real Estate Management & Development",
+            "vi": "Quản lý & Phát triển Bất động sản"
+        },
+        "source_id": "601020",
+        "source_parent_id": "6010",
+        "parent_id": "Real Estate",
+        "types": [
+            "gics",
+            "industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Diversified Real Estate Activities",
+        "id": "diversified_real_estate_activities",
+        "names": {
+            "en": "Diversified Real Estate Activities",
+            "vi": "Các hoạt động đa dạng Bất động sản"
+        },
+        "source_id": "60102010",
+        "source_parent_id": "601020",
+        "parent_id": "Real Estate Management & Development",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Real Estate Operating Companies",
+        "id": "real_estate_operating_companies",
+        "names": {
+            "en": "Real Estate Operating Companies",
+            "vi": "Các công ty điều hành Bất động sản"
+        },
+        "source_id": "60102020",
+        "source_parent_id": "601020",
+        "parent_id": "Real Estate Management & Development",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Real Estate Development",
+        "id": "real_estate_development",
+        "names": {
+            "en": "Real Estate Development",
+            "vi": "Phát triển bất động sản"
+        },
+        "source_id": "60102030",
+        "source_parent_id": "601020",
+        "parent_id": "Real Estate Management & Development",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    },
+    {
+        "level": 4,
+        "name": "Real Estate Services",
+        "id": "real_estate_services",
+        "names": {
+            "en": "Real Estate Services",
+            "vi": "Dịch vụ Bất động sản"
+        },
+        "source_id": "60102040",
+        "source_parent_id": "601020",
+        "parent_id": "Real Estate Management & Development",
+        "types": [
+            "gics",
+            "sub_industry"
+        ],
+        "source": "wikipedia",
+        "source_url": "https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard",
+        "synonyms": {
+            "en": [],
+            "vi": []
+        }
+    }
+]

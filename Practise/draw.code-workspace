@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "draw"
+	},
+	{
+		"path": "../WebVOWL"
+	},
+	{
+		"path": "../webvowl_1.1.7"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "webvowl_1.1.7"
+  }
+}

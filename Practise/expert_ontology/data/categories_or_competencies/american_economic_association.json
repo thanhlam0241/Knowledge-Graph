@@ -1,0 +1,6034 @@
+[
+  {
+    "id": "general_economics_and_teaching",
+    "parent_id": "",
+    "name": "General Economics and Teaching",
+    "names": {
+      "en": "General Economics and Teaching"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "A",
+    "source_parent_id": "",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "general_economics",
+    "parent_id": "general_economics_and_teaching",
+    "name": "General Economics",
+    "names": {
+      "en": "General Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "A1",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "role_of_economics_role_of_economists_market_for_economists",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Role of Economics , Role of Economists , Market for Economists",
+    "names": {
+      "en": "Role of Economics , Role of Economists , Market for Economists"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A11",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "relation_of_economics_to_other_disciplines",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Relation of Economics to Other Disciplines",
+    "names": {
+      "en": "Relation of Economics to Other Disciplines"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A12",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "relation_of_economics_to_social_values",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Relation of Economics to Social Values",
+    "names": {
+      "en": "Relation of Economics to Social Values"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A13",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "sociology_of_economics",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Sociology of Economics",
+    "names": {
+      "en": "Sociology of Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A14",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "economic_education_and_teaching_of_economics",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Economic Education and Teaching of Economics",
+    "names": {
+      "en": "Economic Education and Teaching of Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "A2",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "pre_college",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Pre-college",
+    "names": {
+      "en": "Pre-college"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A21",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "undergraduate",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Undergraduate",
+    "names": {
+      "en": "Undergraduate"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A22",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "graduate",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Graduate",
+    "names": {
+      "en": "Graduate"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A23",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "collective_works",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Collective Works",
+    "names": {
+      "en": "Collective Works"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "A3",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "collected_writings_of_individuals",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Collected Writings of Individuals",
+    "names": {
+      "en": "Collected Writings of Individuals"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A31",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "collective_volumes",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Collective Volumes",
+    "names": {
+      "en": "Collective Volumes"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A32",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "handbooks",
+    "parent_id": "general_economics_and_teaching",
+    "name": "Handbooks",
+    "names": {
+      "en": "Handbooks"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "A33",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#A"
+  },
+  {
+    "id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "parent_id": "general_economics_and_teaching",
+    "name": "History of Economic Thought, Methodology, and Heterodox Approaches",
+    "names": {
+      "en": "History of Economic Thought, Methodology, and Heterodox Approaches"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "B",
+    "source_parent_id": "A",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "history_of_economic_thought_through_1925",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "History of Economic Thought through 1925",
+    "names": {
+      "en": "History of Economic Thought through 1925"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "B1",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "preclassical_ancient_medieval_mercantilist_physiocratic",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Preclassical (Ancient, Medieval, Mercantilist, Physiocratic)",
+    "names": {
+      "en": "Preclassical (Ancient, Medieval, Mercantilist, Physiocratic)"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B11",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "classical_includes_adam_smith",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Classical (includes Adam Smith)",
+    "names": {
+      "en": "Classical (includes Adam Smith)"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B12",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "neoclassical_through_1925_austrian_marshallian_walrasian_wicksellian",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Neoclassical through 1925 (Austrian, Marshallian, Walrasian, Wicksellian)",
+    "names": {
+      "en": "Neoclassical through 1925 (Austrian, Marshallian, Walrasian, Wicksellian)"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B13",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "socialist_marxist",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Socialist , Marxist",
+    "names": {
+      "en": "Socialist , Marxist"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B14",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "historical_institutional_evolutionary",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Historical , Institutional , Evolutionary",
+    "names": {
+      "en": "Historical , Institutional , Evolutionary"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B15",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "quantitative_and_mathematical",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Quantitative and Mathematical",
+    "names": {
+      "en": "Quantitative and Mathematical"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B16",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "international_trade_and_finance",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "International Trade and Finance",
+    "names": {
+      "en": "International Trade and Finance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B17",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "history_of_economic_thought_since_1925",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "History of Economic Thought since 1925",
+    "names": {
+      "en": "History of Economic Thought since 1925"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "B2",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "microeconomics",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Microeconomics",
+    "names": {
+      "en": "Microeconomics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B21",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "macroeconomics",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Macroeconomics",
+    "names": {
+      "en": "Macroeconomics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B22",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "econometrics_quantitative_and_mathematical_studies",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Econometrics , Quantitative and Mathematical Studies",
+    "names": {
+      "en": "Econometrics , Quantitative and Mathematical Studies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B23",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "socialist_marxist_sraffian",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Socialist , Marxist , Sraffian",
+    "names": {
+      "en": "Socialist , Marxist , Sraffian"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B24",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "historical_institutional_evolutionary_austrian_stockholm_school",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Historical , Institutional , Evolutionary , Austrian , Stockholm School",
+    "names": {
+      "en": "Historical , Institutional , Evolutionary , Austrian , Stockholm School"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B25",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "financial_economics",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Financial Economics",
+    "names": {
+      "en": "Financial Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B26",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "international_trade_and_finance",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "International Trade and Finance",
+    "names": {
+      "en": "International Trade and Finance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B27",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "history_of_economic_thought_individuals",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "History of Economic Thought:  Individuals",
+    "names": {
+      "en": "History of Economic Thought:  Individuals"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "B3",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "individuals",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Individuals",
+    "names": {
+      "en": "Individuals"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B31",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "obituaries",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Obituaries",
+    "names": {
+      "en": "Obituaries"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B32",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "economic_methodology",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Economic Methodology",
+    "names": {
+      "en": "Economic Methodology"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "B4",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "economic_methodology",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Economic Methodology",
+    "names": {
+      "en": "Economic Methodology"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B41",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "current_heterodox_approaches",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Current Heterodox Approaches",
+    "names": {
+      "en": "Current Heterodox Approaches"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "B5",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "socialist_marxian_sraffian",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Socialist , Marxian , Sraffian",
+    "names": {
+      "en": "Socialist , Marxian , Sraffian"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B51",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "historical_institutional_evolutionary_modern_monetary_theory",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Historical , Institutional , Evolutionary , Modern Monetary Theory",
+    "names": {
+      "en": "Historical , Institutional , Evolutionary , Modern Monetary Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B52",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "austrian",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Austrian",
+    "names": {
+      "en": "Austrian"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B53",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "feminist_economics",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Feminist Economics",
+    "names": {
+      "en": "Feminist Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B54",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "social_economics",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Social Economics",
+    "names": {
+      "en": "Social Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "B55",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#B"
+  },
+  {
+    "id": "mathematical_and_quantitative_methods",
+    "parent_id": "history_of_economic_thought_methodology_and_heterodox_approaches",
+    "name": "Mathematical and Quantitative Methods",
+    "names": {
+      "en": "Mathematical and Quantitative Methods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "C",
+    "source_parent_id": "B",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "econometrics",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Econometrics",
+    "names": {
+      "en": "Econometrics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C01",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "mathematical_methods",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Mathematical Methods",
+    "names": {
+      "en": "Mathematical Methods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C02",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "econometric_and_statistical_methods_and_methodology_general",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Econometric and Statistical Methods and Methodology:  General",
+    "names": {
+      "en": "Econometric and Statistical Methods and Methodology:  General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C1",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "bayesian_analysis_general",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Bayesian Analysis: General",
+    "names": {
+      "en": "Bayesian Analysis: General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C11",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "hypothesis_testing_general",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Hypothesis Testing: General",
+    "names": {
+      "en": "Hypothesis Testing: General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C12",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "estimation_general",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Estimation: General",
+    "names": {
+      "en": "Estimation: General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C13",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "semiparametric_and_nonparametric_methods_general",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Semiparametric and Nonparametric Methods: General",
+    "names": {
+      "en": "Semiparametric and Nonparametric Methods: General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C14",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "statistical_simulation_methods_general",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Statistical Simulation Methods: General",
+    "names": {
+      "en": "Statistical Simulation Methods: General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C15",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "methodological_issues_general",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Methodological Issues: General",
+    "names": {
+      "en": "Methodological Issues: General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C18",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "single_equation_models_single_variables",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Single Equation Models , Single Variables",
+    "names": {
+      "en": "Single Equation Models , Single Variables"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C2",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "cross_sectional_models_spatial_models_treatment_effect_models_quantile_regressions",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Cross-Sectional Models , Spatial Models , Treatment Effect Models , Quantile Regressions",
+    "names": {
+      "en": "Cross-Sectional Models , Spatial Models , Treatment Effect Models , Quantile Regressions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C21",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "time_series_models_dynamic_quantile_regressions_dynamic_treatment_effect_models_diffusion_processes",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Time-Series Models , Dynamic Quantile Regressions , Dynamic Treatment Effect Models , Diffusion Processes",
+    "names": {
+      "en": "Time-Series Models , Dynamic Quantile Regressions , Dynamic Treatment Effect Models , Diffusion Processes"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C22",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "panel_data_models_spatio_temporal_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Panel Data Models , Spatio-temporal Models",
+    "names": {
+      "en": "Panel Data Models , Spatio-temporal Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C23",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "truncated_and_censored_models_switching_regression_models_threshold_regression_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Truncated and Censored Models , Switching Regression Models , Threshold Regression Models",
+    "names": {
+      "en": "Truncated and Censored Models , Switching Regression Models , Threshold Regression Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C24",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "discrete_regression_and_qualitative_choice_models_discrete_regressors_proportions_probabilities",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Discrete Regression and Qualitative Choice Models , Discrete Regressors , Proportions , Probabilities",
+    "names": {
+      "en": "Discrete Regression and Qualitative Choice Models , Discrete Regressors , Proportions , Probabilities"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C25",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "instrumental_variables_iv_estimation",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Instrumental Variables (IV) Estimation",
+    "names": {
+      "en": "Instrumental Variables (IV) Estimation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C26",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "multiple_or_simultaneous_equation_models_multiple_variables",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Multiple or Simultaneous Equation Models , Multiple Variables",
+    "names": {
+      "en": "Multiple or Simultaneous Equation Models , Multiple Variables"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C3",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "cross_sectional_models_spatial_models_treatment_effect_models_quantile_regressions_social_interaction_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Cross-Sectional Models , Spatial Models , Treatment Effect Models , Quantile Regressions , Social Interaction Models",
+    "names": {
+      "en": "Cross-Sectional Models , Spatial Models , Treatment Effect Models , Quantile Regressions , Social Interaction Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C31",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "time_series_models_dynamic_quantile_regressions_dynamic_treatment_effect_models_diffusion_processes_state_space_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Time-Series Models , Dynamic Quantile Regressions , Dynamic Treatment Effect Models , Diffusion Processes , State Space Models",
+    "names": {
+      "en": "Time-Series Models , Dynamic Quantile Regressions , Dynamic Treatment Effect Models , Diffusion Processes , State Space Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C32",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "panel_data_models_spatio_temporal_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Panel Data Models , Spatio-temporal Models",
+    "names": {
+      "en": "Panel Data Models , Spatio-temporal Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C33",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "truncated_and_censored_models_switching_regression_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Truncated and Censored Models , Switching Regression Models",
+    "names": {
+      "en": "Truncated and Censored Models , Switching Regression Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C34",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "discrete_regression_and_qualitative_choice_models_discrete_regressors_proportions",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Discrete Regression and Qualitative Choice Models , Discrete Regressors , Proportions",
+    "names": {
+      "en": "Discrete Regression and Qualitative Choice Models , Discrete Regressors , Proportions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C35",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "instrumental_variables_iv_estimation",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Instrumental Variables (IV) Estimation",
+    "names": {
+      "en": "Instrumental Variables (IV) Estimation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C36",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "classification_methods_cluster_analysis_principal_components_factor_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Classification Methods , Cluster Analysis , Principal Components , Factor Models",
+    "names": {
+      "en": "Classification Methods , Cluster Analysis , Principal Components , Factor Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C38",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "econometric_and_statistical_methods_special_topics",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Econometric and Statistical Methods:  Special Topics",
+    "names": {
+      "en": "Econometric and Statistical Methods:  Special Topics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C4",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "duration_analysis_optimal_timing_strategies",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Duration Analysis , Optimal Timing Strategies",
+    "names": {
+      "en": "Duration Analysis , Optimal Timing Strategies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C41",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "index_numbers_and_aggregation",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Index Numbers and Aggregation",
+    "names": {
+      "en": "Index Numbers and Aggregation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C43",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "operations_research_statistical_decision_theory",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Operations Research , Statistical Decision Theory ",
+    "names": {
+      "en": "Operations Research , Statistical Decision Theory "
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C44",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "neural_networks_and_related_topics",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Neural Networks and Related Topics",
+    "names": {
+      "en": "Neural Networks and Related Topics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C45",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "specific_distributions_specific_statistics",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Specific Distributions , Specific Statistics",
+    "names": {
+      "en": "Specific Distributions , Specific Statistics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C46",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "econometric_modeling",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Econometric Modeling",
+    "names": {
+      "en": "Econometric Modeling"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C5",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "model_construction_and_estimation",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Model Construction and Estimation",
+    "names": {
+      "en": "Model Construction and Estimation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C51",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "model_evaluation_validation_and_selection",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Model Evaluation, Validation, and Selection",
+    "names": {
+      "en": "Model Evaluation, Validation, and Selection"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C52",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "forecasting_and_prediction_methods_simulation_methods",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Forecasting and Prediction Methods , Simulation Methods",
+    "names": {
+      "en": "Forecasting and Prediction Methods , Simulation Methods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C53",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "quantitative_policy_modeling",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Quantitative Policy Modeling",
+    "names": {
+      "en": "Quantitative Policy Modeling"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C54",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "large_data_sets_modeling_and_analysis",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Large Data Sets: Modeling and Analysis",
+    "names": {
+      "en": "Large Data Sets: Modeling and Analysis"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C55",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "econometrics_of_games_and_auctions",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Econometrics of Games and Auctions",
+    "names": {
+      "en": "Econometrics of Games and Auctions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C57",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "financial_econometrics",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Financial Econometrics",
+    "names": {
+      "en": "Financial Econometrics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C58",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "mathematical_methods_programming_models_mathematical_and_simulation_modeling",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Mathematical Methods , Programming Models , Mathematical and Simulation Modeling",
+    "names": {
+      "en": "Mathematical Methods , Programming Models , Mathematical and Simulation Modeling"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C6",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "optimization_techniques_programming_models_dynamic_analysis",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Optimization Techniques , Programming Models , Dynamic Analysis",
+    "names": {
+      "en": "Optimization Techniques , Programming Models , Dynamic Analysis"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C61",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "existence_and_stability_conditions_of_equilibrium",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Existence and Stability Conditions of Equilibrium",
+    "names": {
+      "en": "Existence and Stability Conditions of Equilibrium"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C62",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "computational_techniques_simulation_modeling",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Computational Techniques , Simulation Modeling",
+    "names": {
+      "en": "Computational Techniques , Simulation Modeling"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C63",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "miscellaneous_mathematical_tools",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Miscellaneous Mathematical Tools",
+    "names": {
+      "en": "Miscellaneous Mathematical Tools"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C65",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "input_ndash_output_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Input&ndash;Output Models",
+    "names": {
+      "en": "Input&ndash;Output Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C67",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "computable_general_equilibrium_models",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Computable General Equilibrium Models",
+    "names": {
+      "en": "Computable General Equilibrium Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C68",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "game_theory_and_bargaining_theory",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Game Theory and Bargaining Theory",
+    "names": {
+      "en": "Game Theory and Bargaining Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C7",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "cooperative_games",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Cooperative Games",
+    "names": {
+      "en": "Cooperative Games"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C71",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "noncooperative_games",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Noncooperative Games",
+    "names": {
+      "en": "Noncooperative Games"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C72",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "stochastic_and_dynamic_games_evolutionary_games_repeated_games",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Stochastic and Dynamic Games , Evolutionary Games , Repeated Games",
+    "names": {
+      "en": "Stochastic and Dynamic Games , Evolutionary Games , Repeated Games"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C73",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "bargaining_theory_matching_theory",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Bargaining Theory , Matching Theory",
+    "names": {
+      "en": "Bargaining Theory , Matching Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C78",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "data_collection_and_data_estimation_methodology_computer_programs",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Data Collection and Data Estimation Methodology , Computer Programs",
+    "names": {
+      "en": "Data Collection and Data Estimation Methodology , Computer Programs"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C8",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "methodology_for_collecting_estimating_and_organizing_microeconomic_data_data_access",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Methodology for Collecting, Estimating, and Organizing Microeconomic Data , Data Access",
+    "names": {
+      "en": "Methodology for Collecting, Estimating, and Organizing Microeconomic Data , Data Access"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C81",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "methodology_for_collecting_estimating_and_organizing_macroeconomic_data_data_access",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Methodology for Collecting, Estimating, and Organizing Macroeconomic Data , Data Access",
+    "names": {
+      "en": "Methodology for Collecting, Estimating, and Organizing Macroeconomic Data , Data Access"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C82",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "survey_methods_sampling_methods",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Survey Methods , Sampling Methods",
+    "names": {
+      "en": "Survey Methods , Sampling Methods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C83",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "econometric_software",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Econometric Software",
+    "names": {
+      "en": "Econometric Software"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C87",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "other_computer_software",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Other Computer Software",
+    "names": {
+      "en": "Other Computer Software"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C88",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "design_of_experiments",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Design of Experiments",
+    "names": {
+      "en": "Design of Experiments"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "C9",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "laboratory_individual_behavior",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Laboratory, Individual Behavior",
+    "names": {
+      "en": "Laboratory, Individual Behavior"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C91",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "laboratory_group_behavior",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Laboratory, Group Behavior",
+    "names": {
+      "en": "Laboratory, Group Behavior"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C92",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "field_experiments",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Field Experiments",
+    "names": {
+      "en": "Field Experiments"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "C93",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#C"
+  },
+  {
+    "id": "microeconomics",
+    "parent_id": "mathematical_and_quantitative_methods",
+    "name": "Microeconomics",
+    "names": {
+      "en": "Microeconomics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "D",
+    "source_parent_id": "C",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "microeconomic_behavior_underlying_principles",
+    "parent_id": "microeconomics",
+    "name": "Microeconomic Behavior: Underlying Principles",
+    "names": {
+      "en": "Microeconomic Behavior: Underlying Principles"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D01",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "institutions_design_formation_operations_and_impact",
+    "parent_id": "microeconomics",
+    "name": "Institutions: Design, Formation, Operations, and Impact",
+    "names": {
+      "en": "Institutions: Design, Formation, Operations, and Impact"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D02",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "microeconomic_policy_formulation_implementation_and_evaluation",
+    "parent_id": "microeconomics",
+    "name": "Microeconomic Policy: Formulation, Implementation, and Evaluation",
+    "names": {
+      "en": "Microeconomic Policy: Formulation, Implementation, and Evaluation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D04",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "household_behavior_and_family_economics",
+    "parent_id": "microeconomics",
+    "name": "Household Behavior and Family Economics",
+    "names": {
+      "en": "Household Behavior and Family Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D1",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "consumer_economics_theory",
+    "parent_id": "microeconomics",
+    "name": "Consumer Economics: Theory",
+    "names": {
+      "en": "Consumer Economics: Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D11",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "consumer_economics_empirical_analysis",
+    "parent_id": "microeconomics",
+    "name": "Consumer Economics: Empirical Analysis",
+    "names": {
+      "en": "Consumer Economics: Empirical Analysis"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D12",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "household_production_and_intrahousehold_allocation",
+    "parent_id": "microeconomics",
+    "name": "Household Production and Intrahousehold Allocation",
+    "names": {
+      "en": "Household Production and Intrahousehold Allocation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D13",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "household_saving_personal_finance",
+    "parent_id": "microeconomics",
+    "name": "Household Saving , Personal Finance",
+    "names": {
+      "en": "Household Saving , Personal Finance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D14",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "intertemporal_household_choice_life_cycle_models_and_saving",
+    "parent_id": "microeconomics",
+    "name": "Intertemporal Household Choice , Life Cycle Models and Saving",
+    "names": {
+      "en": "Intertemporal Household Choice , Life Cycle Models and Saving"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D15",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "collaborative_consumption",
+    "parent_id": "microeconomics",
+    "name": "Collaborative Consumption",
+    "names": {
+      "en": "Collaborative Consumption"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D16",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "consumer_protection",
+    "parent_id": "microeconomics",
+    "name": "Consumer Protection",
+    "names": {
+      "en": "Consumer Protection"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D18",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "production_and_organizations",
+    "parent_id": "microeconomics",
+    "name": "Production and Organizations",
+    "names": {
+      "en": "Production and Organizations"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D2",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "firm_behavior_theory",
+    "parent_id": "microeconomics",
+    "name": "Firm Behavior: Theory",
+    "names": {
+      "en": "Firm Behavior: Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D21",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "firm_behavior_empirical_analysis",
+    "parent_id": "microeconomics",
+    "name": "Firm Behavior: Empirical Analysis",
+    "names": {
+      "en": "Firm Behavior: Empirical Analysis"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D22",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "organizational_behavior_transaction_costs_property_rights",
+    "parent_id": "microeconomics",
+    "name": "Organizational Behavior , Transaction Costs , Property Rights",
+    "names": {
+      "en": "Organizational Behavior , Transaction Costs , Property Rights"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D23",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "production_cost_capital_capital_total_factor_and_multifactor_productivity_capacity",
+    "parent_id": "microeconomics",
+    "name": "Production , Cost , Capital , Capital, Total Factor, and Multifactor Productivity , Capacity",
+    "names": {
+      "en": "Production , Cost , Capital , Capital, Total Factor, and Multifactor Productivity , Capacity"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D24",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "intertemporal_firm_choice_investment_capacity_and_financing",
+    "parent_id": "microeconomics",
+    "name": "Intertemporal Firm Choice: Investment, Capacity, and Financing",
+    "names": {
+      "en": "Intertemporal Firm Choice: Investment, Capacity, and Financing"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D25",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "crowd_based_firms",
+    "parent_id": "microeconomics",
+    "name": "Crowd-Based Firms",
+    "names": {
+      "en": "Crowd-Based Firms"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D26",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "distribution",
+    "parent_id": "microeconomics",
+    "name": "Distribution",
+    "names": {
+      "en": "Distribution"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D3",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "personal_income_wealth_and_their_distributions",
+    "parent_id": "microeconomics",
+    "name": "Personal Income, Wealth, and Their Distributions",
+    "names": {
+      "en": "Personal Income, Wealth, and Their Distributions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D31",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "factor_income_distribution",
+    "parent_id": "microeconomics",
+    "name": "Factor Income Distribution",
+    "names": {
+      "en": "Factor Income Distribution"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D33",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "market_structure_pricing_and_design",
+    "parent_id": "microeconomics",
+    "name": "Market Structure, Pricing, and Design",
+    "names": {
+      "en": "Market Structure, Pricing, and Design"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D4",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "perfect_competition",
+    "parent_id": "microeconomics",
+    "name": "Perfect Competition",
+    "names": {
+      "en": "Perfect Competition"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D41",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "monopoly",
+    "parent_id": "microeconomics",
+    "name": "Monopoly",
+    "names": {
+      "en": "Monopoly"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D42",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "oligopoly_and_other_forms_of_market_imperfection",
+    "parent_id": "microeconomics",
+    "name": "Oligopoly and Other Forms of Market Imperfection",
+    "names": {
+      "en": "Oligopoly and Other Forms of Market Imperfection"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D43",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "auctions",
+    "parent_id": "microeconomics",
+    "name": "Auctions",
+    "names": {
+      "en": "Auctions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D44",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "rationing_licensing",
+    "parent_id": "microeconomics",
+    "name": "Rationing , Licensing",
+    "names": {
+      "en": "Rationing , Licensing"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D45",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "value_theory",
+    "parent_id": "microeconomics",
+    "name": "Value Theory",
+    "names": {
+      "en": "Value Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D46",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "market_design",
+    "parent_id": "microeconomics",
+    "name": "Market Design",
+    "names": {
+      "en": "Market Design"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D47",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "general_equilibrium_and_disequilibrium",
+    "parent_id": "microeconomics",
+    "name": "General Equilibrium and Disequilibrium",
+    "names": {
+      "en": "General Equilibrium and Disequilibrium"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D5",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "exchange_and_production_economies",
+    "parent_id": "microeconomics",
+    "name": "Exchange and Production Economies",
+    "names": {
+      "en": "Exchange and Production Economies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D51",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "incomplete_markets",
+    "parent_id": "microeconomics",
+    "name": "Incomplete Markets",
+    "names": {
+      "en": "Incomplete Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D52",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "financial_markets",
+    "parent_id": "microeconomics",
+    "name": "Financial Markets",
+    "names": {
+      "en": "Financial Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D53",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "input_ndash_output_tables_and_analysis",
+    "parent_id": "microeconomics",
+    "name": "Input&ndash;Output Tables and Analysis",
+    "names": {
+      "en": "Input&ndash;Output Tables and Analysis"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D57",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "computable_and_other_applied_general_equilibrium_models",
+    "parent_id": "microeconomics",
+    "name": "Computable and Other Applied General Equilibrium Models",
+    "names": {
+      "en": "Computable and Other Applied General Equilibrium Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D58",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "welfare_economics",
+    "parent_id": "microeconomics",
+    "name": "Welfare Economics",
+    "names": {
+      "en": "Welfare Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D6",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "allocative_efficiency_cost_ndash_benefit_analysis",
+    "parent_id": "microeconomics",
+    "name": "Allocative Efficiency , Cost&ndash;Benefit Analysis",
+    "names": {
+      "en": "Allocative Efficiency , Cost&ndash;Benefit Analysis"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D61",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "externalities",
+    "parent_id": "microeconomics",
+    "name": "Externalities",
+    "names": {
+      "en": "Externalities"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D62",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "equity_justice_inequality_and_other_normative_criteria_and_measurement",
+    "parent_id": "microeconomics",
+    "name": "Equity, Justice, Inequality, and Other Normative Criteria and Measurement",
+    "names": {
+      "en": "Equity, Justice, Inequality, and Other Normative Criteria and Measurement"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D63",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "altruism_philanthropy_intergenerational_transfers",
+    "parent_id": "microeconomics",
+    "name": "Altruism , Philanthropy , Intergenerational Transfers",
+    "names": {
+      "en": "Altruism , Philanthropy , Intergenerational Transfers"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D64",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "analysis_of_collective_decision_making",
+    "parent_id": "microeconomics",
+    "name": "Analysis of Collective Decision-Making",
+    "names": {
+      "en": "Analysis of Collective Decision-Making"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D7",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "social_choice_clubs_committees_associations",
+    "parent_id": "microeconomics",
+    "name": "Social Choice , Clubs , Committees , Associations",
+    "names": {
+      "en": "Social Choice , Clubs , Committees , Associations"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D71",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "political_processes_rent_seeking_lobbying_elections_legislatures_and_voting_behavior",
+    "parent_id": "microeconomics",
+    "name": "Political Processes: Rent-Seeking, Lobbying, Elections, Legislatures, and Voting Behavior",
+    "names": {
+      "en": "Political Processes: Rent-Seeking, Lobbying, Elections, Legislatures, and Voting Behavior"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D72",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "bureaucracy_administrative_processes_in_public_organizations_corruption",
+    "parent_id": "microeconomics",
+    "name": "Bureaucracy , Administrative Processes in Public Organizations , Corruption",
+    "names": {
+      "en": "Bureaucracy , Administrative Processes in Public Organizations , Corruption"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D73",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "conflict_conflict_resolution_alliances_revolutions",
+    "parent_id": "microeconomics",
+    "name": "Conflict , Conflict Resolution , Alliances , Revolutions",
+    "names": {
+      "en": "Conflict , Conflict Resolution , Alliances , Revolutions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D74",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "positive_analysis_of_policy_formulation_and_implementation",
+    "parent_id": "microeconomics",
+    "name": "Positive Analysis of Policy Formulation and Implementation",
+    "names": {
+      "en": "Positive Analysis of Policy Formulation and Implementation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D78",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "information_knowledge_and_uncertainty",
+    "parent_id": "microeconomics",
+    "name": "Information, Knowledge, and Uncertainty",
+    "names": {
+      "en": "Information, Knowledge, and Uncertainty"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D8",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "criteria_for_decision_making_under_risk_and_uncertainty",
+    "parent_id": "microeconomics",
+    "name": "Criteria for Decision-Making under Risk and Uncertainty",
+    "names": {
+      "en": "Criteria for Decision-Making under Risk and Uncertainty"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D81",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "asymmetric_and_private_information_mechanism_design",
+    "parent_id": "microeconomics",
+    "name": "Asymmetric and Private Information , Mechanism Design",
+    "names": {
+      "en": "Asymmetric and Private Information , Mechanism Design"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D82",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "search_learning_information_and_knowledge_communication_belief_unawareness",
+    "parent_id": "microeconomics",
+    "name": "Search , Learning , Information and Knowledge , Communication , Belief , Unawareness",
+    "names": {
+      "en": "Search , Learning , Information and Knowledge , Communication , Belief , Unawareness"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D83",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "expectations_speculations",
+    "parent_id": "microeconomics",
+    "name": "Expectations , Speculations",
+    "names": {
+      "en": "Expectations , Speculations"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D84",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "network_formation_and_analysis_theory",
+    "parent_id": "microeconomics",
+    "name": "Network Formation and Analysis: Theory",
+    "names": {
+      "en": "Network Formation and Analysis: Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D85",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "economics_of_contract_theory",
+    "parent_id": "microeconomics",
+    "name": "Economics of Contract: Theory",
+    "names": {
+      "en": "Economics of Contract: Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D86",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "neuroeconomics",
+    "parent_id": "microeconomics",
+    "name": "Neuroeconomics",
+    "names": {
+      "en": "Neuroeconomics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D87",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "micro_based_behavioral_economics",
+    "parent_id": "microeconomics",
+    "name": "Micro-Based Behavioral Economics",
+    "names": {
+      "en": "Micro-Based Behavioral Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "D9",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "role_and_effects_of_psychological_emotional_social_and_cognitive_factors_on_decision_making",
+    "parent_id": "microeconomics",
+    "name": "Role and Effects of Psychological, Emotional, Social, and Cognitive Factors on Decision Making",
+    "names": {
+      "en": "Role and Effects of Psychological, Emotional, Social, and Cognitive Factors on Decision Making"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "D91",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#D"
+  },
+  {
+    "id": "macroeconomics_and_monetary_economics",
+    "parent_id": "microeconomics",
+    "name": "Macroeconomics and Monetary Economics",
+    "names": {
+      "en": "Macroeconomics and Monetary Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "E",
+    "source_parent_id": "D",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "measurement_and_data_on_national_income_and_product_accounts_and_wealth_environmental_accounts",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Measurement and Data on National Income and Product Accounts and Wealth , Environmental Accounts",
+    "names": {
+      "en": "Measurement and Data on National Income and Product Accounts and Wealth , Environmental Accounts"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E01",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "institutions_and_the_macroeconomy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Institutions and the Macroeconomy",
+    "names": {
+      "en": "Institutions and the Macroeconomy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E02",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "general_aggregative_models",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "General Aggregative Models",
+    "names": {
+      "en": "General Aggregative Models"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "E1",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "marxian_sraffian_kaleckian",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Marxian , Sraffian , Kaleckian",
+    "names": {
+      "en": "Marxian , Sraffian , Kaleckian"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E11",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "keynes_keynesian_post_keynesian_modern_monetary_theory",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Keynes , Keynesian , Post-Keynesian , Modern Monetary Theory",
+    "names": {
+      "en": "Keynes , Keynesian , Post-Keynesian , Modern Monetary Theory"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E12",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "austrian_evolutionary_institutional",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Austrian , Evolutionary , Institutional ",
+    "names": {
+      "en": "Austrian , Evolutionary , Institutional "
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E14",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "neoclassical",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Neoclassical",
+    "names": {
+      "en": "Neoclassical"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E13",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "social_accounting_matrix",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Social Accounting Matrix",
+    "names": {
+      "en": "Social Accounting Matrix"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E16",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "forecasting_and_simulation_models_and_applications",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Forecasting and Simulation: Models and Applications",
+    "names": {
+      "en": "Forecasting and Simulation: Models and Applications"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E17",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "consumption_saving_production_investment_labor_markets_and_informal_economy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Consumption, Saving, Production, Investment, Labor Markets, and Informal Economy",
+    "names": {
+      "en": "Consumption, Saving, Production, Investment, Labor Markets, and Informal Economy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "E2",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "consumption_saving_wealth",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Consumption , Saving , Wealth",
+    "names": {
+      "en": "Consumption , Saving , Wealth"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E21",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "investment_capital_intangible_capital_capacity",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Investment , Capital , Intangible Capital , Capacity",
+    "names": {
+      "en": "Investment , Capital , Intangible Capital , Capacity"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E22",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "production",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Production",
+    "names": {
+      "en": "Production"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E23",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "employment_unemployment_wages_intergenerational_income_distribution_aggregate_human_capital_aggregate_labor_productivity",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Employment , Unemployment , Wages , Intergenerational Income Distribution , Aggregate Human Capital , Aggregate Labor Productivity",
+    "names": {
+      "en": "Employment , Unemployment , Wages , Intergenerational Income Distribution , Aggregate Human Capital , Aggregate Labor Productivity"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E24",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "aggregate_factor_income_distribution",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Aggregate Factor Income Distribution",
+    "names": {
+      "en": "Aggregate Factor Income Distribution"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E25",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "informal_economy_underground_economy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Informal Economy , Underground Economy",
+    "names": {
+      "en": "Informal Economy , Underground Economy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E26",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "forecasting_and_simulation_models_and_applications",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Forecasting and Simulation: Models and Applications",
+    "names": {
+      "en": "Forecasting and Simulation: Models and Applications"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E27",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "prices_business_fluctuations_and_cycles",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Prices, Business Fluctuations, and Cycles",
+    "names": {
+      "en": "Prices, Business Fluctuations, and Cycles"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "E3",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "price_level_inflation_deflation",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Price Level , Inflation , Deflation",
+    "names": {
+      "en": "Price Level , Inflation , Deflation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E31",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "business_fluctuations_cycles",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Business Fluctuations , Cycles",
+    "names": {
+      "en": "Business Fluctuations , Cycles"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E32",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "forecasting_and_simulation_models_and_applications",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Forecasting and Simulation: Models and Applications",
+    "names": {
+      "en": "Forecasting and Simulation: Models and Applications"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E37",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "money_and_interest_rates",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Money and Interest Rates",
+    "names": {
+      "en": "Money and Interest Rates"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "E4",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "demand_for_money",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Demand for Money",
+    "names": {
+      "en": "Demand for Money"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E41",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "monetary_systems_standards_regimes_government_and_the_monetary_system_payment_systems",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Monetary Systems , Standards , Regimes , Government and the Monetary System , Payment Systems",
+    "names": {
+      "en": "Monetary Systems , Standards , Regimes , Government and the Monetary System , Payment Systems"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E42",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "interest_rates_determination_term_structure_and_effects",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Interest Rates: Determination, Term Structure, and Effects ",
+    "names": {
+      "en": "Interest Rates: Determination, Term Structure, and Effects "
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E43",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "financial_markets_and_the_macroeconomy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Financial Markets and the Macroeconomy",
+    "names": {
+      "en": "Financial Markets and the Macroeconomy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E44",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "forecasting_and_simulation_models_and_applications",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Forecasting and Simulation: Models and Applications",
+    "names": {
+      "en": "Forecasting and Simulation: Models and Applications"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E47",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "monetary_policy_central_banking_and_the_supply_of_money_and_credit",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Monetary Policy, Central Banking, and the Supply of Money and Credit",
+    "names": {
+      "en": "Monetary Policy, Central Banking, and the Supply of Money and Credit"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "E5",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "money_supply_credit_money_multipliers",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Money Supply , Credit , Money Multipliers",
+    "names": {
+      "en": "Money Supply , Credit , Money Multipliers"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E51",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "monetary_policy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Monetary Policy",
+    "names": {
+      "en": "Monetary Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E52",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "central_banks_and_their_policies",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Central Banks and Their Policies",
+    "names": {
+      "en": "Central Banks and Their Policies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E58",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "macroeconomic_policy_macroeconomic_aspects_of_public_finance_and_general_outlook",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Macroeconomic Policy, Macroeconomic Aspects of Public Finance, and General Outlook",
+    "names": {
+      "en": "Macroeconomic Policy, Macroeconomic Aspects of Public Finance, and General Outlook"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "E6",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "policy_objectives_policy_designs_and_consistency_policy_coordination",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Policy  Objectives , Policy Designs and Consistency , Policy Coordination",
+    "names": {
+      "en": "Policy  Objectives , Policy Designs and Consistency , Policy Coordination"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E61",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "fiscal_policy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Fiscal Policy",
+    "names": {
+      "en": "Fiscal Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E62",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "comparative_or_joint_analysis_of_fiscal_and_monetary_policy_stabilization_treasury_policy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Comparative or Joint Analysis of Fiscal and Monetary Policy , Stabilization , Treasury Policy",
+    "names": {
+      "en": "Comparative or Joint Analysis of Fiscal and Monetary Policy , Stabilization , Treasury Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E63",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "incomes_policy_price_policy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Incomes Policy , Price Policy",
+    "names": {
+      "en": "Incomes Policy , Price Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E64",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "studies_of_particular_policy_episodes",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Studies of Particular Policy Episodes",
+    "names": {
+      "en": "Studies of Particular Policy Episodes"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E65",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "general_outlook_and_conditions",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "General Outlook and Conditions",
+    "names": {
+      "en": "General Outlook and Conditions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E66",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "macro_based_behavioral_economics",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Macro-Based Behavioral Economics",
+    "names": {
+      "en": "Macro-Based Behavioral Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "E7",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "role_and_effects_of_psychological_emotional_social_and_cognitive_factors_on_the_macro_economy",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "Role and Effects of Psychological, Emotional, Social, and Cognitive Factors on the Macro Economy",
+    "names": {
+      "en": "Role and Effects of Psychological, Emotional, Social, and Cognitive Factors on the Macro Economy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "E71",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#E"
+  },
+  {
+    "id": "international_economics",
+    "parent_id": "macroeconomics_and_monetary_economics",
+    "name": "International Economics",
+    "names": {
+      "en": "International Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "F",
+    "source_parent_id": "E",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "global_outlook",
+    "parent_id": "international_economics",
+    "name": "Global Outlook",
+    "names": {
+      "en": "Global Outlook"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F01",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_economic_order_and_integration",
+    "parent_id": "international_economics",
+    "name": "International Economic Order and Integration",
+    "names": {
+      "en": "International Economic Order and Integration"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F02",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "trade",
+    "parent_id": "international_economics",
+    "name": "Trade",
+    "names": {
+      "en": "Trade"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "F1",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "neoclassical_models_of_trade",
+    "parent_id": "international_economics",
+    "name": "Neoclassical Models of Trade",
+    "names": {
+      "en": "Neoclassical Models of Trade"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F11",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "models_of_trade_with_imperfect_competition_and_scale_economies_fragmentation",
+    "parent_id": "international_economics",
+    "name": "Models of Trade with Imperfect Competition and Scale Economies , Fragmentation",
+    "names": {
+      "en": "Models of Trade with Imperfect Competition and Scale Economies , Fragmentation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F12",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "trade_policy_international_trade_organizations",
+    "parent_id": "international_economics",
+    "name": "Trade Policy , International Trade Organizations",
+    "names": {
+      "en": "Trade Policy , International Trade Organizations"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F13",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "empirical_studies_of_trade",
+    "parent_id": "international_economics",
+    "name": "Empirical Studies of Trade",
+    "names": {
+      "en": "Empirical Studies of Trade"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F14",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "economic_integration",
+    "parent_id": "international_economics",
+    "name": "Economic Integration",
+    "names": {
+      "en": "Economic Integration"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F15",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "trade_and_labor_market_interactions",
+    "parent_id": "international_economics",
+    "name": "Trade and Labor Market Interactions",
+    "names": {
+      "en": "Trade and Labor Market Interactions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F16",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "trade_forecasting_and_simulation",
+    "parent_id": "international_economics",
+    "name": "Trade Forecasting and Simulation",
+    "names": {
+      "en": "Trade Forecasting and Simulation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F17",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "trade_and_environment",
+    "parent_id": "international_economics",
+    "name": "Trade and Environment",
+    "names": {
+      "en": "Trade and Environment"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F18",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_factor_movements_and_international_business",
+    "parent_id": "international_economics",
+    "name": "International Factor Movements and International Business",
+    "names": {
+      "en": "International Factor Movements and International Business"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "F2",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_investment_long_term_capital_movements",
+    "parent_id": "international_economics",
+    "name": "International Investment , Long-Term Capital Movements",
+    "names": {
+      "en": "International Investment , Long-Term Capital Movements"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F21",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_migration",
+    "parent_id": "international_economics",
+    "name": "International Migration",
+    "names": {
+      "en": "International Migration"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F22",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "multinational_firms_international_business",
+    "parent_id": "international_economics",
+    "name": "Multinational Firms , International Business",
+    "names": {
+      "en": "Multinational Firms , International Business"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F23",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "remittances",
+    "parent_id": "international_economics",
+    "name": "Remittances",
+    "names": {
+      "en": "Remittances"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F24",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_finance",
+    "parent_id": "international_economics",
+    "name": "International Finance",
+    "names": {
+      "en": "International Finance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "F3",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "foreign_exchange",
+    "parent_id": "international_economics",
+    "name": "Foreign Exchange",
+    "names": {
+      "en": "Foreign Exchange"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F31",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "current_account_adjustment_short_term_capital_movements",
+    "parent_id": "international_economics",
+    "name": "Current Account Adjustment , Short-Term Capital Movements",
+    "names": {
+      "en": "Current Account Adjustment , Short-Term Capital Movements"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F32",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_monetary_arrangements_and_institutions",
+    "parent_id": "international_economics",
+    "name": "International Monetary Arrangements and Institutions",
+    "names": {
+      "en": "International Monetary Arrangements and Institutions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F33",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_lending_and_debt_problems",
+    "parent_id": "international_economics",
+    "name": "International Lending and Debt Problems",
+    "names": {
+      "en": "International Lending and Debt Problems"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F34",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "foreign_aid",
+    "parent_id": "international_economics",
+    "name": "Foreign Aid",
+    "names": {
+      "en": "Foreign Aid"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F35",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "financial_aspects_of_economic_integration",
+    "parent_id": "international_economics",
+    "name": "Financial Aspects of Economic Integration",
+    "names": {
+      "en": "Financial Aspects of Economic Integration"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F36",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_finance_forecasting_and_simulation_models_and_applications",
+    "parent_id": "international_economics",
+    "name": "International Finance Forecasting and Simulation: Models and Applications",
+    "names": {
+      "en": "International Finance Forecasting and Simulation: Models and Applications"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F37",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_financial_policy_financial_transactions_tax_capital_controls",
+    "parent_id": "international_economics",
+    "name": "International Financial Policy: Financial Transactions Tax; Capital Controls",
+    "names": {
+      "en": "International Financial Policy: Financial Transactions Tax; Capital Controls"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F38",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "macroeconomic_aspects_of_international_trade_and_finance",
+    "parent_id": "international_economics",
+    "name": "Macroeconomic Aspects of International Trade and Finance",
+    "names": {
+      "en": "Macroeconomic Aspects of International Trade and Finance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "F4",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "open_economy_macroeconomics",
+    "parent_id": "international_economics",
+    "name": "Open Economy Macroeconomics",
+    "names": {
+      "en": "Open Economy Macroeconomics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F41",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_policy_coordination_and_transmission",
+    "parent_id": "international_economics",
+    "name": "International Policy Coordination and Transmission",
+    "names": {
+      "en": "International Policy Coordination and Transmission"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F42",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "economic_growth_of_open_economies",
+    "parent_id": "international_economics",
+    "name": "Economic Growth of Open Economies",
+    "names": {
+      "en": "Economic Growth of Open Economies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F43",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_business_cycles",
+    "parent_id": "international_economics",
+    "name": "International Business Cycles",
+    "names": {
+      "en": "International Business Cycles"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F44",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "macroeconomic_issues_of_monetary_unions",
+    "parent_id": "international_economics",
+    "name": "Macroeconomic Issues of Monetary Unions",
+    "names": {
+      "en": "Macroeconomic Issues of Monetary Unions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F45",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "forecasting_and_simulation_models_and_applications",
+    "parent_id": "international_economics",
+    "name": "Forecasting and Simulation: Models and Applications",
+    "names": {
+      "en": "Forecasting and Simulation: Models and Applications"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F47",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_relations_national_security_and_international_political_economy",
+    "parent_id": "international_economics",
+    "name": "International Relations, National Security, and International Political Economy",
+    "names": {
+      "en": "International Relations, National Security, and International Political Economy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "F5",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_conflicts_negotiations_sanctions",
+    "parent_id": "international_economics",
+    "name": "International Conflicts , Negotiations , Sanctions",
+    "names": {
+      "en": "International Conflicts , Negotiations , Sanctions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F51",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "national_security_economic_nationalism",
+    "parent_id": "international_economics",
+    "name": "National Security , Economic Nationalism",
+    "names": {
+      "en": "National Security , Economic Nationalism"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F52",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_agreements_and_observance_international_organizations",
+    "parent_id": "international_economics",
+    "name": "International Agreements and Observance , International Organizations",
+    "names": {
+      "en": "International Agreements and Observance , International Organizations"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F53",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "colonialism_imperialism_postcolonialism",
+    "parent_id": "international_economics",
+    "name": "Colonialism , Imperialism , Postcolonialism",
+    "names": {
+      "en": "Colonialism , Imperialism , Postcolonialism"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F54",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "international_institutional_arrangements",
+    "parent_id": "international_economics",
+    "name": "International Institutional Arrangements",
+    "names": {
+      "en": "International Institutional Arrangements"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F55",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "economic_impacts_of_globalization",
+    "parent_id": "international_economics",
+    "name": "Economic Impacts of Globalization",
+    "names": {
+      "en": "Economic Impacts of Globalization"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "F6",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "microeconomic_impacts",
+    "parent_id": "international_economics",
+    "name": "Microeconomic Impacts",
+    "names": {
+      "en": "Microeconomic Impacts"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F61",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "macroeconomic_impacts",
+    "parent_id": "international_economics",
+    "name": "Macroeconomic Impacts",
+    "names": {
+      "en": "Macroeconomic Impacts"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F62",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "economic_development",
+    "parent_id": "international_economics",
+    "name": "Economic Development",
+    "names": {
+      "en": "Economic Development"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F63",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "environment",
+    "parent_id": "international_economics",
+    "name": "Environment",
+    "names": {
+      "en": "Environment"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F64",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "finance",
+    "parent_id": "international_economics",
+    "name": "Finance",
+    "names": {
+      "en": "Finance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F65",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "labor",
+    "parent_id": "international_economics",
+    "name": "Labor",
+    "names": {
+      "en": "Labor"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F66",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "policy",
+    "parent_id": "international_economics",
+    "name": "Policy",
+    "names": {
+      "en": "Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "F68",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#F"
+  },
+  {
+    "id": "financial_economics",
+    "parent_id": "international_economics",
+    "name": "Financial Economics",
+    "names": {
+      "en": "Financial Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "G",
+    "source_parent_id": "F",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "financial_crises",
+    "parent_id": "financial_economics",
+    "name": "Financial Crises",
+    "names": {
+      "en": "Financial Crises"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G01",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "general_financial_markets",
+    "parent_id": "financial_economics",
+    "name": "General Financial Markets",
+    "names": {
+      "en": "General Financial Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "G1",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "portfolio_choice_investment_decisions",
+    "parent_id": "financial_economics",
+    "name": "Portfolio Choice , Investment Decisions",
+    "names": {
+      "en": "Portfolio Choice , Investment Decisions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G11",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "asset_pricing_trading_volume_bond_interest_rates",
+    "parent_id": "financial_economics",
+    "name": "Asset Pricing , Trading Volume , Bond Interest Rates",
+    "names": {
+      "en": "Asset Pricing , Trading Volume , Bond Interest Rates"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G12",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "contingent_pricing_futures_pricing",
+    "parent_id": "financial_economics",
+    "name": "Contingent Pricing , Futures Pricing",
+    "names": {
+      "en": "Contingent Pricing , Futures Pricing"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G13",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "information_and_market_efficiency_event_studies_insider_trading",
+    "parent_id": "financial_economics",
+    "name": "Information and Market Efficiency , Event Studies , Insider Trading",
+    "names": {
+      "en": "Information and Market Efficiency , Event Studies , Insider Trading"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G14",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "international_financial_markets",
+    "parent_id": "financial_economics",
+    "name": "International Financial Markets",
+    "names": {
+      "en": "International Financial Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G15",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "financial_forecasting_and_simulation",
+    "parent_id": "financial_economics",
+    "name": "Financial Forecasting and Simulation",
+    "names": {
+      "en": "Financial Forecasting and Simulation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G17",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "government_policy_and_regulation",
+    "parent_id": "financial_economics",
+    "name": "Government Policy and Regulation",
+    "names": {
+      "en": "Government Policy and Regulation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G18",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "financial_institutions_and_services",
+    "parent_id": "financial_economics",
+    "name": "Financial Institutions and Services",
+    "names": {
+      "en": "Financial Institutions and Services"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "G2",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "banks_depository_institutions_micro_finance_institutions_mortgages",
+    "parent_id": "financial_economics",
+    "name": "Banks , Depository Institutions , Micro Finance Institutions , Mortgages",
+    "names": {
+      "en": "Banks , Depository Institutions , Micro Finance Institutions , Mortgages"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G21",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "insurance_insurance_companies_actuarial_studies",
+    "parent_id": "financial_economics",
+    "name": "Insurance , Insurance Companies , Actuarial Studies",
+    "names": {
+      "en": "Insurance , Insurance Companies , Actuarial Studies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G22",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "non_bank_financial_institutions_financial_instruments_institutional_investors",
+    "parent_id": "financial_economics",
+    "name": "Non-bank Financial Institutions , Financial Instruments , Institutional Investors",
+    "names": {
+      "en": "Non-bank Financial Institutions , Financial Instruments , Institutional Investors"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G23",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "investment_banking_venture_capital_brokerage_ratings_and_ratings_agencies",
+    "parent_id": "financial_economics",
+    "name": "Investment Banking , Venture Capital , Brokerage , Ratings and Ratings Agencies",
+    "names": {
+      "en": "Investment Banking , Venture Capital , Brokerage , Ratings and Ratings Agencies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G24",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "government_policy_and_regulation",
+    "parent_id": "financial_economics",
+    "name": "Government Policy and Regulation",
+    "names": {
+      "en": "Government Policy and Regulation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G28",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "corporate_finance_and_governance",
+    "parent_id": "financial_economics",
+    "name": "Corporate Finance and Governance",
+    "names": {
+      "en": "Corporate Finance and Governance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "G3",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "capital_budgeting_fixed_investment_and_inventory_studies_capacity",
+    "parent_id": "financial_economics",
+    "name": "Capital Budgeting , Fixed Investment and Inventory Studies , Capacity",
+    "names": {
+      "en": "Capital Budgeting , Fixed Investment and Inventory Studies , Capacity"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G31",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "financing_policy_financial_risk_and_risk_management_capital_and_ownership_structure_value_of_firms_goodwill",
+    "parent_id": "financial_economics",
+    "name": "Financing Policy , Financial Risk and Risk Management , Capital and Ownership Structure , Value of Firms , Goodwill",
+    "names": {
+      "en": "Financing Policy , Financial Risk and Risk Management , Capital and Ownership Structure , Value of Firms , Goodwill"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G32",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "bankruptcy_liquidation",
+    "parent_id": "financial_economics",
+    "name": "Bankruptcy , Liquidation",
+    "names": {
+      "en": "Bankruptcy , Liquidation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G33",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "mergers_acquisitions_restructuring_corporate_governance",
+    "parent_id": "financial_economics",
+    "name": "Mergers , Acquisitions , Restructuring , Corporate Governance",
+    "names": {
+      "en": "Mergers , Acquisitions , Restructuring , Corporate Governance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G34",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "payout_policy",
+    "parent_id": "financial_economics",
+    "name": "Payout Policy",
+    "names": {
+      "en": "Payout Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G35",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "government_policy_and_regulation",
+    "parent_id": "financial_economics",
+    "name": "Government Policy and Regulation",
+    "names": {
+      "en": "Government Policy and Regulation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G38",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "behavioral_finance",
+    "parent_id": "financial_economics",
+    "name": "Behavioral Finance",
+    "names": {
+      "en": "Behavioral Finance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "G4",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "role_and_effects_of_psychological_emotional_social_and_cognitive_factors_on_decision_making_in_financial_markets",
+    "parent_id": "financial_economics",
+    "name": "Role and Effects of Psychological, Emotional, Social, and Cognitive Factors on Decision Making in Financial Markets",
+    "names": {
+      "en": "Role and Effects of Psychological, Emotional, Social, and Cognitive Factors on Decision Making in Financial Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G41",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "household_finance",
+    "parent_id": "financial_economics",
+    "name": "Household Finance ",
+    "names": {
+      "en": "Household Finance "
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "G5",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "household_saving_borrowing_debt_and_wealth",
+    "parent_id": "financial_economics",
+    "name": "Household Saving, Borrowing, Debt, and Wealth",
+    "names": {
+      "en": "Household Saving, Borrowing, Debt, and Wealth"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G51",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "insurance",
+    "parent_id": "financial_economics",
+    "name": "Insurance",
+    "names": {
+      "en": "Insurance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G52",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "financial_literacy",
+    "parent_id": "financial_economics",
+    "name": "Financial Literacy",
+    "names": {
+      "en": "Financial Literacy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "G53",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#G"
+  },
+  {
+    "id": "public_economics",
+    "parent_id": "financial_economics",
+    "name": "Public Economics",
+    "names": {
+      "en": "Public Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "H",
+    "source_parent_id": "G",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "structure_and_scope_of_government",
+    "parent_id": "public_economics",
+    "name": "Structure and Scope of Government",
+    "names": {
+      "en": "Structure and Scope of Government"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H1",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "structure_scope_and_performance_of_government",
+    "parent_id": "public_economics",
+    "name": "Structure, Scope, and Performance of Government",
+    "names": {
+      "en": "Structure, Scope, and Performance of Government"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H11",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "crisis_management",
+    "parent_id": "public_economics",
+    "name": "Crisis Management",
+    "names": {
+      "en": "Crisis Management"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H12",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "economics_of_eminent_domain_expropriation_nationalization",
+    "parent_id": "public_economics",
+    "name": "Economics of Eminent Domain , Expropriation , Nationalization",
+    "names": {
+      "en": "Economics of Eminent Domain , Expropriation , Nationalization"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H13",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "taxation_subsidies_and_revenue",
+    "parent_id": "public_economics",
+    "name": "Taxation, Subsidies, and Revenue",
+    "names": {
+      "en": "Taxation, Subsidies, and Revenue"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H2",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "efficiency_optimal_taxation",
+    "parent_id": "public_economics",
+    "name": "Efficiency , Optimal Taxation",
+    "names": {
+      "en": "Efficiency , Optimal Taxation"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H21",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "incidence",
+    "parent_id": "public_economics",
+    "name": "Incidence",
+    "names": {
+      "en": "Incidence"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H22",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "externalities_redistributive_effects_environmental_taxes_and_subsidies",
+    "parent_id": "public_economics",
+    "name": "Externalities , Redistributive Effects , Environmental Taxes and Subsidies",
+    "names": {
+      "en": "Externalities , Redistributive Effects , Environmental Taxes and Subsidies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H23",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "personal_income_and_other_nonbusiness_taxes_and_subsidies",
+    "parent_id": "public_economics",
+    "name": "Personal Income and Other Nonbusiness Taxes and Subsidies",
+    "names": {
+      "en": "Personal Income and Other Nonbusiness Taxes and Subsidies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H24",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "business_taxes_and_subsidies",
+    "parent_id": "public_economics",
+    "name": "Business Taxes and Subsidies",
+    "names": {
+      "en": "Business Taxes and Subsidies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H25",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "tax_evasion_and_avoidance",
+    "parent_id": "public_economics",
+    "name": "Tax Evasion and Avoidance",
+    "names": {
+      "en": "Tax Evasion and Avoidance"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H26",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "other_sources_of_revenue",
+    "parent_id": "public_economics",
+    "name": "Other Sources of Revenue",
+    "names": {
+      "en": "Other Sources of Revenue"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H27",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "fiscal_policies_and_behavior_of_economic_agents",
+    "parent_id": "public_economics",
+    "name": "Fiscal Policies and Behavior of Economic Agents",
+    "names": {
+      "en": "Fiscal Policies and Behavior of Economic Agents"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H3",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "household",
+    "parent_id": "public_economics",
+    "name": "Household",
+    "names": {
+      "en": "Household"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H31",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "firm",
+    "parent_id": "public_economics",
+    "name": "Firm",
+    "names": {
+      "en": "Firm"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H32",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "publicly_provided_goods",
+    "parent_id": "public_economics",
+    "name": "Publicly Provided Goods",
+    "names": {
+      "en": "Publicly Provided Goods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H4",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "public_goods",
+    "parent_id": "public_economics",
+    "name": "Public Goods",
+    "names": {
+      "en": "Public Goods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H41",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "publicly_provided_private_goods",
+    "parent_id": "public_economics",
+    "name": "Publicly Provided Private Goods",
+    "names": {
+      "en": "Publicly Provided Private Goods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H42",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "project_evaluation_social_discount_rate",
+    "parent_id": "public_economics",
+    "name": "Project Evaluation , Social Discount Rate",
+    "names": {
+      "en": "Project Evaluation , Social Discount Rate"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H43",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "publicly_provided_goods_mixed_markets",
+    "parent_id": "public_economics",
+    "name": "Publicly Provided Goods: Mixed Markets",
+    "names": {
+      "en": "Publicly Provided Goods: Mixed Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H44",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "national_government_expenditures_and_related_policies",
+    "parent_id": "public_economics",
+    "name": "National Government Expenditures and Related Policies",
+    "names": {
+      "en": "National Government Expenditures and Related Policies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H5",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "government_expenditures_and_health",
+    "parent_id": "public_economics",
+    "name": "Government Expenditures and Health",
+    "names": {
+      "en": "Government Expenditures and Health"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H51",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "government_expenditures_and_education",
+    "parent_id": "public_economics",
+    "name": "Government Expenditures and Education",
+    "names": {
+      "en": "Government Expenditures and Education"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H52",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "government_expenditures_and_welfare_programs",
+    "parent_id": "public_economics",
+    "name": "Government Expenditures and Welfare Programs",
+    "names": {
+      "en": "Government Expenditures and Welfare Programs"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H53",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "infrastructures_other_public_investment_and_capital_stock",
+    "parent_id": "public_economics",
+    "name": "Infrastructures , Other Public Investment and Capital Stock",
+    "names": {
+      "en": "Infrastructures , Other Public Investment and Capital Stock"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H54",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "social_security_and_public_pensions",
+    "parent_id": "public_economics",
+    "name": "Social Security and Public Pensions",
+    "names": {
+      "en": "Social Security and Public Pensions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H55",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "national_security_and_war",
+    "parent_id": "public_economics",
+    "name": "National Security and War",
+    "names": {
+      "en": "National Security and War"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H56",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "procurement",
+    "parent_id": "public_economics",
+    "name": "Procurement",
+    "names": {
+      "en": "Procurement"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H57",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "national_budget_deficit_and_debt",
+    "parent_id": "public_economics",
+    "name": "National Budget, Deficit, and Debt",
+    "names": {
+      "en": "National Budget, Deficit, and Debt"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H6",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "budget_budget_systems",
+    "parent_id": "public_economics",
+    "name": "Budget , Budget Systems",
+    "names": {
+      "en": "Budget , Budget Systems"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H61",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "deficit_surplus",
+    "parent_id": "public_economics",
+    "name": "Deficit , Surplus",
+    "names": {
+      "en": "Deficit , Surplus"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H62",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "debt_debt_management_sovereign_debt",
+    "parent_id": "public_economics",
+    "name": "Debt , Debt Management , Sovereign Debt",
+    "names": {
+      "en": "Debt , Debt Management , Sovereign Debt"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H63",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "forecasts_of_budgets_deficits_and_debt",
+    "parent_id": "public_economics",
+    "name": "Forecasts of Budgets, Deficits, and Debt",
+    "names": {
+      "en": "Forecasts of Budgets, Deficits, and Debt"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H68",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "state_and_local_government_intergovernmental_relations",
+    "parent_id": "public_economics",
+    "name": "State and Local Government , Intergovernmental Relations",
+    "names": {
+      "en": "State and Local Government , Intergovernmental Relations"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H7",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "state_and_local_taxation_subsidies_and_revenue",
+    "parent_id": "public_economics",
+    "name": "State and Local Taxation, Subsidies, and Revenue",
+    "names": {
+      "en": "State and Local Taxation, Subsidies, and Revenue"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H71",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "state_and_local_budget_and_expenditures",
+    "parent_id": "public_economics",
+    "name": "State and Local Budget and Expenditures",
+    "names": {
+      "en": "State and Local Budget and Expenditures"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H72",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "interjurisdictional_differentials_and_their_effects",
+    "parent_id": "public_economics",
+    "name": "Interjurisdictional Differentials and Their Effects",
+    "names": {
+      "en": "Interjurisdictional Differentials and Their Effects"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H73",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "state_and_local_borrowing",
+    "parent_id": "public_economics",
+    "name": "State and Local Borrowing",
+    "names": {
+      "en": "State and Local Borrowing"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H74",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "state_and_local_government_health_education_welfare_public_pensions",
+    "parent_id": "public_economics",
+    "name": "State and Local Government: Health , Education , Welfare , Public Pensions",
+    "names": {
+      "en": "State and Local Government: Health , Education , Welfare , Public Pensions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H75",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "state_and_local_government_other_expenditure_categories",
+    "parent_id": "public_economics",
+    "name": "State and Local Government: Other Expenditure Categories",
+    "names": {
+      "en": "State and Local Government: Other Expenditure Categories"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H76",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "intergovernmental_relations_federalism_secession",
+    "parent_id": "public_economics",
+    "name": "Intergovernmental Relations , Federalism , Secession",
+    "names": {
+      "en": "Intergovernmental Relations , Federalism , Secession"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H77",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "miscellaneous_issues",
+    "parent_id": "public_economics",
+    "name": "Miscellaneous Issues",
+    "names": {
+      "en": "Miscellaneous Issues"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "H8",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "governmental_loans_loan_guarantees_credits_grants_bailouts",
+    "parent_id": "public_economics",
+    "name": "Governmental Loans , Loan Guarantees , Credits , Grants , Bailouts",
+    "names": {
+      "en": "Governmental Loans , Loan Guarantees , Credits , Grants , Bailouts"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H81",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "governmental_property",
+    "parent_id": "public_economics",
+    "name": "Governmental Property",
+    "names": {
+      "en": "Governmental Property"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H82",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "public_administration_public_sector_accounting_and_audits",
+    "parent_id": "public_economics",
+    "name": "Public Administration , Public Sector Accounting and Audits",
+    "names": {
+      "en": "Public Administration , Public Sector Accounting and Audits"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H83",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "disaster_aid",
+    "parent_id": "public_economics",
+    "name": "Disaster Aid",
+    "names": {
+      "en": "Disaster Aid"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H84",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "international_fiscal_issues_international_public_goods",
+    "parent_id": "public_economics",
+    "name": "International Fiscal Issues , International Public Goods",
+    "names": {
+      "en": "International Fiscal Issues , International Public Goods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "H87",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#H"
+  },
+  {
+    "id": "health_education_and_welfare",
+    "parent_id": "public_economics",
+    "name": "Health, Education, and Welfare",
+    "names": {
+      "en": "Health, Education, and Welfare"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "I",
+    "source_parent_id": "H",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "health",
+    "parent_id": "health_education_and_welfare",
+    "name": "Health",
+    "names": {
+      "en": "Health"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "I1",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "analysis_of_health_care_markets",
+    "parent_id": "health_education_and_welfare",
+    "name": "Analysis of Health Care Markets",
+    "names": {
+      "en": "Analysis of Health Care Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I11",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "health_behavior",
+    "parent_id": "health_education_and_welfare",
+    "name": "Health Behavior",
+    "names": {
+      "en": "Health Behavior"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I12",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "health_insurance_public_and_private",
+    "parent_id": "health_education_and_welfare",
+    "name": "Health Insurance, Public and Private",
+    "names": {
+      "en": "Health Insurance, Public and Private"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I13",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "health_and_inequality",
+    "parent_id": "health_education_and_welfare",
+    "name": "Health and Inequality",
+    "names": {
+      "en": "Health and Inequality"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I14",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "health_and_economic_development",
+    "parent_id": "health_education_and_welfare",
+    "name": "Health and Economic Development",
+    "names": {
+      "en": "Health and Economic Development"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I15",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "government_policy_regulation_public_health",
+    "parent_id": "health_education_and_welfare",
+    "name": "Government Policy , Regulation , Public Health",
+    "names": {
+      "en": "Government Policy , Regulation , Public Health"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I18",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "education_and_research_institutions",
+    "parent_id": "health_education_and_welfare",
+    "name": "Education and Research Institutions",
+    "names": {
+      "en": "Education and Research Institutions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "I2",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "analysis_of_education",
+    "parent_id": "health_education_and_welfare",
+    "name": "Analysis of Education",
+    "names": {
+      "en": "Analysis of Education"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I21",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "educational_finance_financial_aid",
+    "parent_id": "health_education_and_welfare",
+    "name": "Educational Finance , Financial Aid",
+    "names": {
+      "en": "Educational Finance , Financial Aid"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I22",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "higher_education_research_institutions",
+    "parent_id": "health_education_and_welfare",
+    "name": "Higher Education , Research Institutions",
+    "names": {
+      "en": "Higher Education , Research Institutions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I23",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "education_and_inequality",
+    "parent_id": "health_education_and_welfare",
+    "name": "Education and Inequality",
+    "names": {
+      "en": "Education and Inequality"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I24",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "education_and_economic_development",
+    "parent_id": "health_education_and_welfare",
+    "name": "Education and Economic Development",
+    "names": {
+      "en": "Education and Economic Development"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I25",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "returns_to_education",
+    "parent_id": "health_education_and_welfare",
+    "name": "Returns to Education",
+    "names": {
+      "en": "Returns to Education"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I26",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "government_policy",
+    "parent_id": "health_education_and_welfare",
+    "name": "Government Policy",
+    "names": {
+      "en": "Government Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I28",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "welfare_well_being_and_poverty",
+    "parent_id": "health_education_and_welfare",
+    "name": "Welfare, Well-Being, and Poverty",
+    "names": {
+      "en": "Welfare, Well-Being, and Poverty"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "I3",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "general_welfare_well_being",
+    "parent_id": "health_education_and_welfare",
+    "name": "General Welfare, Well-Being  ",
+    "names": {
+      "en": "General Welfare, Well-Being  "
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I31",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "measurement_and_analysis_of_poverty",
+    "parent_id": "health_education_and_welfare",
+    "name": "Measurement and Analysis of Poverty",
+    "names": {
+      "en": "Measurement and Analysis of Poverty"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I32",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "government_policy_provision_and_effects_of_welfare_programs",
+    "parent_id": "health_education_and_welfare",
+    "name": "Government Policy , Provision and Effects of Welfare Programs",
+    "names": {
+      "en": "Government Policy , Provision and Effects of Welfare Programs"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "I38",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#I"
+  },
+  {
+    "id": "labor_and_demographic_economics",
+    "parent_id": "health_education_and_welfare",
+    "name": "Labor and Demographic Economics",
+    "names": {
+      "en": "Labor and Demographic Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 0,
+    "source": "aeaweb.org",
+    "source_id": "J",
+    "source_parent_id": "I",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "labor_economics_general",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Labor Economics: General",
+    "names": {
+      "en": "Labor Economics: General"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J01",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "labor_economics_policies",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Labor Economics Policies",
+    "names": {
+      "en": "Labor Economics Policies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J08",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "demographic_economics",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Demographic Economics",
+    "names": {
+      "en": "Demographic Economics"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "J1",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "demographic_trends_macroeconomic_effects_and_forecasts",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Demographic Trends, Macroeconomic Effects, and Forecasts",
+    "names": {
+      "en": "Demographic Trends, Macroeconomic Effects, and Forecasts"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J11",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "marriage_marital_dissolution_family_structure_domestic_abuse",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Marriage , Marital Dissolution , Family Structure , Domestic Abuse",
+    "names": {
+      "en": "Marriage , Marital Dissolution , Family Structure , Domestic Abuse"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J12",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "fertility_family_planning_child_care_children_youth",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Fertility , Family Planning , Child Care , Children , Youth",
+    "names": {
+      "en": "Fertility , Family Planning , Child Care , Children , Youth"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J13",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "economics_of_the_elderly_economics_of_the_handicapped_non_labor_market_discrimination",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Economics of the Elderly , Economics of the Handicapped , Non-Labor Market Discrimination",
+    "names": {
+      "en": "Economics of the Elderly , Economics of the Handicapped , Non-Labor Market Discrimination"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J14",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "economics_of_minorities_races_indigenous_peoples_and_immigrants_non_labor_discrimination",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Economics of Minorities, Races, Indigenous Peoples, and Immigrants , Non-labor Discrimination",
+    "names": {
+      "en": "Economics of Minorities, Races, Indigenous Peoples, and Immigrants , Non-labor Discrimination"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J15",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "economics_of_gender_non_labor_discrimination",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Economics of Gender , Non-labor Discrimination",
+    "names": {
+      "en": "Economics of Gender , Non-labor Discrimination"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J16",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "value_of_life_forgone_income",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Value of Life , Forgone Income",
+    "names": {
+      "en": "Value of Life , Forgone Income"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J17",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "public_policy",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Public Policy",
+    "names": {
+      "en": "Public Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J18",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "demand_and_supply_of_labor",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Demand and Supply of Labor",
+    "names": {
+      "en": "Demand and Supply of Labor"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "J2",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "labor_force_and_employment_size_and_structure",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Labor Force and Employment, Size, and Structure",
+    "names": {
+      "en": "Labor Force and Employment, Size, and Structure"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J21",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "time_allocation_and_labor_supply",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Time Allocation and Labor Supply",
+    "names": {
+      "en": "Time Allocation and Labor Supply"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J22",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "labor_demand",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Labor Demand",
+    "names": {
+      "en": "Labor Demand"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J23",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "human_capital_skills_occupational_choice_labor_productivity",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Human Capital , Skills , Occupational Choice , Labor Productivity",
+    "names": {
+      "en": "Human Capital , Skills , Occupational Choice , Labor Productivity"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J24",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "retirement_retirement_policies",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Retirement , Retirement Policies",
+    "names": {
+      "en": "Retirement , Retirement Policies"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J26",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "safety_job_satisfaction_related_public_policy",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Safety , Job Satisfaction , Related Public Policy",
+    "names": {
+      "en": "Safety , Job Satisfaction , Related Public Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J28",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "wages_compensation_and_labor_costs",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Wages, Compensation, and Labor Costs",
+    "names": {
+      "en": "Wages, Compensation, and Labor Costs"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "J3",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "wage_level_and_structure_wage_differentials",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Wage Level and Structure , Wage Differentials",
+    "names": {
+      "en": "Wage Level and Structure , Wage Differentials"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J31",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "nonwage_labor_costs_and_benefits_retirement_plans_private_pensions",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Nonwage Labor Costs and Benefits , Retirement Plans , Private Pensions",
+    "names": {
+      "en": "Nonwage Labor Costs and Benefits , Retirement Plans , Private Pensions"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J32",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "compensation_packages_payment_methods",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Compensation Packages , Payment Methods",
+    "names": {
+      "en": "Compensation Packages , Payment Methods"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J33",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "public_policy",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Public Policy",
+    "names": {
+      "en": "Public Policy"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J38",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "particular_labor_markets",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Particular Labor Markets",
+    "names": {
+      "en": "Particular Labor Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 1,
+    "source": "aeaweb.org",
+    "source_id": "J4",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "labor_contracts",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Labor Contracts",
+    "names": {
+      "en": "Labor Contracts"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J41",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "monopsony_segmented_labor_markets",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Monopsony , Segmented Labor Markets",
+    "names": {
+      "en": "Monopsony , Segmented Labor Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J42",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "agricultural_labor_markets",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Agricultural Labor Markets",
+    "names": {
+      "en": "Agricultural Labor Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J43",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "professional_labor_markets_occupational_licensing",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Professional Labor Markets , Occupational Licensing",
+    "names": {
+      "en": "Professional Labor Markets , Occupational Licensing"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J44",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "public_sector_labor_markets",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Public Sector Labor Markets",
+    "names": {
+      "en": "Public Sector Labor Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J45",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "informal_labor_markets",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Informal Labor Markets",
+    "names": {
+      "en": "Informal Labor Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J46",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  },
+  {
+    "id": "coercive_labor_markets",
+    "parent_id": "labor_and_demographic_economics",
+    "name": "Coercive Labor Markets",
+    "names": {
+      "en": "Coercive Labor Markets"
+    },
+    "types": [
+      "academic_economic_association"
+    ],
+    "level": 2,
+    "source": "aeaweb.org",
+    "source_id": "J47",
+    "source_parent_id": "J",
+    "source_url": "https://www.aeaweb.org/econlit/jelCodes.php?view=jel#J"
+  }
+]

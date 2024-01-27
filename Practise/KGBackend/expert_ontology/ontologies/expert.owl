@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/taquan/ontologies/expert-ontology#"
+     xml:base="http://www.semanticweb.org/taquan/ontologies/expert-ontology"
+     xmlns:ns1="http://www.semanticweb.org/taquan/ontologies/expert-ontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasAward">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Award"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasCitations -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasCitations">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Citations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasCompetency -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasCompetency">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Competency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasContact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasContact">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Contact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasDegree -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasDegree">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Education"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Academic_Degree"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Domain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasEducation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasEducation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Education"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasEducationField -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasEducationField">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Academic_Degree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Education_Field"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasOccupation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasOccupation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Occupation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasPatent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasPatent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Patent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasPublication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasPublication">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Publication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#mentionedInMedia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#mentionedInMedia">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Media"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#relatedSkill -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#relatedSkill">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Occupation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#workFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#workFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasRank -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#hasRank">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#AcademicOrganization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#AcademicOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Academic_Degree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Academic_Degree"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Award -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Award"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Behavioral_Competency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Behavioral_Competency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Competency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Business_Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Business_Domain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Citations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Citations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Industry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Competency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Competency">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Conference_Paper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Conference_Paper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Contact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Contact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Education"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Education_Field -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Education_Field">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Functional_Competency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Functional_Competency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Competency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Journal_Article -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Journal_Article">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Knowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Knowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Functional_Competency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Media"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#News_Article -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#News_Article">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Occupation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Occupation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Organization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Patent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Patent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Publication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Publication"/>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Research_Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Research_Domain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Research_Institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Research_Institute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#AcademicOrganization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Skill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Skill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Functional_Competency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#Social_Media_Item -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Social_Media_Item">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/taquan/ontologies/expert-ontology#University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#University">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#AcademicOrganization"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

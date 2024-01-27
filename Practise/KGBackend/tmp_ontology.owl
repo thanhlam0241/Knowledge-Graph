@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ns1="http://www.semanticweb.org/taquan/ontologies/expert-ontology#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <ns1:Person rdf:about="http://www.semanticweb.org/taquan/ontologies/expert-ontology#nguyen_chuyen506a700014cfd3346ccd4af7bc77f431">
+    <owl:topObjectProperty rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#birzeit_university"/>
+    <owl:topObjectProperty rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#graphics_processors"/>
+    <owl:topDataProperty>Nguyen Chuyen</owl:topDataProperty>
+    <owl:topObjectProperty rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#visual_analytics"/>
+    <ns1:hasOccupation rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#host"/>
+    <ns1:hasName>Nguyen Chuyen</ns1:hasName>
+    <rdf:type rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#Expert"/>
+    <ns1:hasCompetency rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#visual_analytics"/>
+    <ns1:hasCompetency rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#quantum_complexity_theory"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <ns1:workFor rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#chugai_pharmaceutical"/>
+    <owl:topObjectProperty rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#chugai_pharmaceutical"/>
+    <ns1:hasExpertise rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#nguyen_chuyen_bnode"/>
+    <owl:topObjectProperty rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#host"/>
+    <ns1:hasCompetency rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#graphics_processors"/>
+    <ns1:hasEducation rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#birzeit_university"/>
+    <owl:topObjectProperty rdf:resource="http://www.semanticweb.org/taquan/ontologies/expert-ontology#quantum_complexity_theory"/>
+  </ns1:Person>
+</rdf:RDF>

@@ -1,4 +1,5 @@
 var network = null
+var isExpert = false
 // create an array with nodes
 var nodes = new vis.DataSet([
     { id: 98, label: 'coches', group: 'start' },
@@ -41,7 +42,10 @@ var edges = new vis.DataSet([
     { from: 194, to: 190 },
 ]);
 
-var listProperty = ["type", "comment", "isDefinedBy", "hasName"]
+var uriSelect = null
+var nodeSelected = null
+
+var listProperty = ["type", "comment", "isDefinedBy", "label"]
 
 var listSkip = ["domain", "range"]
 
@@ -82,45 +86,6 @@ function destroy() {
 }
 
 var nameClustersExpert = ['Expert', 'University', 'Class']
-var clusters = []
-var visitedNode = []
-const visitByDFS = (nodesStart, allNodes, allEdges) => {
-    console.log(nodesStart)
-    nodesStart.forEach(n => {
-        if (!visitedNode.includes(n.id)) {
-            visitedNode.push(n.id)
-            let node = allNodes.find(no => no.id === n.id)
-            console.log("Node: ", node)
-            if (node) {
-                if (node.cluster) {
-                    clusters.push({ cluster: node.cluster, id: node.id })
-                    let nodesFrom = allEdges.filter(e => e.from === n.id).map(e => {
-                        return {
-                            id: e.to,
-                            cluster: node.cluster
-                        }
-                    })
-                    let nodesTo = allEdges.filter(e => e.to === n.id).map(e => {
-                        return {
-                            id: e.from,
-                            cluster: node.cluster
-                        }
-                    })
-                    visitByDFS(nodesFrom, allNodes, allEdges)
-                    visitByDFS(nodesTo, allNodes, allEdges)
-                }
-            }
-        }
-    })
-}
-
-const startTransverse = (nodesStart, nodes, edges) => {
-    clusters = []
-    visitedNode = []
-    visitByDFS(nodesStart, nodes, edges)
-    console.log(clusters)
-}
-
 function showContext(x, y) {
     const contextMenu = document.querySelector('#context-node')
     contextMenu.style.top = y + 50 + 'px'
@@ -131,6 +96,8 @@ function showContext(x, y) {
 function hideContext() {
     const contextMenu = document.querySelector('#context-node')
     contextMenu.style.visibility = 'hidden'
+    uriSelect = null
+    nodeSelected = null
 }
 
 
@@ -148,26 +115,30 @@ function loadGraphExpert(data) {
 
         if (listProperty.includes(pred.name)) {
             const index = nodeDatas.findIndex(n => n.id === subId)
+            let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
             if (index !== -1) {
-                if (pred.name === "hasName") {
-                    nodeDatas[index].label = obj.name
+                const node = nodeDatas[index]
+                if (pred.name === "label") {
+                    node.label = obj.name
+                }
+                else if (pred.name === "comment") {
+                    node.comment = obj.name
                 }
                 else if (pred.name === 'type') {
-                    nodeDatas[index].cluster = obj.name
-                    nodeDatas[index].type = obj.name
+                    node.type = obj.name
                 }
                 else if (pred.name !== 'isDefinedBy') {
-                    nodeDatas[index][pred.name] = obj.name
+                    node[pred.name] = obj.name
                 }
                 else {
-                    console.log(2)
-                    nodeDatas[index][pred.name] = obj.uri
+                    node[pred.name] = obj.uri
+                    if (isClass) node['type'] = 'Class'
                 }
             }
             else {
                 const newNode = {
                     id: subId,
-                    label: pred.name === "hasName" ? obj.name : sub.name,
+                    label: pred.name === "label" ? obj.name : sub.name,
                     group: 'node',
                     uri: sub.uri,
                     isDefinedBy: obj.uri
@@ -175,30 +146,46 @@ function loadGraphExpert(data) {
                 if (pred.name === 'type') {
                     newNode.cluster = obj.name
                     newNode.type = obj.name
+                } else {
+                    if (isClass) newNode.type = 'Class'
                 }
                 nodeDatas.push(newNode)
             }
         }
-        // else if (listSkip.includes(pred.name)) {
-        //     return
-        // }
         else {
+            countProperty++
+            let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
             if (!checkExistNode(objId, nodeDatas)) {
                 if (obj.type === 'literal') {
                     nodeDatas.push({
                         id: objId, label: obj.name, group: 'literal', shapeProperties: { borderDashes: [5, 5] },
-                        uri: obj.uri
+                        uri: obj.uri,
+                        type: isClass ? 'Class' : 'None'
                     })
                 } else {
-                    nodeDatas.push({ id: objId, label: obj.name, group: 'node', uri: obj.uri })
+                    nodeDatas.push({ id: objId, label: obj.name, group: isClass ? 'class' : 'node', uri: obj.uri, type: isClass ? 'Class' : 'None' })
+                }
+            }
+            else {
+                if (isClass) {
+                    const node = nodeDatas.find(n => n.id === objId)
+                    node.type = 'Class'
+                    node.group = 'class'
                 }
             }
             if (!checkExistNode(subId, nodeDatas)) {
-                nodeDatas.push({ id: subId, label: sub.name, group: 'node', uri: sub.uri })
+                nodeDatas.push({
+                    id: subId, label: sub.name, group: isClass ? 'class' : 'node', uri: sub.uri,
+                    type: isClass ? 'Class' : 'None'
+                })
+            } else {
+                if (isClass) {
+                    const node = nodeDatas.find(n => n.id === subId)
+                    node.type = 'Class'
+                    node.group = 'class'
+                }
             }
-            countProperty++
-            let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
-            nodeDatas.push({ id: countProperty, label: pred.name, group: isClass ? 'class' : 'property', uri: pred.uri })
+            nodeDatas.push({ id: countProperty, label: pred.name, group: 'property', uri: pred.uri })
             edgeDatas.push({
                 from: subId, to: countProperty,
                 dashes: isClass,
@@ -207,7 +194,13 @@ function loadGraphExpert(data) {
                         enabled: false,
                         type: 'arrow',
                     },
-                },
+                }, color: {
+                    color: 'black',
+                    highlight: 'red',
+                    hover: 'red',
+                    inherit: 'from',
+                    opacity: 1.0
+                }
             })
             edgeDatas.push({
                 from: countProperty, to: objId, arrows: {
@@ -216,7 +209,14 @@ function loadGraphExpert(data) {
                         type: 'arrow',
                     },
                 },
-                dashes: isClass
+                dashes: isClass,
+                color: {
+                    color: 'black',
+                    highlight: 'red',
+                    hover: 'red',
+                    inherit: 'from',
+                    opacity: 1.0
+                }
             })
         }
     })
@@ -224,14 +224,10 @@ function loadGraphExpert(data) {
         nodes: nodeDatas,
         edges: edgeDatas
     }
-    startTransverse(nodeDatas.filter(n => n.cluster), nodeDatas, edgeDatas)
-    console.log(dataSave)
     nodes = new vis.DataSet(nodeDatas)
     edges = new vis.DataSet(edgeDatas)
     pageInit()
 }
-
-
 
 function loadGraph(data) {
     let nodeDatas = []
@@ -247,7 +243,7 @@ function loadGraph(data) {
         if (listProperty.includes(pred.name)) {
             const index = nodeDatas.findIndex(n => n.id === subId)
             if (index !== -1) {
-                if (pred.name === "hasName") {
+                if (pred.name === "label") {
                     nodeDatas[index].label = obj.name
                 }
                 else if (pred.name !== 'isDefinedBy') {
@@ -265,7 +261,7 @@ function loadGraph(data) {
             else {
                 nodeDatas.push({
                     id: subId,
-                    label: pred.name === "hasName" ? obj.name : sub.name,
+                    label: pred.name === "label" ? obj.name : sub.name,
                     group: 'node',
                     uri: sub.uri,
                     isDefinedBy: obj.uri,
@@ -326,31 +322,400 @@ function loadGraph(data) {
     pageInit()
 }
 
-const btnSubmit = document.querySelector("button[type='submit']")
-const btnTest1 = document.querySelector("#test1")
-const input = document.querySelector("#uri")
-const uriTest1 = 'http://localhost:8082/test/4'
-if (btnTest1) {
-    btnTest1.addEventListener('click', (e) => {
-        e.preventDefault()
-        fetch(uriTest1)
+function resetByListNode(list) {
+    console.log(list)
+    const listNodes = []
+    list.forEach(l => {
+        listNodes.push({ id: l.uri.value, label: l.name.value, group: 'node', uri: l.uri.value })
+    })
+    dataSave = {
+        nodes: listNodes,
+        edges: []
+    }
+    nodes = new vis.DataSet(listNodes)
+    edges = new vis.DataSet([])
+    pageInit()
+}
+
+function addNodesAndEdges(data) {
+    try {
+        let nodeDatas = []
+        let edgeDatas = []
+        data.forEach(d => {
+            const obj = d.object
+            const sub = d.subject
+            const pred = d.predicate
+
+            const objId = obj.uri || obj.name
+            const subId = sub.uri || sub.name
+
+            if (listProperty.includes(pred.name)) {
+                const index = nodeDatas.findIndex(n => n.id === subId)
+                if (index !== -1) {
+                    if (pred.name === "label") {
+                        nodeDatas[index].label = obj.name
+                    }
+                    else if (pred.name !== 'isDefinedBy') {
+                        nodeDatas[index][pred.name] = obj.name
+                    }
+                    else if (pred.name === 'type') {
+                        clusters.push(obj.name)
+                        nodeDatas[index].cluster = obj.name
+                    }
+                    else {
+                        console.log(2)
+                        nodeDatas[index][pred.name] = obj.uri
+                    }
+                }
+                else {
+                    nodeDatas.push({
+                        id: subId,
+                        label: pred.name === "label" ? obj.name : sub.name,
+                        group: 'node',
+                        uri: sub.uri,
+                        isDefinedBy: obj.uri,
+                        ...{ cluster: pred.name === 'type' ? obj.name : null }
+                    })
+                }
+            }
+            // else if (listSkip.includes(pred.name)) {
+            //     return
+            // }
+            else {
+                if (!checkExistNode(objId, nodeDatas)) {
+                    if (obj.type === 'literal') {
+                        countProperty++
+                        nodeDatas.push({
+                            id: countProperty,
+                            label: obj.name, group: 'literal', shapeProperties: { borderDashes: [5, 5] },
+                            uri: obj.uri
+                        })
+                    } else {
+                        nodeDatas.push({ id: objId, label: obj.name, group: 'node', uri: obj.uri })
+                    }
+                }
+                if (!checkExistNode(subId, nodeDatas)) {
+                    nodeDatas.push({ id: subId, label: sub.name, group: 'node', uri: sub.uri })
+                }
+                countProperty++
+                let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
+                nodeDatas.push({ id: countProperty, label: pred.name, group: isClass ? 'class' : 'property', uri: pred.uri })
+                edgeDatas.push({
+                    from: subId, to: countProperty,
+                    dashes: isClass,
+                    arrows: {
+                        to: {
+                            enabled: false,
+                            type: 'arrow',
+                        },
+                    },
+                })
+                edgeDatas.push({
+                    from: countProperty, to: objId, arrows: {
+                        to: {
+                            enabled: true,
+                            type: 'arrow',
+                        },
+                    },
+                    dashes: isClass
+                })
+            }
+        })
+
+        nodeDatas.forEach(n => {
+            if (nodes.get(n.id)) return
+            nodes.add(n)
+        })
+
+        edgeDatas.forEach(e => {
+            edges.add(e)
+        })
+
+    }
+    catch (err) {
+        alert(err)
+    }
+}
+
+// URL 
+const urlServer = 'http://localhost:8082'
+const uriExpertOntology = `${urlServer}/test/2`
+const uriGraph = `${urlServer}/graph/uri`
+const uriExpert = `${urlServer}/graph/expert/uri`
+const classExpert = `${urlServer}/graph/class`
+
+function onClickDetail(e) {
+    console.log('Click button 3')
+    e.preventDefault()
+    console.log(nodeSelected)
+    console.log(isExpert)
+    if (!isExpert) return
+    if (!nodeSelected) return
+    console.log(nodeSelected)
+    if (nodeSelected.type === 'Class') {
+        loading.style.visibility = 'visible'
+        fetch(classExpert + `?class=${nodeSelected.label}`)
+            .then(res => res.json())
+            .then(data => {
+                if (data.length > 0) resetByListNode(data)
+            }).catch(err => {
+                alert(err)
+            }).finally(() => {
+                loading.style.visibility = 'hidden'
+                hideContext()
+            })
+    } else {
+        loading.style.visibility = 'visible'
+        fetch(classExpert + `?uri=${nodeSelected.label}`)
+            .then(res => res.json())
+            .then(data => {
+                if (data.length > 0)
+                    resetByListNode(data)
+            }).catch(err => {
+                alert(err)
+            }).finally(() => {
+                loading.style.visibility = 'hidden'
+                hideContext()
+            })
+    }
+}
+
+function onClickVisualize(e) {
+    e.preventDefault()
+    console.log('Visualize node in network uri: ' + uriSelect)
+    if (uriSelect) {
+        loading.style.visibility = 'visible'
+        console.log('Start')
+        fetch(isExpert ? uriExpert : uriGraph, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ uri: uriSelect })
+
+        })
             .then(res => res.json())
             .then(data => {
                 loadGraphExpert(data)
+            }).catch(err => {
+                alert(err)
+            }).finally(() => {
+                hideContext()
+                loading.style.visibility = 'hidden'
             })
-    })
+    }
 }
-if (btnSubmit && input) {
-    btnSubmit.addEventListener('click', (e) => {
-        e.preventDefault()
-        const uri = input.value
-        console.log(uri)
-        fetch("http://localhost:8082" + "/graph/uri?uri=" + uri)
-            .then(res => res.json())
-            .then(data => {
-                loadGraph(data)
+
+function onClickExpand(e) {
+    e.preventDefault()
+    console.log('Expand node in network uri: ' + uriSelect)
+    if (uriSelect) {
+        loading.style.visibility = 'visible'
+        console.log('Start')
+        if (isExpert) {
+            fetch(uriExpert, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uri: uriSelect })
             })
-    })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data)
+                    addNodesAndEdges(data)
+                }).catch(err => {
+                    alert(err)
+                }).finally(() => {
+                    hideContext()
+                    loading.style.visibility = 'hidden'
+                })
+        } else {
+            fetch(uriGraph, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uri: uriSelect })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data)
+                    addNodesAndEdges(data)
+                }).catch(err => {
+                    alert(err)
+                }).finally(() => {
+                    hideContext()
+                    loading.style.visibility = 'hidden'
+                })
+        }
+    }
+}
+
+function initButton() {
+    // Element
+    const btnSubmit = document.querySelector("#submit")
+    const btnTest1 = document.querySelector("#test1")
+    const btnVisualize = document.querySelector("#visualize")
+    const btnDetail = document.querySelector("#detail")
+    const btnExpand = document.querySelector("#expand")
+
+    const input = document.querySelector("#uri")
+    // const btnExpand = document.querySelector("#expand")
+    const fileUpload = document.querySelector("#file-upload");
+
+    const loading = document.querySelector("#loading")
+
+    input.value = 'https://dbpedia.org/ontology/Actor'
+
+    if (btnDetail) {
+        btnDetail.onclick = onClickDetail
+    }
+
+    if (btnExpand) {
+        btnExpand.onclick = onClickExpand
+    }
+
+    if (fileUpload) {
+        fileUpload.addEventListener("change", (event) => {
+            const { files } = event.target;
+
+            console.log("files", files)
+
+            if (files && files.length) {
+                const fileToLoad = files[0];
+                // upload file to server
+                const formData = new FormData();
+                formData.append("file", fileToLoad);
+                loading.style.visibility = 'visible'
+                fetch(`${urlServer}/graph/file`, {
+                    method: "POST",
+                    body: formData,
+                })
+                    .then((res) => res.json())
+                    .then((data) => {
+                        loadGraph(data)
+                    })
+                    .catch((err) => {
+                        alert(err);
+                    })
+                    .finally(() => {
+                        loading.style.visibility = 'hidden'
+                    });
+            }
+
+        })
+    }
+
+    if (btnTest1) {
+        btnTest1.addEventListener('click', (e) => {
+            isExpert = true
+            console.log('Click button 1')
+            e.preventDefault()
+            loading.style.visibility = 'visible'
+            fetch(uriExpertOntology)
+                .then(res => res.json())
+                .then(data => {
+                    loadGraphExpert(data)
+                }).catch(err => {
+                    alert(err)
+                }).finally(() => {
+                    loading.style.visibility = 'hidden'
+                })
+        })
+    }
+    if (btnSubmit && input) {
+        btnSubmit.addEventListener('mousedown', (e) => {
+            isExpert = false
+            console.log('Click button 2')
+            e.preventDefault()
+            e.stopPropagation()
+            console.log("click")
+            const uri = input.value
+            console.log(uri)
+            if (!uri) {
+                alert("Please input uri")
+                return
+            }
+            loading.style.visibility = 'visible'
+            fetch(uriGraph, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uri: uri })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    loadGraphExpert(data)
+                }).catch(err => {
+                    alert(err)
+                }).finally(() => {
+                    loading.style.visibility = 'hidden'
+                })
+        })
+    }
+
+    if (btnVisualize) {
+        btnVisualize.onclick = onClickVisualize
+    }
+
+}
+
+function initInput() {
+    const input = document.querySelector("#find")
+    const comboboxOptions = document.querySelector(".combobox-options")
+
+    const topPos = input.offsetTop + input.offsetHeight
+    const widthInput = input.offsetWidth
+    comboboxOptions.style.top = topPos + 80 + 'px'
+    comboboxOptions.style.visibility = 'hidden'
+    comboboxOptions.style.width = widthInput + 'px'
+
+    input.oninput = (e) => {
+        console.log(e.target.value)
+        const value = e.target.value
+        if (value) {
+            const nodesFilter = nodes.get({
+                filter: function (item) {
+                    return item.label.toLowerCase().includes(value.toLowerCase());
+                }
+            });
+            network.selectNodes(nodesFilter.map(n => n.id))
+
+            const listLabel = nodesFilter.map(n => n.label)
+            console.log(listLabel)
+            if (listLabel.length === 0) {
+                comboboxOptions.style.visibility = 'hidden'
+                return
+            }
+            comboboxOptions.innerHTML = ''
+            listLabel.forEach(l => {
+                const option = document.createElement('div')
+                option.classList.add('combobox-option')
+                option.innerHTML = l
+
+                option.addEventListener('click', (e) => {
+                    input.value = l
+                    comboboxOptions.style.visibility = 'hidden'
+                    network.unselectAll()
+                    network.selectNodes(nodesFilter.filter(n => n.label === l).map(n => n.id))
+                })
+
+                comboboxOptions.appendChild(option)
+            })
+
+            comboboxOptions.style.visibility = 'visible'
+        }
+        else {
+            network.unselectAll()
+            comboboxOptions.style.visibility = 'hidden'
+        }
+    }
+}
+
+function resetInit() {
+    destroy()
 }
 
 const pageInit = () => {
@@ -359,8 +724,11 @@ const pageInit = () => {
     var container = document.getElementById('mynetwork');
     const contextMenu = document.querySelector('#context-node')
 
+    initButton()
+    initInput()
+
     document.addEventListener('click', (e) => {
-        if (e.target !== contextMenu && contextMenu.style.visibility !== 'hidden') {
+        if (e.target !== contextMenu && !contextMenu.contains(e.target) && contextMenu.style.visibility !== 'hidden') {
             hideContext()
         }
     })
@@ -369,6 +737,7 @@ const pageInit = () => {
         nodes: nodes,
         edges: edges
     };
+
     var options = {
         nodes: {
             // margin: 110,
@@ -388,18 +757,18 @@ const pageInit = () => {
             widthConstraint: 80,
         },
         edges: {
-            smooth: true,
+            // smooth: true,
             arrows: {
                 to: {
                     enabled: true,
                 },
             },
-            physics: true,
+            // physics: true,
         },
         interaction: {
             hover: true,
-            // hideEdgesOnDrag: true,
-            // hideEdgesOnZoom: true,
+            hideEdgesOnDrag: true,
+            hideEdgesOnZoom: true,
             navigationButtons: true,
             keyboard: true,
         },
@@ -414,9 +783,9 @@ const pageInit = () => {
             maxVelocity: 146,
             solver: "forceAtlas2Based",
             timestep: 0.35,
-            stabilization: { iterations: 150 },
+            stabilization: { iterations: 300 },
             barnesHut: {
-                gravitationalConstant: -80000,
+                gravitationalConstant: -8000,
                 springConstant: 0.001,
                 springLength: 200,
             },
@@ -426,9 +795,10 @@ const pageInit = () => {
                 // shape: 'circle',
                 title: null,
                 color: {
-                    border: '#009688',
-                    background: '#42A5F5',
-                    highlight: { background: 'red', border: '#202443' },
+                    color: '#000',
+                    border: '#000',
+                    background: '#aaccff',
+                    highlight: { background: 'red', border: 'black' },
                 },
                 shadow: {
                     enabled: true,
@@ -440,6 +810,7 @@ const pageInit = () => {
                 shape: 'circle',
                 font: {
                     // size: 59,
+                    color: 'black'
                 },
                 margin: 10,
                 // padding: 10
@@ -449,7 +820,7 @@ const pageInit = () => {
                 title: null,
                 color: {
                     border: '#009688',
-                    background: '#009688',
+                    background: '#99cc66',
                     highlight: { background: 'red', border: '#202443' },
                 },
                 shadow: {
@@ -459,9 +830,10 @@ const pageInit = () => {
                     x: 0,
                     y: 3
                 },
-                // font: {
-                //     size: 59
-                // },
+                font: {
+                    // size: 59
+                    color: 'black'
+                },
                 margin: 10,
                 padding: 10
             },
@@ -471,7 +843,7 @@ const pageInit = () => {
                 color: {
                     border: 'black',
                     background: 'yellow',
-                    highlight: { background: 'red', border: '#202443' },
+                    highlight: { background: 'red' },
                 },
                 shadow: {
                     enabled: true,
@@ -487,78 +859,24 @@ const pageInit = () => {
                 padding: 10
             },
             'class': {
-                shape: 'box',
+                shape: 'circle',
                 title: null,
+                borderWidth: 3,
                 color: {
-                    border: 'black',
-                    background: 'white',
-                    highlight: { background: 'red', border: '#202443' },
-                },
-                shadow: {
-                    enabled: true,
-                    color: 'rgba(94, 105, 119, 0.5)',
-                    size: 10,
-                    x: 0,
-                    y: 3
+                    border: '#F44336',
+                    background: '#aaccff',
+                    highlight: { background: 'red', border: '#000' },
                 },
                 font: {
                     color: 'black'
                 },
-                margin: 10,
-                padding: 10
+                // margin: 10,
+                // padding: 10
             },
         },
         //clusterOutliers: true
     };
     network = new vis.Network(container, data, options);
-
-    // var clusterOptionsByClass = {
-    //     joinCondition: function (childOptions) {
-    //         return childOptions.type == "Class";
-    //     },
-    //     clusterNodeProperties: {
-    //         id: "ClassCluster",
-    //         borderWidth: 3,
-    //         label: "Class",
-    //         shape: "circle",
-    //     },
-    // };
-
-    // var clusterOptionsByExpert = {
-    //     joinCondition: function (childOptions) {
-    //         return childOptions.type == "Expert";
-    //     },
-    //     clusterNodeProperties: {
-    //         id: "ExpertCluster",
-    //         borderWidth: 3,
-    //         label: "Expert",
-    //         shape: "circle",
-    //     },
-    // };
-
-    // var clusterOptionsByUniversity = {
-    //     joinCondition: function (childOptions) {
-    //         return childOptions.type == "University";
-    //     },
-    //     clusterNodeProperties: {
-    //         id: "UniCluster",
-    //         borderWidth: 3,
-    //         label: "University",
-    //         shape: "circle",
-    //     },
-    // };
-
-    // network.cluster(
-    //     clusterOptionsByClass
-    // )
-
-    // network.cluster(
-    //     clusterOptionsByExpert
-    // )
-
-    // network.cluster(
-    //     clusterOptionsByUniversity
-    // )
 
     network.on('click', function (properties) {
         if (properties.nodes.length == 1) {
@@ -592,7 +910,35 @@ const pageInit = () => {
         const node = network.getNodeAt(params.pointer.DOM);
         if (!node) return
         network.selectNodes([node], true);
+        const nodeSelect = nodes.get(node)
+        // console.log(nodeSelect)
+        uriSelect = nodeSelect.uri
+        nodeSelected = nodeSelect
         showContext(params.pointer.DOM.x, params.pointer.DOM.y)
+    });
+
+    network.on("stabilizationProgress", function (params) {
+        const progressBar = document.querySelector('#progress-bar')
+        const loadingBar = document.querySelector('#loading-progress')
+        loadingBar.style.visibility = "visible";
+        var maxWidth = 100;
+        var minWidth = 0;
+        var widthFactor = params.iterations / params.total;
+        var width = Math.max(minWidth, maxWidth * widthFactor);
+
+        progressBar.style.width = width + "%";
+        progressBar.innerText =
+            Math.round(widthFactor * 100) + "%";
+    });
+    network.once("stabilizationIterationsDone", function () {
+        const progressBar = document.querySelector('#progress-bar')
+        const loadingBar = document.querySelector('#loading-progress')
+        progressBar.innerText = "100%";
+        progressBar.style.width = "100%";
+        // really clean the dom element
+        setTimeout(function () {
+            loadingBar.style.visibility = "hidden";
+        }, 500);
     });
 
 }

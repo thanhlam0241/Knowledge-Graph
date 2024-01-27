@@ -6,9 +6,9 @@
  * https://neo4j.com/docs/api/javascript-driver/4.3/
  */
 var driver = neo4j.driver(
-    "neo4j+s://996e435d.databases.neo4j.io", // Unencrypted
+    "neo4j://localhost", // Unencrypted
     //"neo4j+s://dff437fa.databases.neo4j.io", //Encrypted with Full Certificate
-    neo4j.auth.basic("neo4j", "xb_2POpZGeds00bxEdaIQ_p3HXz5vma7HspkVzB8SLo"),
+    neo4j.auth.basic("neo4j", "hoatuyet"),
     //{disableLosslessIntegers: true} // Enabling native numbers
 );
 

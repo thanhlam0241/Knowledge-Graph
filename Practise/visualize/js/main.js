@@ -45,7 +45,7 @@ var edges = new vis.DataSet([
 var uriSelect = null
 var nodeSelected = null
 
-var listProperty = ["type", "comment", "isDefinedBy", "label"]
+var listProperty = ["type", "comment", "isDefinedBy", "hasName"]
 
 var listSkip = ["domain", "range"]
 
@@ -118,7 +118,7 @@ function loadGraphExpert(data) {
             let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
             if (index !== -1) {
                 const node = nodeDatas[index]
-                if (pred.name === "label") {
+                if (pred.name === "hasName") {
                     node.label = obj.name
                 }
                 else if (pred.name === "comment") {
@@ -138,7 +138,7 @@ function loadGraphExpert(data) {
             else {
                 const newNode = {
                     id: subId,
-                    label: pred.name === "label" ? obj.name : sub.name,
+                    label: pred.name === "hasName" ? obj.name : sub.name,
                     group: 'node',
                     uri: sub.uri,
                     isDefinedBy: obj.uri
@@ -243,14 +243,13 @@ function loadGraph(data) {
         if (listProperty.includes(pred.name)) {
             const index = nodeDatas.findIndex(n => n.id === subId)
             if (index !== -1) {
-                if (pred.name === "label") {
+                if (pred.name === "hasName") {
                     nodeDatas[index].label = obj.name
                 }
                 else if (pred.name !== 'isDefinedBy') {
                     nodeDatas[index][pred.name] = obj.name
                 }
                 else if (pred.name === 'type') {
-                    clusters.push(obj.name)
                     nodeDatas[index].cluster = obj.name
                 }
                 else {
@@ -261,7 +260,7 @@ function loadGraph(data) {
             else {
                 nodeDatas.push({
                     id: subId,
-                    label: pred.name === "label" ? obj.name : sub.name,
+                    label: pred.name === "hasName" ? obj.name : sub.name,
                     group: 'node',
                     uri: sub.uri,
                     isDefinedBy: obj.uri,
@@ -269,9 +268,6 @@ function loadGraph(data) {
                 })
             }
         }
-        // else if (listSkip.includes(pred.name)) {
-        //     return
-        // }
         else {
             if (!checkExistNode(objId, nodeDatas)) {
                 if (obj.type === 'literal') {
@@ -291,25 +287,44 @@ function loadGraph(data) {
             countProperty++
             let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
             nodeDatas.push({ id: countProperty, label: pred.name, group: isClass ? 'class' : 'property', uri: pred.uri })
-            edgeDatas.push({
-                from: subId, to: countProperty,
-                dashes: isClass,
-                arrows: {
-                    to: {
-                        enabled: false,
-                        type: 'arrow',
+
+            let isExistEdge = false
+            for (let i = 0; i < edgeDatas.length; i++) {
+                const e1 = edgeDatas[i]
+                const p = e1.to
+                if (e1.from === subId) {
+                    let index = edgeDatas.findIndex(e => e.from === p)
+                    if (index !== -1 && e.to === objId) {
+                        const nodeProperty = nodeDatas.find(n => n.id === e1.to)
+                        if (nodeProperty.label === pred.name) {
+                            isExistEdge = true
+                            break
+                        }
+                    }
+                }
+            }
+
+            if (!isExistEdge) {
+                edgeDatas.push({
+                    from: subId, to: countProperty,
+                    dashes: isClass,
+                    arrows: {
+                        to: {
+                            enabled: false,
+                            type: 'arrow',
+                        },
                     },
-                },
-            })
-            edgeDatas.push({
-                from: countProperty, to: objId, arrows: {
-                    to: {
-                        enabled: true,
-                        type: 'arrow',
+                })
+                edgeDatas.push({
+                    from: countProperty, to: objId, arrows: {
+                        to: {
+                            enabled: true,
+                            type: 'arrow',
+                        },
                     },
-                },
-                dashes: isClass
-            })
+                    dashes: isClass
+                })
+            }
         }
     })
     dataSave = {
@@ -339,38 +354,37 @@ function resetByListNode(list) {
 
 function addNodesAndEdges(data) {
     try {
-        let nodeDatas = []
-        let edgeDatas = []
         data.forEach(d => {
             const obj = d.object
             const sub = d.subject
             const pred = d.predicate
 
-            const objId = obj.uri || obj.name
-            const subId = sub.uri || sub.name
+            let objId = obj.uri || obj.name
+            let subId = sub.uri || sub.name
 
             if (listProperty.includes(pred.name)) {
-                const index = nodeDatas.findIndex(n => n.id === subId)
-                if (index !== -1) {
-                    if (pred.name === "label") {
-                        nodeDatas[index].label = obj.name
+                const node = nodes.get({ id: subId })
+                if (node) {
+                    if (pred.name === "hasName") {
+                        node.label = obj.name
                     }
                     else if (pred.name !== 'isDefinedBy') {
-                        nodeDatas[index][pred.name] = obj.name
+                        node[pred.name] = obj.name
                     }
                     else if (pred.name === 'type') {
-                        clusters.push(obj.name)
-                        nodeDatas[index].cluster = obj.name
+                        node.type = obj.name
                     }
                     else {
-                        console.log(2)
-                        nodeDatas[index][pred.name] = obj.uri
+                        node[pred.name] = obj.uri
                     }
+                    nodes.update({
+                        ...node
+                    })
                 }
                 else {
-                    nodeDatas.push({
+                    nodes.add({
                         id: subId,
-                        label: pred.name === "label" ? obj.name : sub.name,
+                        label: pred.name === "hasName" ? obj.name : sub.name,
                         group: 'node',
                         uri: sub.uri,
                         isDefinedBy: obj.uri,
@@ -378,61 +392,88 @@ function addNodesAndEdges(data) {
                     })
                 }
             }
-            // else if (listSkip.includes(pred.name)) {
-            //     return
-            // }
             else {
-                if (!checkExistNode(objId, nodeDatas)) {
+                const isExistObj = nodes.get(objId)
+                const isExistSub = nodes.get(subId)
+
+                console.log(isExistObj, isExistSub)
+
+                if (!isExistObj) {
                     if (obj.type === 'literal') {
                         countProperty++
-                        nodeDatas.push({
-                            id: countProperty,
+                        objId = countProperty
+                        nodes.add({
+                            id: objId,
                             label: obj.name, group: 'literal', shapeProperties: { borderDashes: [5, 5] },
                             uri: obj.uri
                         })
                     } else {
-                        nodeDatas.push({ id: objId, label: obj.name, group: 'node', uri: obj.uri })
+                        nodes.add({ id: objId, label: obj.name, group: 'node', uri: obj.uri })
                     }
                 }
-                if (!checkExistNode(subId, nodeDatas)) {
-                    nodeDatas.push({ id: subId, label: sub.name, group: 'node', uri: sub.uri })
+                if (!isExistSub) {
+                    nodes.add({ id: subId, label: sub.name, group: 'node', uri: sub.uri })
                 }
-                countProperty++
-                let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
-                nodeDatas.push({ id: countProperty, label: pred.name, group: isClass ? 'class' : 'property', uri: pred.uri })
-                edgeDatas.push({
-                    from: subId, to: countProperty,
-                    dashes: isClass,
-                    arrows: {
-                        to: {
-                            enabled: false,
-                            type: 'arrow',
+
+                let isExistEdge = false
+
+                console.log(isExistObj, isExistSub)
+
+                if (isExistObj && isExistSub) {
+                    console.log('Check exist edge')
+                    let mapEdges = [...edges._data.values()]
+                    console.log(mapEdges)
+                    for (let edge of mapEdges) {
+                        console.log(edge)
+                        console.log(edge.to)
+                        console.log('Map')
+                        if (edge.from === subId) {
+                            const p = edge.to
+                            const edge2 = mapEdges.find(e => e.from.toString() === p.toString() && e.to === objId)
+                            console.log(edge2)
+                            if (edge2) {
+                                const nodeProperty = nodes.get(edge.to)
+                                if (nodeProperty.label === pred.name) {
+                                    isExistEdge = true
+                                    break
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                console.log(isExistEdge)
+
+                if (!isExistEdge) {
+                    let isClass = pred.name.toString().toLowerCase().includes('class') ? true : false
+                    countProperty++
+                    nodes.add({ id: countProperty, label: pred.name, group: isClass ? 'class' : 'property', uri: pred.uri })
+                    edges.add({
+                        from: subId, to: countProperty,
+                        dashes: isClass,
+                        arrows: {
+                            to: {
+                                enabled: false,
+                                type: 'arrow',
+                            },
                         },
-                    },
-                })
-                edgeDatas.push({
-                    from: countProperty, to: objId, arrows: {
-                        to: {
-                            enabled: true,
-                            type: 'arrow',
+                    })
+                    edges.add({
+                        from: countProperty, to: objId, arrows: {
+                            to: {
+                                enabled: true,
+                                type: 'arrow',
+                            },
                         },
-                    },
-                    dashes: isClass
-                })
+                        dashes: isClass
+                    })
+                }
             }
         })
-
-        nodeDatas.forEach(n => {
-            if (nodes.get(n.id)) return
-            nodes.add(n)
-        })
-
-        edgeDatas.forEach(e => {
-            edges.add(e)
-        })
-
     }
     catch (err) {
+        console.log(err)
         alert(err)
     }
 }
